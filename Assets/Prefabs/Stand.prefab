@@ -70,4 +70,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc36bacb6fd388d458a8606910ed0138, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextPro: {fileID: 0}
+  ShopLevel: 1
+  UpgradeCost: 10
+  ShopPrice: 0
+  MaximumUpgradeLevel: 3
+  shopBought: 1

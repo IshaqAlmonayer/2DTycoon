@@ -9,8 +9,12 @@ public class Money : MonoBehaviour
     
 
     private GameObject[] Stands;
-    private float _money;
-    private float _totalMoney;
+    public float _totalMoney;
+
+    private void Start()
+    {
+        _totalMoney = 1000;
+    }
 
     void Update()
     {
@@ -18,12 +22,8 @@ public class Money : MonoBehaviour
 
         foreach (GameObject Stand in Stands)
         {
-            _money += Stand.GetComponent<Stand>().GetMoney();
+            _totalMoney += Stand.GetComponent<Stand>().GetMoney();
         }
-
-        _totalMoney = _money;
-
-        _money = 0;
 
         TextPro = gameObject.GetComponent<TextMeshProUGUI>();
 

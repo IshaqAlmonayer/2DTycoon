@@ -9,7 +9,7 @@ public class CustomerMovement : MonoBehaviour
     //Movement
     private Rigidbody2D _rigidbody;
     private Vector2 _movement;
-    private float _direction = -1;
+    private float _direction = 1;
 
     //Animation
     private Animator _animator;
@@ -40,6 +40,10 @@ public class CustomerMovement : MonoBehaviour
             case "DaughnutStand":
                 gameObject.layer = 9;
                 CustomerBack.layer = 9;
+                break;
+            case "PizzaStand":
+                gameObject.layer = 10;
+                CustomerBack.layer = 10;
                 break;
         }
 

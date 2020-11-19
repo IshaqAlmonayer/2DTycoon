@@ -55,5 +55,8 @@ MonoBehaviour:
   - {fileID: 1385742253570701583, guid: fb2f43d09bf57d54b8b6f5f236c05a04, type: 3}
   - {fileID: 1385742253570701583, guid: 693d88134ab0e25468cc27be043a43ad, type: 3}
   - {fileID: 1385742253570701583, guid: 04586514da6b63d43b5c233c4ab32b9e, type: 3}
+  Customer: {fileID: 0}
+  Script: {fileID: 0}
   _minSpawnTime: 1
   _maxSpawnTime: 5
+  unlockedStandsNo: 2

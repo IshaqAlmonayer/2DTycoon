@@ -14,26 +14,31 @@ public class CustomerSpawner : MonoBehaviour
     private float _timer = 0f;
     private int _randomCustomer;
     private string _standType;
-    private string[] _staticStandTypes = new string[2];
+    private string[] _staticStandTypes = new string[3];
+    public int unlockedStandsNo;
+    private GameObject[] Stands;
 
     void Start()
     {
         //define the types of stands that we have
         _staticStandTypes[0] = "BurgerStand";
         _staticStandTypes[1] = "DaughnutStand";
-        //_staticStandTypes[2] = "PizzaStand";
+        _staticStandTypes[2] = "PizzaStand";
         //_staticStandTypes[3] = "IcecreamStand";
         //_staticStandTypes[4] = "FalafelStand";
     }
 
     void Update()
     {
+        Stands =  GameObject.FindGameObjectsWithTag("Stand");
+        unlockedStandsNo = Stands.Length;
+
         _timer -= Time.deltaTime;
 
         if (_timer <= 0f)
         {
             
-            _standType = _staticStandTypes[Random.Range(0, _staticStandTypes.Length)];
+            _standType = _staticStandTypes[Random.Range(0, unlockedStandsNo)];
 
             //select random number between 0 and the array size
             _randomCustomer = Random.Range(0, numCustomers);
