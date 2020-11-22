@@ -7,9 +7,12 @@ ScriptsOnlyBuild:
     - CustomerMovement
     - CustomerSpawner
     - DestroyOther
+    - GameController
+    - LoadSceneButton
     - Money
     - Stand
     - UpgradeButton
+    - UpgradeShopTilemap
     Cinemachine.dll:
     - Cinemachine.CinemachineBrain
     - Cinemachine.CinemachineFramingTransposer
@@ -66,7 +69,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Image
     - UnityEngine.UI.Text
   sceneClasses:
-    Assets/Scenes/SampleScene.unity:
+    Assets/Scenes/MainMenu.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -84,8 +87,6 @@ ScriptsOnlyBuild:
     - Class: 50
       Script: {instanceID: 0}
     - Class: 61
-      Script: {instanceID: 0}
-    - Class: 66
       Script: {instanceID: 0}
     - Class: 74
       Script: {instanceID: 0}
@@ -108,51 +109,138 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11664}
     - Class: 114
-      Script: {instanceID: 11948}
+      Script: {instanceID: 11950}
     - Class: 114
-      Script: {instanceID: 11978}
+      Script: {instanceID: 12166}
     - Class: 114
-      Script: {instanceID: 12036}
+      Script: {instanceID: 12394}
     - Class: 114
-      Script: {instanceID: 12164}
+      Script: {instanceID: 12456}
     - Class: 114
-      Script: {instanceID: 12392}
+      Script: {instanceID: 12506}
     - Class: 114
-      Script: {instanceID: 12454}
+      Script: {instanceID: 12562}
     - Class: 114
-      Script: {instanceID: 12480}
+      Script: {instanceID: 13586}
     - Class: 114
-      Script: {instanceID: 12512}
+      Script: {instanceID: 13608}
     - Class: 114
-      Script: {instanceID: 12558}
+      Script: {instanceID: 14076}
     - Class: 114
-      Script: {instanceID: 12962}
+      Script: {instanceID: 14152}
     - Class: 114
-      Script: {instanceID: 13016}
+      Script: {instanceID: 14380}
     - Class: 114
-      Script: {instanceID: 13578}
+      Script: {instanceID: 14730}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 156049354
+      Script: {instanceID: 0}
+    - Class: 483693784
+      Script: {instanceID: 0}
+    - Class: 1839735485
+      Script: {instanceID: 0}
+    Assets/Scenes/SampleScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 50
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+    - Class: 66
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 13600}
+      Script: {instanceID: 620}
     - Class: 114
-      Script: {instanceID: 13612}
+      Script: {instanceID: 11262}
     - Class: 114
-      Script: {instanceID: 13682}
+      Script: {instanceID: 11284}
     - Class: 114
-      Script: {instanceID: 13934}
+      Script: {instanceID: 11600}
     - Class: 114
-      Script: {instanceID: 13956}
+      Script: {instanceID: 11664}
     - Class: 114
-      Script: {instanceID: 14062}
+      Script: {instanceID: 11950}
     - Class: 114
-      Script: {instanceID: 14068}
+      Script: {instanceID: 11980}
     - Class: 114
-      Script: {instanceID: 14142}
+      Script: {instanceID: 12038}
     - Class: 114
-      Script: {instanceID: 14370}
+      Script: {instanceID: 12166}
     - Class: 114
-      Script: {instanceID: 14666}
+      Script: {instanceID: 12394}
     - Class: 114
-      Script: {instanceID: 14720}
+      Script: {instanceID: 12482}
+    - Class: 114
+      Script: {instanceID: 12516}
+    - Class: 114
+      Script: {instanceID: 12562}
+    - Class: 114
+      Script: {instanceID: 12726}
+    - Class: 114
+      Script: {instanceID: 12968}
+    - Class: 114
+      Script: {instanceID: 13022}
+    - Class: 114
+      Script: {instanceID: 13586}
+    - Class: 114
+      Script: {instanceID: 13620}
+    - Class: 114
+      Script: {instanceID: 13690}
+    - Class: 114
+      Script: {instanceID: 13942}
+    - Class: 114
+      Script: {instanceID: 13964}
+    - Class: 114
+      Script: {instanceID: 14070}
+    - Class: 114
+      Script: {instanceID: 14076}
+    - Class: 114
+      Script: {instanceID: 14150}
+    - Class: 114
+      Script: {instanceID: 14152}
+    - Class: 114
+      Script: {instanceID: 14676}
+    - Class: 114
+      Script: {instanceID: 14730}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -416,7 +504,7 @@ ScriptsOnlyBuild:
     className: RectMask2D
   - hash:
       serializedVersion: 2
-      Hash: 2282300708a098fa97445a44badea076
+      Hash: ef3daf9629ebfd59e272e996bf946b6b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: BuyShopButton
@@ -524,7 +612,13 @@ ScriptsOnlyBuild:
     className: Selectable
   - hash:
       serializedVersion: 2
-      Hash: 89c98afb5d2a240e88ed3e361aeb87c4
+      Hash: b988d04f0ebb44a563b42039f931d16e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LoadSceneButton
+  - hash:
+      serializedVersion: 2
+      Hash: 0003693ec10b124460e993bed1a1c38e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UpgradeButton
@@ -540,6 +634,12 @@ ScriptsOnlyBuild:
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
     className: CinemachinePOV
+  - hash:
+      serializedVersion: 2
+      Hash: 766ac09191af1c63068b7a739a5c95d8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameController
   - hash:
       serializedVersion: 2
       Hash: 6987e53805e8a29a4a553f91e9a02ba2
@@ -830,7 +930,7 @@ ScriptsOnlyBuild:
     className: GridInformation
   - hash:
       serializedVersion: 2
-      Hash: 2cf9f0fb9db01210e2fa7d39a7cb1998
+      Hash: 659f0ab3fc47463052ee6047397c87ec
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Stand
@@ -870,6 +970,12 @@ ScriptsOnlyBuild:
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
     className: CinemachineSmoothPath
+  - hash:
+      serializedVersion: 2
+      Hash: 4627309eef9fe8164038aa44941e5b6f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UpgradeShopTilemap
   - hash:
       serializedVersion: 2
       Hash: 66e8f15d2f332b01ac4d388c4a35417c
@@ -1026,13 +1132,8 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: b3041feaeea4ad8f5be61ff573d97d7c
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: TouchPhaseExample
   platform: 13
   scenePathNames:
+  - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/SampleScene.unity
   playerPath: C:/Users/Isaac/Desktop/MyGame.apk

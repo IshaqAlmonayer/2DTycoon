@@ -13,12 +13,20 @@ public class UpgradeButton : MonoBehaviour
     public GameObject Money;
     public TextMeshProUGUI LevelText;
     public Text UpgradeCostText;
+    public GameObject Tilemap;
     private float _upgradeCost;
+
 
     void Start()
     {
         Button.onClick.AddListener(TaskOnClick);
         _upgradeCost = Stand.GetComponent<Stand>().UpgradeCost;
+        if (Stand.GetComponent<Stand>().ShopLevel < Stand.GetComponent<Stand>().MaximumUpgradeLevel)
+            UpgradeCostText.text = "Upgrade Shop (" + _upgradeCost + "$)";
+        else
+            UpgradeCostText.text = "Shop At Max Level";
+        if (Stand.GetComponent<Stand>().shopBought)
+            LevelText.text = "Shop Level: " + Stand.GetComponent<Stand>().ShopLevel + " / " + Stand.GetComponent<Stand>().MaximumUpgradeLevel;
     }
 
     private void Update()
@@ -36,17 +44,18 @@ public class UpgradeButton : MonoBehaviour
     void TaskOnClick()
     {
         if (Money.GetComponent<Money>()._totalMoney >= _upgradeCost && Stand.GetComponent<Stand>().ShopLevel < Stand.GetComponent<Stand>().MaximumUpgradeLevel)
-        { 
+        {
+            Money.GetComponent<Money>()._totalMoney -= _upgradeCost;
+            Tilemap.GetComponent<UpgradeShopTilemap>().changeTilemap(Stand.GetComponent<Stand>().ShopLevel, Stand.GetComponent<Stand>().ShopLevel + 1);
             Stand.GetComponent<Stand>().ShopLevel++;
-            LevelText.text = "Shop Level: " + Stand.GetComponent<Stand>().ShopLevel;
+            LevelText.text = "Shop Level: " + Stand.GetComponent<Stand>().ShopLevel + " / " + Stand.GetComponent<Stand>().MaximumUpgradeLevel;
             _upgradeCost += Stand.GetComponent<Stand>().UpgradeCost;
-            
-            if(Stand.GetComponent<Stand>().ShopLevel < Stand.GetComponent<Stand>().MaximumUpgradeLevel)
+            Stand.GetComponent<Stand>().UpgradeCost += Stand.GetComponent<Stand>().UpgradeCost;
+
+            if (Stand.GetComponent<Stand>().ShopLevel < Stand.GetComponent<Stand>().MaximumUpgradeLevel)
                 UpgradeCostText.text = "Upgrade Shop (" + _upgradeCost + "$)";
             else
                 UpgradeCostText.text = "Shop At Max Level";
-            
-            Money.GetComponent<Money>()._totalMoney -= 10;
         }
         else
             Debug.Log("Not Enough Money");

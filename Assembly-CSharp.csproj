@@ -69,11 +69,15 @@
     <Compile Include="Assets\Scripts\CustomerMovement.cs" />
     <Compile Include="Assets\Scripts\CustomerSpawner.cs" />
     <Compile Include="Assets\Scripts\DestroyOther.cs" />
+    <Compile Include="Assets\Scripts\GameController.cs" />
+    <Compile Include="Assets\Scripts\GameData.cs" />
+    <Compile Include="Assets\Scripts\LoadSceneButton.cs" />
     <Compile Include="Assets\Scripts\Money.cs" />
+    <Compile Include="Assets\Scripts\SaveSystem.cs" />
     <Compile Include="Assets\Scripts\Stand.cs" />
     <Compile Include="Assets\Scripts\StandTrigger.cs" />
-    <Compile Include="Assets\Scripts\TouchPhaseExample.cs" />
     <Compile Include="Assets\Scripts\UpgradeButton.cs" />
+    <Compile Include="Assets\Scripts\UpgradeShopTilemap.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

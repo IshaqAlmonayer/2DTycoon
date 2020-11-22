@@ -22,6 +22,14 @@ public class CameraController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        float horizontalInput = Input.GetAxisRaw("Horizontal");
+
+        if (horizontalInput != 0)
+            _moveDirection = horizontalInput;
+        else
+            _moveDirection = 0;
+
         if (Input.touchCount > 0)
         {
             Touch touch = Input.GetTouch(0);
@@ -45,9 +53,11 @@ public class CameraController : MonoBehaviour
                     break;
             }
 
-            _movement = new Vector2(_moveDirection, 0f);
-        } 
-    
+          
+        }
+
+        _movement = new Vector2(_moveDirection, 0f);
+
     }
 
 

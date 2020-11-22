@@ -5,11 +5,12 @@ using UnityEngine;
 public class Stand : MonoBehaviour
 {
 
-    public float ShopLevel = 1f;
+    public int ShopLevel;
     public float UpgradeCost = 10f;
     public float ShopPrice = 10f;
     public float MaximumUpgradeLevel = 3f;
     public bool shopBought = false;
+    public AudioClip CoinSound;
 
     private float _layer;
     //Shop Layers:
@@ -27,9 +28,10 @@ public class Stand : MonoBehaviour
  
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (other.gameObject.tag.Equals("Customer"))
+        if (other.gameObject.tag.Equals("Customer") && shopBought)
         {
             _trigger = true;
+            AudioSource.PlayClipAtPoint(CoinSound, transform.position, 1);
         }
     }
 

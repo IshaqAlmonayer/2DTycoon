@@ -31,12 +31,19 @@ public class CustomerSpawner : MonoBehaviour
     void Update()
     {
         Stands =  GameObject.FindGameObjectsWithTag("Stand");
-        unlockedStandsNo = Stands.Length;
+        
+        foreach(GameObject stand in Stands)
+        {
+            if (stand.GetComponent<Stand>().shopBought)
+                unlockedStandsNo++;
+        }
 
         _timer -= Time.deltaTime;
 
         if (_timer <= 0f)
         {
+
+            Debug.Log("unlockedStandsNo: " + unlockedStandsNo);
             
             _standType = _staticStandTypes[Random.Range(0, unlockedStandsNo)];
 
@@ -48,5 +55,7 @@ public class CustomerSpawner : MonoBehaviour
 
             _timer += Random.Range(_minSpawnTime, _maxSpawnTime);
         }
+
+        unlockedStandsNo = 0;
     }
 }

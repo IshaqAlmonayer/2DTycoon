@@ -13,7 +13,7 @@ public class Money : MonoBehaviour
 
     private void Start()
     {
-        _totalMoney = 0f;
+        //_totalMoney = 1000;
     }
 
     void Update()
@@ -29,4 +29,5 @@ public class Money : MonoBehaviour
 
         TextPro.text = _totalMoney.ToString() + "$";
     }
+   
 }
