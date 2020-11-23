@@ -24,7 +24,7 @@ public class CustomerSpawner : MonoBehaviour
         _staticStandTypes[0] = "BurgerStand";
         _staticStandTypes[1] = "DaughnutStand";
         _staticStandTypes[2] = "PizzaStand";
-        //_staticStandTypes[3] = "IcecreamStand";
+        //_staticStandTypes[3] = "SlushStand";
         //_staticStandTypes[4] = "FalafelStand";
     }
 
@@ -42,9 +42,6 @@ public class CustomerSpawner : MonoBehaviour
 
         if (_timer <= 0f)
         {
-
-            Debug.Log("unlockedStandsNo: " + unlockedStandsNo);
-            
             _standType = _staticStandTypes[Random.Range(0, unlockedStandsNo)];
 
             //select random number between 0 and the array size

@@ -5,7 +5,7 @@ using UnityEngine;
 public class GameController : MonoBehaviour
 {
     public Money money;
-    public float _saveFrequency = 100;
+    public float _saveFrequency = 10;
     private float _autoSaveTimer = 0;
 
 
@@ -40,7 +40,6 @@ public class GameController : MonoBehaviour
         {
             SaveSystem.SaveGame(money);
             _autoSaveTimer = _saveFrequency;
-            //Debug.Log("Game Saved :)");
         }
 
     }

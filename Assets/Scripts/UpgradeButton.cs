@@ -21,10 +21,9 @@ public class UpgradeButton : MonoBehaviour
     {
         Button.onClick.AddListener(TaskOnClick);
         _upgradeCost = Stand.GetComponent<Stand>().UpgradeCost;
-        if (Stand.GetComponent<Stand>().ShopLevel < Stand.GetComponent<Stand>().MaximumUpgradeLevel)
-            UpgradeCostText.text = "Upgrade Shop (" + _upgradeCost + "$)";
-        else
-            UpgradeCostText.text = "Shop At Max Level";
+
+        UpdateUpgradeCostText();
+
         if (Stand.GetComponent<Stand>().shopBought)
             LevelText.text = "Shop Level: " + Stand.GetComponent<Stand>().ShopLevel + " / " + Stand.GetComponent<Stand>().MaximumUpgradeLevel;
     }
@@ -51,14 +50,18 @@ public class UpgradeButton : MonoBehaviour
             LevelText.text = "Shop Level: " + Stand.GetComponent<Stand>().ShopLevel + " / " + Stand.GetComponent<Stand>().MaximumUpgradeLevel;
             _upgradeCost += Stand.GetComponent<Stand>().UpgradeCost;
             Stand.GetComponent<Stand>().UpgradeCost += Stand.GetComponent<Stand>().UpgradeCost;
-
-            if (Stand.GetComponent<Stand>().ShopLevel < Stand.GetComponent<Stand>().MaximumUpgradeLevel)
-                UpgradeCostText.text = "Upgrade Shop (" + _upgradeCost + "$)";
-            else
-                UpgradeCostText.text = "Shop At Max Level";
+            UpdateUpgradeCostText();
         }
         else
             Debug.Log("Not Enough Money");
+    }
+
+    void UpdateUpgradeCostText()
+    {
+        if (Stand.GetComponent<Stand>().ShopLevel < Stand.GetComponent<Stand>().MaximumUpgradeLevel)
+            UpgradeCostText.text = "Upgrade Shop (" + _upgradeCost + "$)";
+        else
+            UpgradeCostText.text = "Shop At Max Level";
     }
 
 }

@@ -2315,6 +2315,11 @@ PrefabInstance:
       propertyPath: CoinSound
       value: 
       objectReference: {fileID: 8300000, guid: abf495508c07be14b91229b266433826, type: 3}
+    - target: {fileID: 3653618648650702271, guid: 10a2f8b3afe93d84492d5fcac18dcd29,
+        type: 3}
+      propertyPath: productPrice
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10a2f8b3afe93d84492d5fcac18dcd29, type: 3}
 --- !u!1 &719210566 stripped
@@ -11432,6 +11437,11 @@ PrefabInstance:
       propertyPath: CoinSound
       value: 
       objectReference: {fileID: 8300000, guid: abf495508c07be14b91229b266433826, type: 3}
+    - target: {fileID: 3653618648650702271, guid: 10a2f8b3afe93d84492d5fcac18dcd29,
+        type: 3}
+      propertyPath: productPrice
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10a2f8b3afe93d84492d5fcac18dcd29, type: 3}
 --- !u!1 &1999589673
@@ -11831,6 +11841,11 @@ PrefabInstance:
       propertyPath: CoinSound
       value: 
       objectReference: {fileID: 8300000, guid: abf495508c07be14b91229b266433826, type: 3}
+    - target: {fileID: 3653618648650702271, guid: 10a2f8b3afe93d84492d5fcac18dcd29,
+        type: 3}
+      propertyPath: productPrice
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10a2f8b3afe93d84492d5fcac18dcd29, type: 3}
 --- !u!1001 &3774586413960114810

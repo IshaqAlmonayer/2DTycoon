@@ -63,7 +63,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Button.cs" />
     <Compile Include="Assets\Scripts\BuyShopButton.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\CustomerMovement.cs" />
@@ -76,6 +75,7 @@
     <Compile Include="Assets\Scripts\SaveSystem.cs" />
     <Compile Include="Assets\Scripts\Stand.cs" />
     <Compile Include="Assets\Scripts\StandTrigger.cs" />
+    <Compile Include="Assets\Scripts\TilemapButton.cs" />
     <Compile Include="Assets\Scripts\UpgradeButton.cs" />
     <Compile Include="Assets\Scripts\UpgradeShopTilemap.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
