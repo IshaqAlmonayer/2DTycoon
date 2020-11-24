@@ -14,7 +14,7 @@ public class CustomerSpawner : MonoBehaviour
     private float _timer = 0f;
     private int _randomCustomer;
     private string _standType;
-    private string[] _staticStandTypes = new string[3];
+    private string[] _staticStandTypes = new string[4];
     public int unlockedStandsNo;
     private GameObject[] Stands;
 
@@ -24,7 +24,7 @@ public class CustomerSpawner : MonoBehaviour
         _staticStandTypes[0] = "BurgerStand";
         _staticStandTypes[1] = "DaughnutStand";
         _staticStandTypes[2] = "PizzaStand";
-        //_staticStandTypes[3] = "SlushStand";
+        _staticStandTypes[3] = "JuiceStand";
         //_staticStandTypes[4] = "FalafelStand";
     }
 

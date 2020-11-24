@@ -42,8 +42,7 @@ public static class SaveSystem{
         string path = Application.persistentDataPath + "/GameData.lol";
         if (File.Exists(path))
         {
-            FileStream stream = new FileStream(path, FileMode.Truncate);
-            stream.Close();
+            File.Delete(path);
         }
         else
         {

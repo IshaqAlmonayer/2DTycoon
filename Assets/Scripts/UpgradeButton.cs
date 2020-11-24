@@ -41,7 +41,7 @@ public class UpgradeButton : MonoBehaviour
     }
 
     void TaskOnClick()
-    {
+    { 
         if (Money.GetComponent<Money>()._totalMoney >= _upgradeCost && Stand.GetComponent<Stand>().ShopLevel < Stand.GetComponent<Stand>().MaximumUpgradeLevel)
         {
             Money.GetComponent<Money>()._totalMoney -= _upgradeCost;

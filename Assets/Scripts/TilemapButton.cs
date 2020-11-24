@@ -6,10 +6,18 @@ public class TilemapButton : MonoBehaviour
 {
 
     public GameObject Panel;
+    public MenuController MenuController;
+
 
     void OnMouseDown()
     {
-        Panel.SetActive(true);
+        Debug.Log("MenuController.OpenPanel" + MenuController.OpenPanel);
+
+        if (!MenuController.OpenPanel)
+        {
+            Panel.SetActive(true);
+            MenuController.ChangePanelStatus();
+        }
     }
 
 }
