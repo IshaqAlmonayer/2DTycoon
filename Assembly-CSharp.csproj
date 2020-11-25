@@ -78,6 +78,10 @@
     <Compile Include="Assets\Scripts\Stand.cs" />
     <Compile Include="Assets\Scripts\StandTrigger.cs" />
     <Compile Include="Assets\Scripts\TilemapButton.cs" />
+    <Compile Include="Assets\Scripts\Tutorial Scripts\CloseUpgradePanel.cs" />
+    <Compile Include="Assets\Scripts\Tutorial Scripts\LoadFirstScene.cs" />
+    <Compile Include="Assets\Scripts\Tutorial Scripts\MaskTransform.cs" />
+    <Compile Include="Assets\Scripts\Tutorial Scripts\instantiateCustomer.cs" />
     <Compile Include="Assets\Scripts\UpgradeButton.cs" />
     <Compile Include="Assets\Scripts\UpgradeShopTilemap.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

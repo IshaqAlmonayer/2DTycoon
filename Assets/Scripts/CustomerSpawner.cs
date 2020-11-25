@@ -6,11 +6,10 @@ public class CustomerSpawner : MonoBehaviour
 {
     public int numCustomers;
     public GameObject[] Customers;
-    public GameObject Customer;
-    public Component Script;
     public float _minSpawnTime = 1f;
     public float _maxSpawnTime = 5f;
-    
+
+    private GameObject Customer;
     private float _timer = 0f;
     private int _randomCustomer;
     private string _standType;

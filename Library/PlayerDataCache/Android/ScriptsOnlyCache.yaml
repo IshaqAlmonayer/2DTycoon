@@ -4,17 +4,21 @@ ScriptsOnlyBuild:
     - BuyShopButton
     - CameraController
     - ClosePanel
+    - CloseUpgradePanel
     - CustomerMovement
     - CustomerSpawner
     - DestroyOther
     - GameController
+    - LoadFirstScene
     - LoadSceneButton
+    - MaskTransform
     - MenuController
     - Money
     - Stand
     - TilemapButton
     - UpgradeButton
     - UpgradeShopTilemap
+    - instantiateCustomer
     Cinemachine.dll:
     - Cinemachine.CinemachineBrain
     - Cinemachine.CinemachineFramingTransposer
@@ -90,6 +94,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 61
       Script: {instanceID: 0}
+    - Class: 66
+      Script: {instanceID: 0}
     - Class: 74
       Script: {instanceID: 0}
     - Class: 81
@@ -107,8 +113,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11662}
     - Class: 114
-      Script: {instanceID: 11948}
-    - Class: 114
       Script: {instanceID: 12164}
     - Class: 114
       Script: {instanceID: 12392}
@@ -117,13 +121,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12504}
     - Class: 114
-      Script: {instanceID: 12560}
-    - Class: 114
       Script: {instanceID: 13198}
     - Class: 114
       Script: {instanceID: 13586}
     - Class: 114
       Script: {instanceID: 13608}
+    - Class: 114
+      Script: {instanceID: 14072}
     - Class: 114
       Script: {instanceID: 14078}
     - Class: 114
@@ -149,6 +153,8 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 19719996
       Script: {instanceID: 0}
     - Class: 156049354
       Script: {instanceID: 0}
@@ -264,6 +270,123 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 19719996
+      Script: {instanceID: 0}
+    - Class: 156049354
+      Script: {instanceID: 0}
+    - Class: 483693784
+      Script: {instanceID: 0}
+    - Class: 1839735485
+      Script: {instanceID: 0}
+    Assets/Scenes/Tutorial.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 50
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+    - Class: 66
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 620}
+    - Class: 114
+      Script: {instanceID: 11282}
+    - Class: 114
+      Script: {instanceID: 11598}
+    - Class: 114
+      Script: {instanceID: 11662}
+    - Class: 114
+      Script: {instanceID: 11948}
+    - Class: 114
+      Script: {instanceID: 12036}
+    - Class: 114
+      Script: {instanceID: 12392}
+    - Class: 114
+      Script: {instanceID: 12480}
+    - Class: 114
+      Script: {instanceID: 12514}
+    - Class: 114
+      Script: {instanceID: 12966}
+    - Class: 114
+      Script: {instanceID: 13020}
+    - Class: 114
+      Script: {instanceID: 13198}
+    - Class: 114
+      Script: {instanceID: 13586}
+    - Class: 114
+      Script: {instanceID: 13620}
+    - Class: 114
+      Script: {instanceID: 13676}
+    - Class: 114
+      Script: {instanceID: 13692}
+    - Class: 114
+      Script: {instanceID: 13944}
+    - Class: 114
+      Script: {instanceID: 13966}
+    - Class: 114
+      Script: {instanceID: 14072}
+    - Class: 114
+      Script: {instanceID: 14078}
+    - Class: 114
+      Script: {instanceID: 14152}
+    - Class: 114
+      Script: {instanceID: 14154}
+    - Class: 114
+      Script: {instanceID: 14264}
+    - Class: 114
+      Script: {instanceID: 14680}
+    - Class: 114
+      Script: {instanceID: 14734}
+    - Class: 114
+      Script: {instanceID: 117718}
+    - Class: 114
+      Script: {instanceID: 124002}
+    - Class: 114
+      Script: {instanceID: 141538}
+    - Class: 114
+      Script: {instanceID: 149608}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 331
       Script: {instanceID: 0}
     - Class: 19719996
       Script: {instanceID: 0}
@@ -528,7 +651,7 @@ ScriptsOnlyBuild:
     className: AnimationPlayableAsset
   - hash:
       serializedVersion: 2
-      Hash: 89db6ca43b08454d8ad8a4d9f5e623fe
+      Hash: ce67263aafa3c9c592199178cef983a9
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CustomerSpawner
@@ -1150,8 +1273,33 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MaskTransform
+  - hash:
+      serializedVersion: 2
+      Hash: f0bf73506fe5644f81bbc2f5107a65cf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: instantiateCustomer
+  - hash:
+      serializedVersion: 2
+      Hash: 235a1e8275c5d1ab2a1c0f017d90e1b5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CloseUpgradePanel
+  - hash:
+      serializedVersion: 2
+      Hash: b988d04f0ebb44a563b42039f931d16e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LoadFirstScene
   platform: 13
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
+  - Assets/Scenes/Tutorial.unity
   - Assets/Scenes/SampleScene.unity
   playerPath: C:/Users/Isaac/Desktop/MyGame.apk
