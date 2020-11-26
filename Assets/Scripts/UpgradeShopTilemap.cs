@@ -10,12 +10,13 @@ public class UpgradeShopTilemap : MonoBehaviour
 
     void Start()
     {
-        ShopLevel = stand.GetComponent<Stand>().ShopLevel;
+        ShopLevel = stand.GetComponent<Stand>().ShopTilemapLevel;
         tilemap[ShopLevel].SetActive(true);
     }
    
     public void changeTilemap(int prevShopLevel,int currentShopLevel)
     {
+        Debug.Log(tilemap[prevShopLevel]);
         tilemap[prevShopLevel].SetActive(false);
         tilemap[currentShopLevel].SetActive(true);
     }

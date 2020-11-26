@@ -19,9 +19,11 @@ public class GameController : MonoBehaviour
 
         for (int i = 0; i < Stands.Length; i++)
         {
-            Stands[i].GetComponent<Stand>().ShopLevel = data.shopLevel[i];
+            Stands[i].GetComponent<Stand>().ShopSellingItemLevel = data.shopSellingItemLevel[i];
+            Stands[i].GetComponent<Stand>().ShopTilemapLevel = data.shopTilemapLevel[i];
             Stands[i].GetComponent<Stand>().shopBought = data.shopBought[i];
-            Stands[i].GetComponent<Stand>().UpgradeCost = data.shopUpgradeCost[i];
+            Stands[i].GetComponent<Stand>().SellingItemUpgradeCost = data.sellingItmeUpgradeCost[i];
+            Stands[i].GetComponent<Stand>().ShopUpgradeCost = data.ShopUpgradeCost[i];
         }
 
         money._totalMoney = data.totalMonay;

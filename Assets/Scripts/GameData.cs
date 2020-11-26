@@ -6,25 +6,31 @@ using UnityEngine;
 public class GameData 
 {
     public float totalMonay;
-    public int[] shopLevel;
+    public int[] shopSellingItemLevel;
+    public int[] shopTilemapLevel;
     public bool[] shopBought;
-    public float[] shopUpgradeCost;
+    public float[] sellingItmeUpgradeCost;
+    public float[] ShopUpgradeCost;
 
     public GameData(Money money)
     {
         GameObject[] Stands;
 
         Stands = GameObject.FindGameObjectsWithTag("Stand");
-        
-        shopLevel = new int[Stands.Length];
+
+        shopSellingItemLevel = new int[Stands.Length];
+        shopTilemapLevel = new int[Stands.Length];
         shopBought = new bool[Stands.Length];
-        shopUpgradeCost = new float[Stands.Length];
+        sellingItmeUpgradeCost = new float[Stands.Length];
+        ShopUpgradeCost = new float[Stands.Length];
 
         for (int i = 0;i< Stands.Length; i++)
         {
-            shopLevel[i] = Stands[i].GetComponent<Stand>().ShopLevel;
+            shopSellingItemLevel[i] = Stands[i].GetComponent<Stand>().ShopSellingItemLevel;
+            shopTilemapLevel[i] = Stands[i].GetComponent<Stand>().ShopTilemapLevel;
             shopBought[i] = Stands[i].GetComponent<Stand>().shopBought;
-            shopUpgradeCost[i] = Stands[i].GetComponent<Stand>().UpgradeCost;
+            sellingItmeUpgradeCost[i] = Stands[i].GetComponent<Stand>().SellingItemUpgradeCost;
+            ShopUpgradeCost[i] = Stands[i].GetComponent<Stand>().ShopUpgradeCost;
         }
 
         totalMonay = money._totalMoney;

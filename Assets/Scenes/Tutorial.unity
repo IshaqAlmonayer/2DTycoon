@@ -214,7 +214,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 595409985}
+      - m_Target: {fileID: 1116824514}
         m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
@@ -5089,7 +5089,7 @@ GameObject:
   - component: {fileID: 656305762}
   - component: {fileID: 656305761}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: Tutorial
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11897,7 +11897,7 @@ GameObject:
   - component: {fileID: 1304608466}
   - component: {fileID: 1304608465}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: Menus
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11996,6 +11996,7 @@ GameObject:
   - component: {fileID: 1341288900}
   - component: {fileID: 1341288899}
   - component: {fileID: 1341288898}
+  - component: {fileID: 1341288901}
   m_Layer: 5
   m_Name: SkipButton
   m_TagString: Untagged
@@ -12103,6 +12104,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1341288896}
   m_CullTransparentMesh: 0
+--- !u!114 &1341288901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1341288896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 264288a25e389594689068dd81692954, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Button: {fileID: 1341288898}
 --- !u!1 &1360397626
 GameObject:
   m_ObjectHideFlags: 0
@@ -14084,7 +14098,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 595409985}
+      - m_Target: {fileID: 695051982}
         m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:

@@ -1,37 +1,36 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro; 
 
-
+//Upgrade Selling Item Button
 public class UpgradeButton : MonoBehaviour
 {
     
     public UnityEngine.UI.Button Button;
     public GameObject Stand;
     public GameObject Money;
-    public TextMeshProUGUI LevelText;
+    public TextMeshProUGUI SellingItemLevelText;
     public Text UpgradeCostText;
-    public GameObject Tilemap;
-    private float _upgradeCost;
+    private float _SellingItemUpgradeCost;
 
 
     void Start()
     {
         Button.onClick.AddListener(TaskOnClick);
-        _upgradeCost = Stand.GetComponent<Stand>().UpgradeCost;
+        _SellingItemUpgradeCost = Stand.GetComponent<Stand>().SellingItemUpgradeCost;
 
         UpdateUpgradeCostText();
 
-        if (Stand.GetComponent<Stand>().shopBought)
-            LevelText.text = "Shop Level: " + Stand.GetComponent<Stand>().ShopLevel + " / " + Stand.GetComponent<Stand>().MaximumUpgradeLevel;
+        SellingItemLevelText.text = Stand.GetComponent<Stand>().SellingItem + " Level " + Environment.NewLine + Stand.GetComponent<Stand>().ShopSellingItemLevel + " / " + Stand.GetComponent<Stand>().MaximumSellingItemUpgradeLevel;
     }
 
     private void Update()
     {
-        if (Money.GetComponent<Money>()._totalMoney >= _upgradeCost 
-            && Stand.GetComponent<Stand>().ShopLevel < Stand.GetComponent<Stand>().MaximumUpgradeLevel
+        if (Money.GetComponent<Money>()._totalMoney >= _SellingItemUpgradeCost
+            && Stand.GetComponent<Stand>().ShopSellingItemLevel < Stand.GetComponent<Stand>().MaximumSellingItemUpgradeLevel
             && Stand.GetComponent<Stand>().shopBought == true)
         {
             Button.interactable = true;
@@ -42,14 +41,13 @@ public class UpgradeButton : MonoBehaviour
 
     void TaskOnClick()
     { 
-        if (Money.GetComponent<Money>()._totalMoney >= _upgradeCost && Stand.GetComponent<Stand>().ShopLevel < Stand.GetComponent<Stand>().MaximumUpgradeLevel)
+        if (Money.GetComponent<Money>()._totalMoney >= _SellingItemUpgradeCost && Stand.GetComponent<Stand>().ShopSellingItemLevel < Stand.GetComponent<Stand>().MaximumSellingItemUpgradeLevel)
         {
-            Money.GetComponent<Money>()._totalMoney -= _upgradeCost;
-            Tilemap.GetComponent<UpgradeShopTilemap>().changeTilemap(Stand.GetComponent<Stand>().ShopLevel, Stand.GetComponent<Stand>().ShopLevel + 1);
-            Stand.GetComponent<Stand>().ShopLevel++;
-            LevelText.text = "Shop Level: " + Stand.GetComponent<Stand>().ShopLevel + " / " + Stand.GetComponent<Stand>().MaximumUpgradeLevel;
-            _upgradeCost += Stand.GetComponent<Stand>().UpgradeCost;
-            Stand.GetComponent<Stand>().UpgradeCost += Stand.GetComponent<Stand>().UpgradeCost;
+            Money.GetComponent<Money>()._totalMoney -= _SellingItemUpgradeCost;
+            Stand.GetComponent<Stand>().ShopSellingItemLevel++;
+            SellingItemLevelText.text = Stand.GetComponent<Stand>().SellingItem + " Level " + Environment.NewLine + Stand.GetComponent<Stand>().ShopSellingItemLevel + " / " + Stand.GetComponent<Stand>().MaximumSellingItemUpgradeLevel;
+            _SellingItemUpgradeCost += Stand.GetComponent<Stand>().SellingItemUpgradeCost;
+            Stand.GetComponent<Stand>().SellingItemUpgradeCost += Stand.GetComponent<Stand>().SellingItemUpgradeCost;
             UpdateUpgradeCostText();
         }
         else
@@ -58,10 +56,10 @@ public class UpgradeButton : MonoBehaviour
 
     void UpdateUpgradeCostText()
     {
-        if (Stand.GetComponent<Stand>().ShopLevel < Stand.GetComponent<Stand>().MaximumUpgradeLevel)
-            UpgradeCostText.text = "Upgrade Shop (" + _upgradeCost + "$)";
+        if (Stand.GetComponent<Stand>().ShopSellingItemLevel < Stand.GetComponent<Stand>().MaximumSellingItemUpgradeLevel)
+            UpgradeCostText.text = "Upgrade " + Stand.GetComponent<Stand>().SellingItem + " (" + _SellingItemUpgradeCost + "$)";
         else
-            UpgradeCostText.text = "Shop At Max Level";
+            UpgradeCostText.text = Stand.GetComponent<Stand>().SellingItem +" is at Max Level";
     }
 
 }

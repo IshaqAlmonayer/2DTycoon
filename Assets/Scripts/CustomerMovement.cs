@@ -45,6 +45,10 @@ public class CustomerMovement : MonoBehaviour
                 gameObject.layer = 10;
                 CustomerBack.layer = 10;
                 break;
+            case "JuiceStand":
+                gameObject.layer = 12;
+                CustomerBack.layer = 12;
+                break;
         }
 
     }
