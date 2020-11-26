@@ -32,14 +32,17 @@ public class UpgradeShopButton : MonoBehaviour
     {
         if(Stand.GetComponent<Stand>().shopBought == true)
         {
-            if (
-                Money.GetComponent<Money>()._totalMoney >= Stand.GetComponent<Stand>().ShopUpgradeCost
+            if (Money.GetComponent<Money>()._totalMoney >= Stand.GetComponent<Stand>().ShopUpgradeCost
                 && Stand.GetComponent<Stand>().ShopTilemapLevel < Stand.GetComponent<Stand>().MaximumTilemapUpgradeLevel)
             {
                 Button.interactable = true;
+                setDefaults();
             }
             else
+            {
                 Button.interactable = false;
+                setDefaults();
+            }
         }
     }
 
@@ -58,7 +61,12 @@ public class UpgradeShopButton : MonoBehaviour
 
     public void setDefaults()
     {
-        ShopUpgradePriceText.text = "Upgrade Shop (" + Stand.GetComponent<Stand>().ShopUpgradeCost + "$)";
+        if (Stand.GetComponent<Stand>().ShopTilemapLevel < Stand.GetComponent<Stand>().MaximumTilemapUpgradeLevel)
+        {
+            ShopUpgradePriceText.text = "Upgrade Shop (" + Stand.GetComponent<Stand>().ShopUpgradeCost + "$)";
+        } else
+            ShopUpgradePriceText.text = "Shop at Max Level)";
+
         ShopLevelText.text = "Shop Level " + Environment.NewLine + Stand.GetComponent<Stand>().ShopTilemapLevel + " / " + Stand.GetComponent<Stand>().MaximumTilemapUpgradeLevel;
     }
 }

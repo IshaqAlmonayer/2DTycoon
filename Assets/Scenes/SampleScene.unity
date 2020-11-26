@@ -312,7 +312,7 @@ MonoBehaviour:
   Stand: {fileID: 464647472}
   Button: {fileID: 35310991}
   shopPriceText: {fileID: 566279159}
-  Tilemap: {fileID: 1175007311}
+  Tilemap: {fileID: 958483896}
   ShopLevelText: {fileID: 1175007313}
   SellingItemLevelText: {fileID: 331114505}
 --- !u!114 &35310991
@@ -383,6 +383,17 @@ MonoBehaviour:
       - m_Target: {fileID: 1338496614}
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1338496616}
+        m_MethodName: setDefaults
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2095,6 +2106,17 @@ MonoBehaviour:
       - m_Target: {fileID: 713996125}
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 713996127}
+        m_MethodName: setDefaults
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -12317,7 +12339,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.972549, g: 0.49019608, b: 0.015686275, a: 1}
+  m_Color: {r: 0.6901961, g: 0.47058824, b: 0.52156866, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -12685,7 +12707,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 5
-      m_TileSpriteIndex: 5
+      m_TileSpriteIndex: 9
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -12694,7 +12716,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 4
-      m_TileSpriteIndex: 4
+      m_TileSpriteIndex: 8
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -12755,21 +12777,21 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 10
+    m_Data: {fileID: -9191879483747855219, guid: a9cc7fe93aa429a43a4c5fbe0936ec15,
+      type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: -7179824688888085303, guid: 03a0314769f2d5a4b85412373562a72a,
       type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 6271514021798251701, guid: 03a0314769f2d5a4b85412373562a72a,
       type: 3}
-  - m_RefCount: 10
-    m_Data: {fileID: -9191879483747855219, guid: a9cc7fe93aa429a43a4c5fbe0936ec15,
-      type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: -328277327150467527, guid: 8799102a9dc45484a990f9aee45fe72c,
       type: 3}
@@ -13351,7 +13373,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -16171,8 +16193,8 @@ Tilemap:
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Origin: {x: -32, y: -11, z: 0}
-  m_Size: {x: 125, y: 107, z: 1}
+  m_Origin: {x: -32, y: -30, z: 0}
+  m_Size: {x: 125, y: 126, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
@@ -20050,7 +20072,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 22.05
+  m_fontSize: 36
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -20992,9 +21014,9 @@ CompositeCollider2D:
   m_CompositePaths:
     m_Paths:
     - - {x: 4.1599708, y: -1.4399999}
-      - {x: 4.160001, y: -1.1299866}
-      - {x: 4.149991, y: -1.1199899}
-      - {x: 3.9999998, y: -1.1199605}
+      - {x: 4.159992, y: -1.1299924}
+      - {x: 4.149989, y: -1.1199999}
+      - {x: 3.9999998, y: -1.1199706}
       - {x: 4.0000286, y: -0.7999999}
       - {x: 4.16, y: -0.7999706}
       - {x: 4.159992, y: -0.7699924}
@@ -21768,7 +21790,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 22.05
+  m_fontSize: 36
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -23909,7 +23931,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.972549, g: 0.49019608, b: 0.015686275, a: 1}
+  m_Color: {r: 0.9529412, g: 0.5882353, b: 0.24705882, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -24058,7 +24080,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.972549, g: 0.49019608, b: 0.015686275, a: 1}
+  m_Color: {r: 0.9529412, g: 0.24705882, b: 0.24705882, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -24165,7 +24187,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 22.05
+  m_fontSize: 36
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -29341,7 +29363,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.6509434, g: 0.2759924, b: 0, a: 1}
+  m_Color: {r: 0.7264151, g: 0.58335805, b: 0.14733891, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -38923,7 +38945,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.6509804, g: 0.27450982, b: 0, a: 1}
+  m_Color: {r: 0.7294118, g: 0.58431375, b: 0.14901961, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
