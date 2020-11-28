@@ -1,6 +1,8 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - AdvertiseButton
+    - AdvertiseController
     - BuyShopButton
     - CameraController
     - ClosePanel
@@ -187,6 +189,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
     - Class: 83
       Script: {instanceID: 0}
     - Class: 91
@@ -253,6 +257,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 14690}
     - Class: 114
       Script: {instanceID: 14744}
+    - Class: 114
+      Script: {instanceID: 34756}
+    - Class: 114
+      Script: {instanceID: 76460}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -657,7 +665,7 @@ ScriptsOnlyBuild:
     className: AnimationPlayableAsset
   - hash:
       serializedVersion: 2
-      Hash: ce67263aafa3c9c592199178cef983a9
+      Hash: 1d52550152757a50c086a5afeb62f420
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CustomerSpawner
@@ -771,7 +779,7 @@ ScriptsOnlyBuild:
     className: CinemachinePOV
   - hash:
       serializedVersion: 2
-      Hash: 766ac09191af1c63068b7a739a5c95d8
+      Hash: fe41ea1acfd512158c921765b84e9845
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameController
@@ -1083,7 +1091,7 @@ ScriptsOnlyBuild:
     className: GridInformation
   - hash:
       serializedVersion: 2
-      Hash: 79d60d82633be48bb461754d376c0690
+      Hash: afc8350d683cb10a201e803566705808
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Stand
@@ -1297,6 +1305,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: ee5cb998276dca03eaa80aa9bf4563f1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AdvertiseButton
+  - hash:
+      serializedVersion: 2
+      Hash: 9c993a8ab879e721e639e48c4889bf9d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AdvertiseController
   platform: 13
   scenePathNames:
   - Assets/Scenes/MainMenu.unity

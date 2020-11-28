@@ -5,6 +5,8 @@ using UnityEngine;
 public class GameController : MonoBehaviour
 {
     public Money money;
+    public AdvertiseController adController;
+    public MenuController MenuController;
     public float _saveFrequency = 10;
     private float _autoSaveTimer = 0;
 
@@ -14,8 +16,10 @@ public class GameController : MonoBehaviour
         GameData data = SaveSystem.LoadGame();
 
         GameObject[] Stands;
+        GameObject[] CustomerSpawners;
 
         Stands = GameObject.FindGameObjectsWithTag("Stand");
+        CustomerSpawners = GameObject.FindGameObjectsWithTag("CustomerSpawner");
 
         for (int i = 0; i < Stands.Length; i++)
         {
@@ -26,12 +30,18 @@ public class GameController : MonoBehaviour
             Stands[i].GetComponent<Stand>().ShopUpgradeCost = data.ShopUpgradeCost[i];
         }
 
-        money._totalMoney = data.totalMonay;
+        for (int i = 0; i < CustomerSpawners.Length; i++)
+        {
+            CustomerSpawners[i].GetComponent<CustomerSpawner>().isActive = data.SpawnerActive[i];
+        }
+
+        money._totalMoney = data.totalMoney;
+        adController.AddTimer = data.AddTimer;
     }
 
     void Start()
     {
-        
+        Screen.sleepTimeout = SleepTimeout.NeverSleep;
     }
 
     private void Update()
@@ -40,8 +50,18 @@ public class GameController : MonoBehaviour
     
         if(_autoSaveTimer <= 0)
         {
-            SaveSystem.SaveGame(money);
+            SaveSystem.SaveGame(money, adController);
             _autoSaveTimer = _saveFrequency;
+        }
+
+        //Backbutton Android
+        if (Application.platform == RuntimePlatform.Android)
+        {
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                SaveGame();
+                Application.Quit();
+            }
         }
 
     }
@@ -54,7 +74,7 @@ public class GameController : MonoBehaviour
 
     public void SaveGame()
     {
-        SaveSystem.SaveGame(money);
+        SaveSystem.SaveGame(money, adController);
         //Debug.Log("Game Saved :)");
     }
 

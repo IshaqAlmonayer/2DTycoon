@@ -8,6 +8,7 @@ TagManager:
   - Stand
   - Customer
   - BurgerStand
+  - CustomerSpawner
   layers:
   - Default
   - TransparentFX

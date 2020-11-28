@@ -15,6 +15,7 @@ public class Stand : MonoBehaviour
     public float MaximumTilemapUpgradeLevel;
     public float productPrice;
     public bool shopBought = false;
+    public string StandName;
     public AudioClip CoinSound;
 
     //Shop Layers:

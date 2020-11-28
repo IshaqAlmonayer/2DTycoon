@@ -5,24 +5,33 @@ using UnityEngine;
 [System.Serializable]
 public class GameData 
 {
-    public float totalMonay;
+    public float totalMoney;
     public int[] shopSellingItemLevel;
     public int[] shopTilemapLevel;
     public bool[] shopBought;
     public float[] sellingItmeUpgradeCost;
     public float[] ShopUpgradeCost;
+    //************************************
+    public bool[] SpawnerActive;
+    //************************************
+    public float AddTimer;
 
-    public GameData(Money money)
+    public GameData(Money money, AdvertiseController adController)
     {
         GameObject[] Stands;
+        GameObject[] CustomerSpawners;
 
         Stands = GameObject.FindGameObjectsWithTag("Stand");
+        CustomerSpawners = GameObject.FindGameObjectsWithTag("CustomerSpawner");
+        
 
         shopSellingItemLevel = new int[Stands.Length];
         shopTilemapLevel = new int[Stands.Length];
         shopBought = new bool[Stands.Length];
         sellingItmeUpgradeCost = new float[Stands.Length];
         ShopUpgradeCost = new float[Stands.Length];
+        //************************************
+        SpawnerActive = new bool[CustomerSpawners.Length];
 
         for (int i = 0;i< Stands.Length; i++)
         {
@@ -33,6 +42,13 @@ public class GameData
             ShopUpgradeCost[i] = Stands[i].GetComponent<Stand>().ShopUpgradeCost;
         }
 
-        totalMonay = money._totalMoney;
+        for (int i = 0; i < CustomerSpawners.Length; i++)
+        {
+            SpawnerActive[i] = CustomerSpawners[i].GetComponent<CustomerSpawner>().isActive;
+        }
+
+        totalMoney = money._totalMoney;
+
+        AddTimer = adController.AddTimer;
     }
 }

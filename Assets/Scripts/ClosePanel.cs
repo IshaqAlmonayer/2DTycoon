@@ -13,7 +13,6 @@ public class ClosePanel : MonoBehaviour
         Button.onClick.AddListener(TaskOnClick);
     }
 
-
     void TaskOnClick()
     {
         MenuController.ChangePanelStatus();
