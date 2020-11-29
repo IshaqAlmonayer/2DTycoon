@@ -7,6 +7,8 @@ ScriptsOnlyBuild:
     - CameraController
     - ClosePanel
     - CloseUpgradePanel
+    - CloudMovement
+    - CloudSpawner
     - CustomerMovement
     - CustomerSpawner
     - DestroyOther
@@ -117,27 +119,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12168}
     - Class: 114
-      Script: {instanceID: 12398}
+      Script: {instanceID: 12400}
     - Class: 114
-      Script: {instanceID: 12460}
+      Script: {instanceID: 12462}
     - Class: 114
-      Script: {instanceID: 12510}
+      Script: {instanceID: 12512}
     - Class: 114
-      Script: {instanceID: 13206}
+      Script: {instanceID: 13208}
     - Class: 114
-      Script: {instanceID: 13594}
+      Script: {instanceID: 13598}
     - Class: 114
-      Script: {instanceID: 13616}
+      Script: {instanceID: 13620}
     - Class: 114
-      Script: {instanceID: 14080}
+      Script: {instanceID: 14090}
     - Class: 114
-      Script: {instanceID: 14086}
+      Script: {instanceID: 14166}
     - Class: 114
-      Script: {instanceID: 14162}
+      Script: {instanceID: 14398}
     - Class: 114
-      Script: {instanceID: 14394}
+      Script: {instanceID: 14748}
     - Class: 114
-      Script: {instanceID: 14744}
+      Script: {instanceID: 61364}
+    - Class: 114
+      Script: {instanceID: 68644}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -214,53 +218,57 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12168}
     - Class: 114
-      Script: {instanceID: 12398}
+      Script: {instanceID: 12268}
     - Class: 114
-      Script: {instanceID: 12486}
+      Script: {instanceID: 12400}
     - Class: 114
-      Script: {instanceID: 12520}
+      Script: {instanceID: 12488}
     - Class: 114
-      Script: {instanceID: 12566}
+      Script: {instanceID: 12522}
     - Class: 114
-      Script: {instanceID: 12730}
+      Script: {instanceID: 12568}
     - Class: 114
-      Script: {instanceID: 12760}
+      Script: {instanceID: 12732}
     - Class: 114
-      Script: {instanceID: 12974}
+      Script: {instanceID: 12762}
     - Class: 114
-      Script: {instanceID: 13028}
+      Script: {instanceID: 12976}
     - Class: 114
-      Script: {instanceID: 13206}
+      Script: {instanceID: 13030}
     - Class: 114
-      Script: {instanceID: 13594}
+      Script: {instanceID: 13208}
     - Class: 114
-      Script: {instanceID: 13628}
+      Script: {instanceID: 13362}
     - Class: 114
-      Script: {instanceID: 13684}
+      Script: {instanceID: 13598}
     - Class: 114
-      Script: {instanceID: 13700}
+      Script: {instanceID: 13632}
     - Class: 114
-      Script: {instanceID: 13952}
+      Script: {instanceID: 13688}
     - Class: 114
-      Script: {instanceID: 13974}
+      Script: {instanceID: 13704}
     - Class: 114
-      Script: {instanceID: 14080}
+      Script: {instanceID: 13956}
     - Class: 114
-      Script: {instanceID: 14086}
+      Script: {instanceID: 13978}
     - Class: 114
-      Script: {instanceID: 14160}
+      Script: {instanceID: 14084}
     - Class: 114
-      Script: {instanceID: 14162}
+      Script: {instanceID: 14090}
     - Class: 114
-      Script: {instanceID: 14272}
+      Script: {instanceID: 14164}
     - Class: 114
-      Script: {instanceID: 14690}
+      Script: {instanceID: 14166}
     - Class: 114
-      Script: {instanceID: 14744}
+      Script: {instanceID: 14276}
     - Class: 114
-      Script: {instanceID: 34756}
+      Script: {instanceID: 14694}
     - Class: 114
-      Script: {instanceID: 76460}
+      Script: {instanceID: 14748}
+    - Class: 114
+      Script: {instanceID: 61364}
+    - Class: 114
+      Script: {instanceID: 68644}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -335,43 +343,49 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12264}
     - Class: 114
-      Script: {instanceID: 12398}
+      Script: {instanceID: 12400}
     - Class: 114
-      Script: {instanceID: 12486}
+      Script: {instanceID: 12488}
     - Class: 114
-      Script: {instanceID: 12520}
+      Script: {instanceID: 12522}
     - Class: 114
-      Script: {instanceID: 12974}
+      Script: {instanceID: 12762}
     - Class: 114
-      Script: {instanceID: 13028}
+      Script: {instanceID: 12976}
     - Class: 114
-      Script: {instanceID: 13206}
+      Script: {instanceID: 13030}
     - Class: 114
-      Script: {instanceID: 13594}
+      Script: {instanceID: 13208}
     - Class: 114
-      Script: {instanceID: 13628}
+      Script: {instanceID: 13598}
     - Class: 114
-      Script: {instanceID: 13684}
+      Script: {instanceID: 13632}
     - Class: 114
-      Script: {instanceID: 13700}
+      Script: {instanceID: 13688}
     - Class: 114
-      Script: {instanceID: 13952}
+      Script: {instanceID: 13704}
     - Class: 114
-      Script: {instanceID: 13974}
+      Script: {instanceID: 13956}
     - Class: 114
-      Script: {instanceID: 14080}
+      Script: {instanceID: 13978}
     - Class: 114
-      Script: {instanceID: 14086}
+      Script: {instanceID: 14084}
     - Class: 114
-      Script: {instanceID: 14160}
+      Script: {instanceID: 14090}
     - Class: 114
-      Script: {instanceID: 14162}
+      Script: {instanceID: 14164}
     - Class: 114
-      Script: {instanceID: 14272}
+      Script: {instanceID: 14166}
     - Class: 114
-      Script: {instanceID: 14690}
+      Script: {instanceID: 14276}
     - Class: 114
-      Script: {instanceID: 14744}
+      Script: {instanceID: 14694}
+    - Class: 114
+      Script: {instanceID: 14748}
+    - Class: 114
+      Script: {instanceID: 61364}
+    - Class: 114
+      Script: {instanceID: 68644}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -689,6 +703,12 @@ ScriptsOnlyBuild:
     className: instantiateCustomer
   - hash:
       serializedVersion: 2
+      Hash: 9c993a8ab879e721e639e48c4889bf9d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AdvertiseController
+  - hash:
+      serializedVersion: 2
       Hash: caa533b001ae39b864ba8425019e2268
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -915,6 +935,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.Tilemap.Extras.dll
     namespaceName: UnityEngine
     className: HexagonalRuleTile
+  - hash:
+      serializedVersion: 2
+      Hash: ee5cb998276dca03eaa80aa9bf4563f1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AdvertiseButton
   - hash:
       serializedVersion: 2
       Hash: 5ad4aa237d47ac2bab17bacb672edf7a
@@ -1307,16 +1333,16 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: ee5cb998276dca03eaa80aa9bf4563f1
+      Hash: afc5b93a7b192de2dcb3832fe35a5c7e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: AdvertiseButton
+    className: CloudMovement
   - hash:
       serializedVersion: 2
-      Hash: 9c993a8ab879e721e639e48c4889bf9d
+      Hash: 3e68afa2de9c9984c2c85ea54df269cc
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: AdvertiseController
+    className: CloudSpawner
   platform: 13
   scenePathNames:
   - Assets/Scenes/MainMenu.unity

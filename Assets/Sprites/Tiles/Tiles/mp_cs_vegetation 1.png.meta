@@ -1,0 +1,485 @@
+fileFormatVersion: 2
+guid: dddd79ae118c5e9439bddd2d3627d76e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1632061079336792233
+    second: mp_cs_vegetation 1_0
+  - first:
+      213: -1668276905333756284
+    second: mp_cs_vegetation 1_1
+  - first:
+      213: -8562593893938391736
+    second: mp_cs_vegetation 1_2
+  - first:
+      213: -7296772442878930136
+    second: mp_cs_vegetation 1_3
+  - first:
+      213: -122782913397309525
+    second: mp_cs_vegetation 1_4
+  - first:
+      213: -4002804179208565013
+    second: mp_cs_vegetation 1_5
+  - first:
+      213: -2556733645479520398
+    second: mp_cs_vegetation 1_6
+  - first:
+      213: 3625056584481802101
+    second: mp_cs_vegetation 1_7
+  - first:
+      213: -4044435487409112911
+    second: mp_cs_vegetation 1_8
+  - first:
+      213: -8368404475630456337
+    second: mp_cs_vegetation 1_9
+  - first:
+      213: -2319264416305932420
+    second: mp_cs_vegetation 1_10
+  - first:
+      213: 2577434105626246623
+    second: mp_cs_vegetation 1_11
+  - first:
+      213: -5759926705349755254
+    second: mp_cs_vegetation 1_12
+  - first:
+      213: 894904950812726191
+    second: mp_cs_vegetation 1_13
+  - first:
+      213: 8249419220993652125
+    second: mp_cs_vegetation 1_14
+  - first:
+      213: 1137590980914286148
+    second: mp_cs_vegetation 1_15
+  - first:
+      213: -8788394452278166002
+    second: mp_cs_vegetation 1_16
+  - first:
+      213: 3923952626717002964
+    second: mp_cs_vegetation 1_17
+  - first:
+      213: 991555791368000201
+    second: mp_cs_vegetation 1_18
+  - first:
+      213: 1647465785233967725
+    second: mp_cs_vegetation 1_19
+  - first:
+      213: -8487868062416665539
+    second: mp_cs_vegetation 1_20
+  - first:
+      213: 3008904707675336935
+    second: mp_cs_vegetation 1_21
+  - first:
+      213: 3155135216109935410
+    second: mp_cs_vegetation 1_22
+  - first:
+      213: -5955724276748430740
+    second: mp_cs_vegetation 1_23
+  - first:
+      213: -9136148933293332555
+    second: mp_cs_vegetation 1_24
+  - first:
+      213: 9222291108786857538
+    second: mp_cs_vegetation 1_25
+  - first:
+      213: -769453477323397977
+    second: mp_cs_vegetation 1_26
+  - first:
+      213: -1073978654569701210
+    second: mp_cs_vegetation 1_27
+  - first:
+      213: 464300839367782779
+    second: mp_cs_vegetation 1_28
+  - first:
+      213: -2574077331753353403
+    second: mp_cs_vegetation 1_29
+  - first:
+      213: 3169936835176949452
+    second: mp_cs_vegetation 1_30
+  - first:
+      213: -2724384858629886838
+    second: mp_cs_vegetation 1_31
+  - first:
+      213: 773453130980408073
+    second: mp_cs_vegetation 1_32
+  - first:
+      213: 6678478708845231640
+    second: mp_cs_vegetation 1_33
+  - first:
+      213: 4589258447226253513
+    second: mp_cs_vegetation 1_34
+  - first:
+      213: -5313023892351547370
+    second: mp_cs_vegetation 1_35
+  - first:
+      213: -5694285172598845093
+    second: mp_cs_vegetation 1_36
+  - first:
+      213: 2209525978010246716
+    second: mp_cs_vegetation 1_37
+  - first:
+      213: -5637256179532150694
+    second: mp_cs_vegetation 1_38
+  - first:
+      213: 3706171475473057541
+    second: mp_cs_vegetation 1_39
+  - first:
+      213: 2349511502690784878
+    second: mp_cs_vegetation 1_40
+  - first:
+      213: 2787920374146305354
+    second: mp_cs_vegetation 1_41
+  - first:
+      213: -1407376779463934086
+    second: mp_cs_vegetation 1_42
+  - first:
+      213: 8370680756172148739
+    second: mp_cs_vegetation 1_43
+  - first:
+      213: 5610064056527421086
+    second: mp_cs_vegetation 1_44
+  - first:
+      213: -727960524852540351
+    second: mp_cs_vegetation 1_45
+  - first:
+      213: -6959113439030687726
+    second: mp_cs_vegetation 1_46
+  - first:
+      213: 478723791929745918
+    second: mp_cs_vegetation 1_47
+  - first:
+      213: 750108743841388462
+    second: mp_cs_vegetation 1_48
+  - first:
+      213: -2133735273211419003
+    second: mp_cs_vegetation 1_49
+  - first:
+      213: -7869472467286525268
+    second: mp_cs_vegetation 1_50
+  - first:
+      213: -5703516317674766999
+    second: mp_cs_vegetation 1_51
+  - first:
+      213: 346681751191137585
+    second: mp_cs_vegetation 1_52
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mp_cs_vegetation 1_7
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5778ab8d1c9ce4230800000000000000
+      internalID: 3625056584481802101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mp_cs_vegetation 1_8
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b8feff3a574fd7c0800000000000000
+      internalID: -4044435487409112911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mp_cs_vegetation 1_9
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe1f14597747ddb80800000000000000
+      internalID: -8368404475630456337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mp_cs_vegetation 1_11
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 65
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdd34d9c9a2e4c320800000000000000
+      internalID: 2577434105626246623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mp_cs_vegetation 1_12
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 65
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8e775bcd21a010b0800000000000000
+      internalID: -5759926705349755254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mp_cs_vegetation 1_13
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 65
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa35ee4bf475b6c00800000000000000
+      internalID: 894904950812726191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mp_cs_vegetation 1_15
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44e851d48f889cf00800000000000000
+      internalID: 1137590980914286148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mp_cs_vegetation 1_0
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 49
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75fc36a6811c959e0800000000000000
+      internalID: -1632061079336792233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mp_cs_vegetation 1_1
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 49
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ee7965ef619d8e0800000000000000
+      internalID: -1668276905333756284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mp_cs_vegetation 1_2
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8459fd3583e8b2980800000000000000
+      internalID: -8562593893938391736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

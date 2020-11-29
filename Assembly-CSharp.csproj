@@ -68,6 +68,8 @@
     <Compile Include="Assets\Scripts\BuyShopButton.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\ClosePanel.cs" />
+    <Compile Include="Assets\Scripts\CloudMovement.cs" />
+    <Compile Include="Assets\Scripts\CloudSpawner.cs" />
     <Compile Include="Assets\Scripts\CustomerMovement.cs" />
     <Compile Include="Assets\Scripts\CustomerSpawner.cs" />
     <Compile Include="Assets\Scripts\DestroyOther.cs" />
