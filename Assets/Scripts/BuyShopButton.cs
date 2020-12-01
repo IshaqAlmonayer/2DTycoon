@@ -13,8 +13,8 @@ public class BuyShopButton : MonoBehaviour
     public UnityEngine.UI.Button Button;
     public Text shopPriceText;
     public GameObject Tilemap;
-    public TextMeshProUGUI ShopLevelText;
-    public TextMeshProUGUI SellingItemLevelText;
+    public Text ShopLevelText;
+    public Text SellingItemLevelText;
 
     private float _shopPrice;
 
@@ -25,7 +25,7 @@ public class BuyShopButton : MonoBehaviour
             Button.onClick.AddListener(TaskOnClick);
             _shopPrice = Stand.GetComponent<Stand>().ShopPrice;
             shopPriceText.text = "Buy Shop (" + _shopPrice + "$)";
-            ShopLevelText.text = "Shop Level " + Environment.NewLine + Stand.GetComponent<Stand>().ShopTilemapLevel + " / " + Stand.GetComponent<Stand>().MaximumTilemapUpgradeLevel;
+            ShopLevelText.text = "Shop Level " + Stand.GetComponent<Stand>().ShopTilemapLevel + " / " + Stand.GetComponent<Stand>().MaximumTilemapUpgradeLevel;
         }
         else
             gameObject.SetActive(false);
@@ -52,7 +52,7 @@ public class BuyShopButton : MonoBehaviour
         Tilemap.GetComponent<UpgradeShopTilemap>().changeTilemap(Stand.GetComponent<Stand>().ShopTilemapLevel, Stand.GetComponent<Stand>().ShopTilemapLevel + 1);
         Stand.GetComponent<Stand>().ShopTilemapLevel++;
         Stand.GetComponent<Stand>().ShopSellingItemLevel++;
-        SellingItemLevelText.text = Stand.GetComponent<Stand>().SellingItem + " Level " + Environment.NewLine + Stand.GetComponent<Stand>().ShopSellingItemLevel + " / " + Stand.GetComponent<Stand>().MaximumSellingItemUpgradeLevel;
-        ShopLevelText.text = "Shop Level " + Environment.NewLine + Stand.GetComponent<Stand>().ShopTilemapLevel + " / " + Stand.GetComponent<Stand>().MaximumTilemapUpgradeLevel;
+        SellingItemLevelText.text = Stand.GetComponent<Stand>().SellingItem + " Level " + Stand.GetComponent<Stand>().ShopSellingItemLevel + " / " + Stand.GetComponent<Stand>().MaximumSellingItemUpgradeLevel;
+        ShopLevelText.text = "Shop Level " + Stand.GetComponent<Stand>().ShopTilemapLevel + " / " + Stand.GetComponent<Stand>().MaximumTilemapUpgradeLevel;
     }
 }

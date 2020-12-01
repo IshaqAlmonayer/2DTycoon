@@ -11,7 +11,7 @@ public class UpgradeShopButton : MonoBehaviour
     public Stand Stand;
     public Money Money;
     public Button Button;
-    public TextMeshProUGUI ShopLevelText;
+    public Text ShopLevelText;
     public Text ShopUpgradePriceText;
     public GameObject Tilemap;
 
@@ -48,13 +48,17 @@ public class UpgradeShopButton : MonoBehaviour
 
     void TaskOnClick()
     {
+        
         if (Money.GetComponent<Money>()._totalMoney >= Stand.GetComponent<Stand>().ShopUpgradeCost && Stand.GetComponent<Stand>().ShopTilemapLevel < Stand.GetComponent<Stand>().MaximumTilemapUpgradeLevel)
         {
             Money._totalMoney -= Stand.GetComponent<Stand>().ShopUpgradeCost;
             Tilemap.GetComponent<UpgradeShopTilemap>().changeTilemap(Stand.GetComponent<Stand>().ShopTilemapLevel, Stand.GetComponent<Stand>().ShopTilemapLevel + 1);
             Stand.GetComponent<Stand>().ShopTilemapLevel++;
             Stand.GetComponent<Stand>().ShopUpgradeCost += Stand.GetComponent<Stand>().ShopUpgradeCost;
-            ShopLevelText.text = "Shop Level " + Environment.NewLine + Stand.GetComponent<Stand>().ShopTilemapLevel + " / " + Stand.GetComponent<Stand>().MaximumTilemapUpgradeLevel;
+            if(Stand.GetComponent<Stand>().StandWaitingTime > 1 )
+                Stand.GetComponent<Stand>().StandWaitingTime -= 1;
+            Stand.GetComponent<Stand>().productPrice += 1;
+            ShopLevelText.text = "Shop Level: " + Stand.GetComponent<Stand>().ShopTilemapLevel + " / " + Stand.GetComponent<Stand>().MaximumTilemapUpgradeLevel;
             ShopUpgradePriceText.text = "Upgrade Shop (" + Stand.GetComponent<Stand>().ShopUpgradeCost + "$)";
         }
     }
@@ -65,8 +69,10 @@ public class UpgradeShopButton : MonoBehaviour
         {
             ShopUpgradePriceText.text = "Upgrade Shop (" + Stand.GetComponent<Stand>().ShopUpgradeCost + "$)";
         } else
-            ShopUpgradePriceText.text = "Shop at Max Level)";
+            ShopUpgradePriceText.text = "Shop at Max Level";
 
-        ShopLevelText.text = "Shop Level " + Environment.NewLine + Stand.GetComponent<Stand>().ShopTilemapLevel + " / " + Stand.GetComponent<Stand>().MaximumTilemapUpgradeLevel;
+        ShopLevelText.text = "Shop Level: " + Stand.GetComponent<Stand>().ShopTilemapLevel + " / " + Stand.GetComponent<Stand>().MaximumTilemapUpgradeLevel;
+
+        //Debug.Log("Shop Level: " + Stand.GetComponent<Stand>().ShopTilemapLevel + " / " + Stand.GetComponent<Stand>().MaximumTilemapUpgradeLevel);
     }
 }

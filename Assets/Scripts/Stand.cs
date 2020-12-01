@@ -16,6 +16,7 @@ public class Stand : MonoBehaviour
     public float productPrice;
     public bool shopBought = false;
     public string StandName;
+    public float StandWaitingTime;
     public AudioClip CoinSound;
 
     //Shop Layers:
@@ -46,7 +47,7 @@ public class Stand : MonoBehaviour
         {
             //Debug.Log("Price: " + productPrice * ShopSellingItemLevel);
             _trigger = false;
-            return productPrice * ShopSellingItemLevel;
+            return productPrice;
         }
         else 
             return 0;

@@ -11,6 +11,8 @@ public class GameData
     public bool[] shopBought;
     public float[] sellingItmeUpgradeCost;
     public float[] ShopUpgradeCost;
+    public float[] StandWaitingTime;
+    public float[] productPrice;
     //************************************
     public bool[] SpawnerActive;
     //************************************
@@ -30,6 +32,8 @@ public class GameData
         shopBought = new bool[Stands.Length];
         sellingItmeUpgradeCost = new float[Stands.Length];
         ShopUpgradeCost = new float[Stands.Length];
+        StandWaitingTime = new float[Stands.Length];
+        productPrice = new float[Stands.Length];
         //************************************
         SpawnerActive = new bool[CustomerSpawners.Length];
 
@@ -40,6 +44,8 @@ public class GameData
             shopBought[i] = Stands[i].GetComponent<Stand>().shopBought;
             sellingItmeUpgradeCost[i] = Stands[i].GetComponent<Stand>().SellingItemUpgradeCost;
             ShopUpgradeCost[i] = Stands[i].GetComponent<Stand>().ShopUpgradeCost;
+            StandWaitingTime[i] = Stands[i].GetComponent<Stand>().StandWaitingTime;
+            productPrice[i] = Stands[i].GetComponent<Stand>().productPrice;
         }
 
         for (int i = 0; i < CustomerSpawners.Length; i++)

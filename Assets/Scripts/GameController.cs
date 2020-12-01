@@ -28,6 +28,8 @@ public class GameController : MonoBehaviour
             Stands[i].GetComponent<Stand>().shopBought = data.shopBought[i];
             Stands[i].GetComponent<Stand>().SellingItemUpgradeCost = data.sellingItmeUpgradeCost[i];
             Stands[i].GetComponent<Stand>().ShopUpgradeCost = data.ShopUpgradeCost[i];
+            Stands[i].GetComponent<Stand>().StandWaitingTime = data.StandWaitingTime[i];
+            Stands[i].GetComponent<Stand>().productPrice = data.productPrice[i];
         }
 
         for (int i = 0; i < CustomerSpawners.Length; i++)

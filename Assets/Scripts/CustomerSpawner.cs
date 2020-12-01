@@ -17,6 +17,7 @@ public class CustomerSpawner : MonoBehaviour
     private string[] _newStaticStandTypes =  new string[4];
     public int unlockedStandsNo;
     private GameObject[] Stands;
+    private int _randomNumber;
 
     void Start()
     {
@@ -43,13 +44,16 @@ public class CustomerSpawner : MonoBehaviour
 
             if (_timer <= 0f)
             {
-                _standType = _newStaticStandTypes[Random.Range(0, unlockedStandsNo)];
+                _randomNumber = Random.Range(0, unlockedStandsNo);
+                _standType = _newStaticStandTypes[_randomNumber];
 
                 //select random number between 0 and the array size
                 _randomCustomer = Random.Range(0, numCustomers);
 
                 Customer = Instantiate(Customers[_randomCustomer], transform.position, Quaternion.identity);
                 Customer.GetComponent<CustomerMovement>()._standType = _standType;
+                if(unlockedStandsNo > 0)
+                    Customer.GetComponent<CustomerMovement>().standWaitTime = Stands[_randomNumber].GetComponent<Stand>().StandWaitingTime;
 
                 _timer += Random.Range(_minSpawnTime, _maxSpawnTime);
             }

@@ -16,7 +16,6 @@ public class UpgradeShopTilemap : MonoBehaviour
    
     public void changeTilemap(int prevShopLevel,int currentShopLevel)
     {
-        Debug.Log(tilemap[prevShopLevel]);
         tilemap[prevShopLevel].SetActive(false);
         tilemap[currentShopLevel].SetActive(true);
     }

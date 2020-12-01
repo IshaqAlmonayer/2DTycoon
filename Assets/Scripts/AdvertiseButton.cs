@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro;
 
 public class AdvertiseButton : MonoBehaviour
 {
@@ -15,9 +14,9 @@ public class AdvertiseButton : MonoBehaviour
     public GameObject addController;
     public float adPrice;
     public Money money;
-    public TextMeshProUGUI currentRunningAdText;
-    public TextMeshProUGUI customerMultiplierText;
-    public TextMeshProUGUI timerText;
+    public Text currentRunningAdText;
+    public Text customerMultiplierText;
+    public Text timerText;
     private float _timer;
 
     void Start()

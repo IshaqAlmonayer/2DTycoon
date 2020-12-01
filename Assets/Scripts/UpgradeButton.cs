@@ -12,9 +12,13 @@ public class UpgradeButton : MonoBehaviour
     public UnityEngine.UI.Button Button;
     public GameObject Stand;
     public GameObject Money;
-    public TextMeshProUGUI SellingItemLevelText;
+    public Text SellingItemLevelText;
     public Text UpgradeCostText;
     private float _SellingItemUpgradeCost;
+
+    //Image
+    public Image Image;
+    public Sprite[] ImageSprites;
 
 
     void Start()
@@ -24,7 +28,10 @@ public class UpgradeButton : MonoBehaviour
 
         UpdateUpgradeCostText();
 
-        SellingItemLevelText.text = Stand.GetComponent<Stand>().SellingItem + " Level " + Environment.NewLine + Stand.GetComponent<Stand>().ShopSellingItemLevel + " / " + Stand.GetComponent<Stand>().MaximumSellingItemUpgradeLevel;
+        SellingItemLevelText.text = Stand.GetComponent<Stand>().SellingItem + " Level: " + Stand.GetComponent<Stand>().ShopSellingItemLevel + " / " + Stand.GetComponent<Stand>().MaximumSellingItemUpgradeLevel;
+
+        if(Stand.GetComponent<Stand>().ShopSellingItemLevel > 1 )
+            Image.GetComponent<Image>().sprite = ImageSprites[Stand.GetComponent<Stand>().ShopSellingItemLevel - 1];
     }
 
     private void Update()
@@ -45,7 +52,9 @@ public class UpgradeButton : MonoBehaviour
         {
             Money.GetComponent<Money>()._totalMoney -= _SellingItemUpgradeCost;
             Stand.GetComponent<Stand>().ShopSellingItemLevel++;
-            SellingItemLevelText.text = Stand.GetComponent<Stand>().SellingItem + " Level " + Environment.NewLine + Stand.GetComponent<Stand>().ShopSellingItemLevel + " / " + Stand.GetComponent<Stand>().MaximumSellingItemUpgradeLevel;
+            Image.GetComponent<Image>().sprite = ImageSprites[Stand.GetComponent<Stand>().ShopSellingItemLevel - 1];
+            Stand.GetComponent<Stand>().productPrice += 1;
+            SellingItemLevelText.text = Stand.GetComponent<Stand>().SellingItem + " Level " + Stand.GetComponent<Stand>().ShopSellingItemLevel + " / " + Stand.GetComponent<Stand>().MaximumSellingItemUpgradeLevel;
             _SellingItemUpgradeCost += Stand.GetComponent<Stand>().SellingItemUpgradeCost;
             Stand.GetComponent<Stand>().SellingItemUpgradeCost += Stand.GetComponent<Stand>().SellingItemUpgradeCost;
             UpdateUpgradeCostText();

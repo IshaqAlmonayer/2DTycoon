@@ -17,6 +17,7 @@ public class CustomerMovement : MonoBehaviour
     //Stop and wait at stands
     private bool _isAtStand = false;
     private float _waitTime = 0f;
+    public float standWaitTime;
 
     //Added to make the xustomer stop in a queue
     private bool _inQueue = false;
@@ -85,7 +86,7 @@ public class CustomerMovement : MonoBehaviour
         if (other.gameObject.tag.Equals("Stand"))
         {
             _isAtStand = true;
-            _waitTime = 3f;
+            _waitTime = standWaitTime;
         }
 
         if (other.gameObject.tag.Equals("CustomerBack"))

@@ -31841,6 +31841,11 @@ PrefabInstance:
       propertyPath: MaximumTilemapUpgradeLevel
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 3653618648650702271, guid: 10a2f8b3afe93d84492d5fcac18dcd29,
+        type: 3}
+      propertyPath: StandWaitingTime
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10a2f8b3afe93d84492d5fcac18dcd29, type: 3}
 --- !u!1 &1748209358
