@@ -72,7 +72,5 @@ public class UpgradeShopButton : MonoBehaviour
             ShopUpgradePriceText.text = "Shop at Max Level";
 
         ShopLevelText.text = "Shop Level: " + Stand.GetComponent<Stand>().ShopTilemapLevel + " / " + Stand.GetComponent<Stand>().MaximumTilemapUpgradeLevel;
-
-        //Debug.Log("Shop Level: " + Stand.GetComponent<Stand>().ShopTilemapLevel + " / " + Stand.GetComponent<Stand>().MaximumTilemapUpgradeLevel);
     }
 }

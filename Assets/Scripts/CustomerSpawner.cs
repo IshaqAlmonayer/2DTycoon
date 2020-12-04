@@ -14,7 +14,7 @@ public class CustomerSpawner : MonoBehaviour
     private float _timer = 0f;
     private int _randomCustomer;
     private string _standType;
-    private string[] _newStaticStandTypes =  new string[4];
+    private string[] _newStaticStandTypes =  new string[8];
     public int unlockedStandsNo;
     private GameObject[] Stands;
     private int _randomNumber;
@@ -37,6 +37,7 @@ public class CustomerSpawner : MonoBehaviour
                 {
                     _newStaticStandTypes[unlockedStandsNo] = stand.GetComponent<Stand>().StandName;
                     unlockedStandsNo++;
+                    //Debug.Log("stand.GetComponent<Stand>().StandName:["+unlockedStandsNo+ "] " + stand.GetComponent<Stand>().StandName);
                 }
             }
 
@@ -44,7 +45,9 @@ public class CustomerSpawner : MonoBehaviour
 
             if (_timer <= 0f)
             {
+                //Debug.Log("unlockedStandsNo: " + unlockedStandsNo);
                 _randomNumber = Random.Range(0, unlockedStandsNo);
+                //Debug.Log("_randomNumber: " + _randomNumber);
                 _standType = _newStaticStandTypes[_randomNumber];
 
                 //select random number between 0 and the array size
@@ -52,8 +55,14 @@ public class CustomerSpawner : MonoBehaviour
 
                 Customer = Instantiate(Customers[_randomCustomer], transform.position, Quaternion.identity);
                 Customer.GetComponent<CustomerMovement>()._standType = _standType;
-                if(unlockedStandsNo > 0)
+                if (unlockedStandsNo > 0)
+                {
                     Customer.GetComponent<CustomerMovement>().standWaitTime = Stands[_randomNumber].GetComponent<Stand>().StandWaitingTime;
+                }
+
+                //Debug.Log(Stands[_randomNumber].GetComponent<Stand>().StandName + "Stands[" + _randomNumber + "]" + Stands[_randomNumber].GetComponent<Stand>().StandWaitingTime);
+                //Debug.Log("Customer.standWaitTime: " + Customer.GetComponent<CustomerMovement>().standWaitTime);
+                
 
                 _timer += Random.Range(_minSpawnTime, _maxSpawnTime);
             }

@@ -3,6 +3,7 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - AdvertiseButton
     - AdvertiseController
+    - ArrowUp
     - BuyShopButton
     - CameraController
     - ClosePanel
@@ -129,19 +130,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12520}
     - Class: 114
-      Script: {instanceID: 13604}
+      Script: {instanceID: 13606}
     - Class: 114
-      Script: {instanceID: 13626}
+      Script: {instanceID: 13628}
     - Class: 114
-      Script: {instanceID: 14096}
+      Script: {instanceID: 14098}
     - Class: 114
-      Script: {instanceID: 14172}
+      Script: {instanceID: 14174}
     - Class: 114
-      Script: {instanceID: 14404}
+      Script: {instanceID: 14406}
     - Class: 114
-      Script: {instanceID: 14504}
+      Script: {instanceID: 14506}
     - Class: 114
-      Script: {instanceID: 14756}
+      Script: {instanceID: 14758}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -240,35 +241,37 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13038}
     - Class: 114
-      Script: {instanceID: 13368}
+      Script: {instanceID: 13112}
     - Class: 114
-      Script: {instanceID: 13604}
+      Script: {instanceID: 13370}
     - Class: 114
-      Script: {instanceID: 13638}
+      Script: {instanceID: 13606}
     - Class: 114
-      Script: {instanceID: 13694}
+      Script: {instanceID: 13640}
     - Class: 114
-      Script: {instanceID: 13710}
+      Script: {instanceID: 13696}
     - Class: 114
-      Script: {instanceID: 13962}
+      Script: {instanceID: 13712}
     - Class: 114
-      Script: {instanceID: 13984}
+      Script: {instanceID: 13964}
     - Class: 114
-      Script: {instanceID: 14090}
+      Script: {instanceID: 13986}
     - Class: 114
-      Script: {instanceID: 14096}
+      Script: {instanceID: 14092}
     - Class: 114
-      Script: {instanceID: 14170}
+      Script: {instanceID: 14098}
     - Class: 114
       Script: {instanceID: 14172}
     - Class: 114
-      Script: {instanceID: 14282}
+      Script: {instanceID: 14174}
     - Class: 114
-      Script: {instanceID: 14504}
+      Script: {instanceID: 14284}
     - Class: 114
-      Script: {instanceID: 14702}
+      Script: {instanceID: 14506}
     - Class: 114
-      Script: {instanceID: 14756}
+      Script: {instanceID: 14704}
+    - Class: 114
+      Script: {instanceID: 14758}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -359,33 +362,33 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13038}
     - Class: 114
-      Script: {instanceID: 13604}
+      Script: {instanceID: 13606}
     - Class: 114
-      Script: {instanceID: 13638}
+      Script: {instanceID: 13640}
     - Class: 114
-      Script: {instanceID: 13694}
+      Script: {instanceID: 13696}
     - Class: 114
-      Script: {instanceID: 13710}
+      Script: {instanceID: 13712}
     - Class: 114
-      Script: {instanceID: 13962}
+      Script: {instanceID: 13964}
     - Class: 114
-      Script: {instanceID: 13984}
+      Script: {instanceID: 13986}
     - Class: 114
-      Script: {instanceID: 14090}
+      Script: {instanceID: 14092}
     - Class: 114
-      Script: {instanceID: 14096}
-    - Class: 114
-      Script: {instanceID: 14170}
+      Script: {instanceID: 14098}
     - Class: 114
       Script: {instanceID: 14172}
     - Class: 114
-      Script: {instanceID: 14282}
+      Script: {instanceID: 14174}
     - Class: 114
-      Script: {instanceID: 14504}
+      Script: {instanceID: 14284}
     - Class: 114
-      Script: {instanceID: 14702}
+      Script: {instanceID: 14506}
     - Class: 114
-      Script: {instanceID: 14756}
+      Script: {instanceID: 14704}
+    - Class: 114
+      Script: {instanceID: 14758}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -923,6 +926,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.Tilemap.Extras.dll
     namespaceName: UnityEngine.Tilemaps
     className: PipelineTile
+  - hash:
+      serializedVersion: 2
+      Hash: 7719755ba722855787ac45c6cb37738d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ArrowUp
   - hash:
       serializedVersion: 2
       Hash: ba62abe34655d7e7cd27c0bf1fa1b39d

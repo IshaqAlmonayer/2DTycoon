@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+
 
 public class CustomerMovement : MonoBehaviour
 {
@@ -50,8 +52,23 @@ public class CustomerMovement : MonoBehaviour
                 gameObject.layer = 12;
                 CustomerBack.layer = 12;
                 break;
+            case "IceCreamStand":
+                gameObject.layer = 14;
+                CustomerBack.layer = 14;
+                break; 
+            case "RamenStand":
+                gameObject.layer = 15;
+                CustomerBack.layer = 15;
+                break;
+            case "FishStand":
+                gameObject.layer = 16;
+                CustomerBack.layer = 16;
+                break;
+            case "FrenchFriesStand":
+                gameObject.layer = 17;
+                CustomerBack.layer = 17;
+                break;
         }
-
     }
 
     void Update()
@@ -86,7 +103,8 @@ public class CustomerMovement : MonoBehaviour
         if (other.gameObject.tag.Equals("Stand"))
         {
             _isAtStand = true;
-            _waitTime = standWaitTime;
+            //Temporary Change
+            _waitTime = 3f;
         }
 
         if (other.gameObject.tag.Equals("CustomerBack"))

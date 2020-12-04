@@ -203,7 +203,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31f0c6ac56489b1448bce411a816d3cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  waitingtimeText: {fileID: 8042130796697589459, guid: 97489b2e2decf25439c7b4a53addde0a,
+    type: 3}
   speed: 1
+  standWaitTime: 0
   _standType: 
   CustomerBack: {fileID: 1385742253543231063}
 --- !u!95 &1872994437

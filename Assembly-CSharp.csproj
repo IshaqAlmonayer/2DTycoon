@@ -65,6 +65,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\AdvertiseButton.cs" />
     <Compile Include="Assets\Scripts\AdvertiseController.cs" />
+    <Compile Include="Assets\Scripts\ArrowUp.cs" />
     <Compile Include="Assets\Scripts\BuyShopButton.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\ClosePanel.cs" />

@@ -13,7 +13,7 @@ public class Money : MonoBehaviour
 
     private void Start()
     {
-        //_totalMoney = 20000;
+        //_totalMoney = 200000;
     }
 
     void Update()
@@ -27,7 +27,16 @@ public class Money : MonoBehaviour
 
         TextPro = gameObject.GetComponent<TextMeshProUGUI>();
 
-        TextPro.text = _totalMoney.ToString() + "$";
+        UpdateMoneyText();
     }
-   
+
+    private void UpdateMoneyText()
+    {
+        if (_totalMoney < 1000)
+            TextPro.text = _totalMoney.ToString() + "$";
+        else if (_totalMoney >= 1000)
+            TextPro.text = ((int)_totalMoney / 1000).ToString() + "." + ((int)(_totalMoney % 1000) / 100).ToString() + "K $";
+    }
+
+
 }
