@@ -17,12 +17,8 @@ public class Stand : MonoBehaviour
     public bool shopBought = false;
     public string StandName;
     public float StandWaitingTime;
+    public float TotalStandRevenue;
     public AudioClip CoinSound;
-
-    //Shop Layers:
-    //8: BurgerStand
-    //9: DoughnutStand
-    //10: PizzaStand
 
     private bool _trigger = false;
     
@@ -37,6 +33,7 @@ public class Stand : MonoBehaviour
         if (other.gameObject.tag.Equals("Customer") && shopBought)
         {
             _trigger = true;
+            TotalStandRevenue += productPrice;
             AudioSource.PlayClipAtPoint(CoinSound, transform.position, 1);
         }
     }
@@ -45,7 +42,6 @@ public class Stand : MonoBehaviour
     {
         if (_trigger == true)
         {
-            //Debug.Log("Price: " + productPrice * ShopSellingItemLevel);
             _trigger = false;
             return productPrice;
         }

@@ -6,6 +6,9 @@ using UnityEngine;
 public class GameData 
 {
     public float totalMoney;
+    public float totalShopExpenses;
+    public float totalAddExpenses;
+
     public int[] shopSellingItemLevel;
     public int[] shopTilemapLevel;
     public bool[] shopBought;
@@ -13,6 +16,7 @@ public class GameData
     public float[] ShopUpgradeCost;
     public float[] StandWaitingTime;
     public float[] productPrice;
+    public float[] TotalStandRevenue;
     //************************************
     public bool[] SpawnerActive;
     //************************************
@@ -34,6 +38,7 @@ public class GameData
         ShopUpgradeCost = new float[Stands.Length];
         StandWaitingTime = new float[Stands.Length];
         productPrice = new float[Stands.Length];
+        TotalStandRevenue = new float[Stands.Length];
         //************************************
         SpawnerActive = new bool[CustomerSpawners.Length];
 
@@ -46,6 +51,7 @@ public class GameData
             ShopUpgradeCost[i] = Stands[i].GetComponent<Stand>().ShopUpgradeCost;
             StandWaitingTime[i] = Stands[i].GetComponent<Stand>().StandWaitingTime;
             productPrice[i] = Stands[i].GetComponent<Stand>().productPrice;
+            TotalStandRevenue[i] = Stands[i].GetComponent<Stand>().TotalStandRevenue;
         }
 
         for (int i = 0; i < CustomerSpawners.Length; i++)
@@ -54,6 +60,8 @@ public class GameData
         }
 
         totalMoney = money._totalMoney;
+        totalShopExpenses = money.totalShopExpenses;
+        totalAddExpenses = money.totalAddExpenses;
 
         AddTimer = adController.AddTimer;
     }

@@ -48,6 +48,7 @@ public class BuyShopButton : MonoBehaviour
     void TaskOnClick()
     {
         Money.GetComponent<Money>()._totalMoney -= _shopPrice;
+        Money.GetComponent<Money>().totalShopExpenses += _shopPrice;
         Stand.GetComponent<Stand>().shopBought = true;
         Tilemap.GetComponent<UpgradeShopTilemap>().changeTilemap(Stand.GetComponent<Stand>().ShopTilemapLevel, Stand.GetComponent<Stand>().ShopTilemapLevel + 1);
         Stand.GetComponent<Stand>().ShopTilemapLevel++;

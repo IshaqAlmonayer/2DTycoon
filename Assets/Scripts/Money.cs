@@ -9,11 +9,16 @@ public class Money : MonoBehaviour
     
 
     private GameObject[] Stands;
+    public float totalShopExpenses;
+    public float totalAddExpenses;
     public float _totalMoney;
+
+    private float perMinuteTemp;
+    public float moneyPerMinute;
 
     private void Start()
     {
-        //_totalMoney = 200000;
+        //_totalMoney = 500;
     }
 
     void Update()

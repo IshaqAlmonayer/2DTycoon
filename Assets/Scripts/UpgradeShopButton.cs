@@ -52,6 +52,7 @@ public class UpgradeShopButton : MonoBehaviour
         if (Money.GetComponent<Money>()._totalMoney >= Stand.GetComponent<Stand>().ShopUpgradeCost && Stand.GetComponent<Stand>().ShopTilemapLevel < Stand.GetComponent<Stand>().MaximumTilemapUpgradeLevel)
         {
             Money._totalMoney -= Stand.GetComponent<Stand>().ShopUpgradeCost;
+            Money.totalShopExpenses += Stand.GetComponent<Stand>().ShopUpgradeCost;
             Tilemap.GetComponent<UpgradeShopTilemap>().changeTilemap(Stand.GetComponent<Stand>().ShopTilemapLevel, Stand.GetComponent<Stand>().ShopTilemapLevel + 1);
             Stand.GetComponent<Stand>().ShopTilemapLevel++;
             Stand.GetComponent<Stand>().ShopUpgradeCost += Stand.GetComponent<Stand>().ShopUpgradeCost;

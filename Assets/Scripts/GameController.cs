@@ -30,6 +30,7 @@ public class GameController : MonoBehaviour
             Stands[i].GetComponent<Stand>().ShopUpgradeCost = data.ShopUpgradeCost[i];
             Stands[i].GetComponent<Stand>().StandWaitingTime = data.StandWaitingTime[i];
             Stands[i].GetComponent<Stand>().productPrice = data.productPrice[i];
+            Stands[i].GetComponent<Stand>().TotalStandRevenue = data.TotalStandRevenue[i];
         }
 
         for (int i = 0; i < CustomerSpawners.Length; i++)
@@ -38,6 +39,9 @@ public class GameController : MonoBehaviour
         }
 
         money._totalMoney = data.totalMoney;
+        money.totalShopExpenses = data.totalShopExpenses;
+        money.totalAddExpenses = data.totalAddExpenses;
+
         adController.AddTimer = data.AddTimer;
     }
 

@@ -92,6 +92,7 @@ public class AdvertiseButton : MonoBehaviour
         {
             case "Good":
                 money._totalMoney -= adPrice;
+                money.totalAddExpenses += adPrice;
                 addController.GetComponent<AdvertiseController>().AddTimer = adDuration;
                 Spawners[0].GetComponent<CustomerSpawner>().isActive = true;
                 foreach(GameObject button in AllAdButtons)
@@ -101,6 +102,7 @@ public class AdvertiseButton : MonoBehaviour
                 break;
             case "Better":
                 money._totalMoney -= adPrice;
+                money.totalAddExpenses += adPrice;
                 addController.GetComponent<AdvertiseController>().AddTimer = adDuration;
                 Spawners[0].GetComponent<CustomerSpawner>().isActive = true;
                 Spawners[1].GetComponent<CustomerSpawner>().isActive = true;
@@ -111,6 +113,7 @@ public class AdvertiseButton : MonoBehaviour
                 break;
             case "Best":
                 money._totalMoney -= adPrice;
+                money.totalAddExpenses += adPrice;
                 addController.GetComponent<AdvertiseController>().AddTimer = adDuration;
                 Spawners[0].GetComponent<CustomerSpawner>().isActive = true;
                 Spawners[1].GetComponent<CustomerSpawner>().isActive = true;
