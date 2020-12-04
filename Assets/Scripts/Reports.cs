@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 using UnityEngine.UI;
 
 public class Reports : MonoBehaviour
@@ -17,6 +18,7 @@ public class Reports : MonoBehaviour
     private void Start()
     {
         Stands = GameObject.FindGameObjectsWithTag("Stand");
+        Array.Sort(Stands, CompareObNames);
     }
 
     void Update()
@@ -37,5 +39,11 @@ public class Reports : MonoBehaviour
         ShopExpenses.text = money.GetComponent<Money>().totalShopExpenses.ToString() + "$";
         AddExpenses.text = money.GetComponent<Money>().totalAddExpenses.ToString() + "$";
 
+    }
+
+    //Test
+    int CompareObNames(GameObject x, GameObject y)
+    {
+        return x.name.CompareTo(y.name);
     }
 }

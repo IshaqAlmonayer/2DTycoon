@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System;
 using UnityEngine;
 
 public class CustomerSpawner : MonoBehaviour
@@ -29,7 +30,7 @@ public class CustomerSpawner : MonoBehaviour
         if (isActive)
         {
             Stands = GameObject.FindGameObjectsWithTag("Stand");
-
+            Array.Sort(Stands, CompareObNames);
 
             foreach (GameObject stand in Stands)
             {
@@ -37,7 +38,6 @@ public class CustomerSpawner : MonoBehaviour
                 {
                     _newStaticStandTypes[unlockedStandsNo] = stand.GetComponent<Stand>().StandName;
                     unlockedStandsNo++;
-                    //Debug.Log("stand.GetComponent<Stand>().StandName:["+unlockedStandsNo+ "] " + stand.GetComponent<Stand>().StandName);
                 }
             }
 
@@ -45,13 +45,11 @@ public class CustomerSpawner : MonoBehaviour
 
             if (_timer <= 0f)
             {
-                //Debug.Log("unlockedStandsNo: " + unlockedStandsNo);
-                _randomNumber = Random.Range(0, unlockedStandsNo);
-                //Debug.Log("_randomNumber: " + _randomNumber);
+                _randomNumber = UnityEngine.Random.Range(0, unlockedStandsNo);
                 _standType = _newStaticStandTypes[_randomNumber];
 
                 //select random number between 0 and the array size
-                _randomCustomer = Random.Range(0, numCustomers);
+                _randomCustomer = UnityEngine.Random.Range(0, numCustomers);
 
                 Customer = Instantiate(Customers[_randomCustomer], transform.position, Quaternion.identity);
                 Customer.GetComponent<CustomerMovement>()._standType = _standType;
@@ -60,14 +58,16 @@ public class CustomerSpawner : MonoBehaviour
                     Customer.GetComponent<CustomerMovement>().standWaitTime = Stands[_randomNumber].GetComponent<Stand>().StandWaitingTime;
                 }
 
-                //Debug.Log(Stands[_randomNumber].GetComponent<Stand>().StandName + "Stands[" + _randomNumber + "]" + Stands[_randomNumber].GetComponent<Stand>().StandWaitingTime);
-                //Debug.Log("Customer.standWaitTime: " + Customer.GetComponent<CustomerMovement>().standWaitTime);
-                
-
-                _timer += Random.Range(_minSpawnTime, _maxSpawnTime);
+                _timer += UnityEngine.Random.Range(_minSpawnTime, _maxSpawnTime);
             }
 
             unlockedStandsNo = 0;
         }
+    }
+
+    //Test
+    int CompareObNames(GameObject x, GameObject y)
+    {
+        return x.name.CompareTo(y.name);
     }
 }

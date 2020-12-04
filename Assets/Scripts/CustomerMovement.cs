@@ -103,8 +103,7 @@ public class CustomerMovement : MonoBehaviour
         if (other.gameObject.tag.Equals("Stand"))
         {
             _isAtStand = true;
-            //Temporary Change
-            _waitTime = 3f;
+            _waitTime = standWaitTime;
         }
 
         if (other.gameObject.tag.Equals("CustomerBack"))

@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System;
 using UnityEngine;
 
 [System.Serializable]
@@ -28,6 +29,7 @@ public class GameData
         GameObject[] CustomerSpawners;
 
         Stands = GameObject.FindGameObjectsWithTag("Stand");
+        Array.Sort(Stands, CompareObNames);
         CustomerSpawners = GameObject.FindGameObjectsWithTag("CustomerSpawner");
         
 
@@ -64,5 +66,11 @@ public class GameData
         totalAddExpenses = money.totalAddExpenses;
 
         AddTimer = adController.AddTimer;
+    }
+
+    //Test
+    int CompareObNames(GameObject x, GameObject y)
+    {
+        return x.name.CompareTo(y.name);
     }
 }

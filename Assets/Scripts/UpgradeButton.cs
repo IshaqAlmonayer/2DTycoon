@@ -51,6 +51,7 @@ public class UpgradeButton : MonoBehaviour
         if (Money.GetComponent<Money>()._totalMoney >= _SellingItemUpgradeCost && Stand.GetComponent<Stand>().ShopSellingItemLevel < Stand.GetComponent<Stand>().MaximumSellingItemUpgradeLevel)
         {
             Money.GetComponent<Money>()._totalMoney -= _SellingItemUpgradeCost;
+            Money.GetComponent<Money>().totalShopExpenses += Stand.GetComponent<Stand>().ShopUpgradeCost;
             Stand.GetComponent<Stand>().ShopSellingItemLevel++;
             Image.GetComponent<Image>().sprite = ImageSprites[Stand.GetComponent<Stand>().ShopSellingItemLevel - 1];
             Stand.GetComponent<Stand>().productPrice += 1;

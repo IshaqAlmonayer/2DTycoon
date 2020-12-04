@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System;
 using UnityEngine;
 
 public class GameController : MonoBehaviour
@@ -19,6 +20,7 @@ public class GameController : MonoBehaviour
         GameObject[] CustomerSpawners;
 
         Stands = GameObject.FindGameObjectsWithTag("Stand");
+        Array.Sort(Stands, CompareObNames);
         CustomerSpawners = GameObject.FindGameObjectsWithTag("CustomerSpawner");
 
         for (int i = 0; i < Stands.Length; i++)
@@ -82,6 +84,12 @@ public class GameController : MonoBehaviour
     {
         SaveSystem.SaveGame(money, adController);
         //Debug.Log("Game Saved :)");
+    }
+
+    //Test
+    int CompareObNames(GameObject x, GameObject y)
+    {
+        return x.name.CompareTo(y.name);
     }
 
 }
