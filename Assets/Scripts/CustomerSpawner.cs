@@ -55,7 +55,11 @@ public class CustomerSpawner : MonoBehaviour
                 Customer.GetComponent<CustomerMovement>()._standType = _standType;
                 if (unlockedStandsNo > 0)
                 {
-                    Customer.GetComponent<CustomerMovement>().standWaitTime = Stands[_randomNumber].GetComponent<Stand>().StandWaitingTime;
+                    foreach(GameObject stand in Stands)
+                    {
+                        if(stand.GetComponent<Stand>().StandName == _standType)
+                            Customer.GetComponent<CustomerMovement>().standWaitTime = stand.GetComponent<Stand>().StandWaitingTime;
+                    }
                 }
 
                 _timer += UnityEngine.Random.Range(_minSpawnTime, _maxSpawnTime);
