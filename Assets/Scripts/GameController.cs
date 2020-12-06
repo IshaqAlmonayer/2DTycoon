@@ -10,11 +10,11 @@ public class GameController : MonoBehaviour
     public MenuController MenuController;
     public float _saveFrequency = 10;
     private float _autoSaveTimer = 0;
-
+    public string map;
 
     private void Awake()
     {
-        GameData data = SaveSystem.LoadGame();
+        GameData data = SaveSystem.LoadGame(map);
 
         GameObject[] Stands;
         GameObject[] CustomerSpawners;
@@ -58,7 +58,7 @@ public class GameController : MonoBehaviour
     
         if(_autoSaveTimer <= 0)
         {
-            SaveSystem.SaveGame(money, adController);
+            SaveSystem.SaveGame(map, money, adController);
             _autoSaveTimer = _saveFrequency;
         }
 
@@ -76,13 +76,13 @@ public class GameController : MonoBehaviour
 
     public void DeleteSave()
     {
-        SaveSystem.DeleteSave();
+        SaveSystem.DeleteSave(map);
         //Debug.Log("Saved Game Deleted :(");
     }
 
     public void SaveGame()
     {
-        SaveSystem.SaveGame(money, adController);
+        SaveSystem.SaveGame(map, money, adController);
         //Debug.Log("Game Saved :)");
     }
 

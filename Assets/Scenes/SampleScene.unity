@@ -93409,6 +93409,7 @@ MonoBehaviour:
   adController: {fileID: 1137781024}
   MenuController: {fileID: 1988881558}
   _saveFrequency: 100
+  map: 1
 --- !u!4 &1316071733
 Transform:
   m_ObjectHideFlags: 0
