@@ -116,7 +116,7 @@ MonoBehaviour:
   m_MinSize: {x: 747, y: 471}
   m_MaxSize: {x: 18002, y: 14021}
   vertical: 0
-  controlID: 5497
+  controlID: 30776
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -141,7 +141,7 @@ MonoBehaviour:
   m_MinSize: {x: 230, y: 471}
   m_MaxSize: {x: 10000, y: 14021}
   vertical: 1
-  controlID: 5498
+  controlID: 30777
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 242, y: 421}
   m_MaxSize: {x: 4002, y: 8021}
   vertical: 1
-  controlID: 5472
+  controlID: 30896
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -432,9 +432,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.4464255, y: -0.5472594, z: -1.0973973}
+    m_Target: {x: 4.434262, y: -0.3291743, z: -0.35595703}
     speed: 2
-    m_Value: {x: -0.3966753, y: -0.51849526, z: -1.0887969}
+    m_Value: {x: 4.434262, y: -0.3291743, z: -0.35595703}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -484,9 +484,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 1.9970847
+    m_Target: 2.1166418
     speed: 2
-    m_Value: 1.9110858
+    m_Value: 2.0254946
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -810,20 +810,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Scripts
   m_LastFoldersGridSize: 96
   m_LastProjectPath: C:\Users\Isaac\Desktop\2D Tycoon Game
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ba540000
-    m_LastClickedID: 21690
-    m_ExpandedIDs: 0000000086540000bc54000000ca9a3b
+    m_SelectedIDs: c0540000
+    m_LastClickedID: 21696
+    m_ExpandedIDs: 000000009054000096540000c254000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -851,7 +851,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000086540000bc54000000ca9a3b
+    m_ExpandedIDs: 000000009054000096540000c254000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -879,7 +879,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000ce3a0000d83a0000bc5900002c5a0000e4390000e039000088480000263a00001a4a0000943b00003e740000be870000aa4400004a5100004e4100009e3e0000f878000000000000144100006a5500001c7500009267000068590000745d0000fe8d040002620000304d0000
+    m_ExpandedInstanceIDs: c6230000ce3a0000d83a0000bc5900002c5a0000e4390000e039000088480000263a00001a4a0000943b00003e740000be870000aa4400004a5100004e4100009e3e0000f8780000144100006a5500001c7500009267000068590000745d0000fe8d040002620000304d00003e6f000000000000ae4e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -903,10 +903,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 428.5}
     m_GridSize: 96
   m_SkipHiddenPackages: 0
-  m_DirectoriesAreaWidth: 173
+  m_DirectoriesAreaWidth: 182
 --- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -961,7 +961,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 56822
+  m_LastSelectedObjectID: 17272
 --- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -991,9 +991,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: f4500100
-      m_LastClickedID: 86260
-      m_ExpandedIDs: 3ed9ffff4edfffff8ce6ffff50f3ffff5efbfffffcdf000062530100
+      m_SelectedIDs: 78430000
+      m_LastClickedID: 17272
+      m_ExpandedIDs: 5efbffff144100001e480000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1046,7 +1046,7 @@ MonoBehaviour:
     m_CachedPref: -100
     m_ControlHash: 1964396721
     m_PrefName: Preview_TilemapBrushInspector
-  m_Palette: {fileID: 4104342541682585299, guid: 41f5b0ac6b7e4c843b4eab8b7e09298f,
+  m_Palette: {fileID: 8144688969023183624, guid: a295b8ae78f6a354e88f260f613db9af,
     type: 3}
 --- !u!114 &22
 MonoBehaviour:

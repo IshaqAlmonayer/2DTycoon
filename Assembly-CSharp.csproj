@@ -79,8 +79,10 @@
     <Compile Include="Assets\Scripts\LoadSceneButton.cs" />
     <Compile Include="Assets\Scripts\MenuController.cs" />
     <Compile Include="Assets\Scripts\Money.cs" />
+    <Compile Include="Assets\Scripts\OnMouseHoldButton.cs" />
     <Compile Include="Assets\Scripts\Reports.cs" />
     <Compile Include="Assets\Scripts\SaveSystem.cs" />
+    <Compile Include="Assets\Scripts\ShopOnHoldInfoButton.cs" />
     <Compile Include="Assets\Scripts\Stand.cs" />
     <Compile Include="Assets\Scripts\StandTrigger.cs" />
     <Compile Include="Assets\Scripts\TilemapButton.cs" />
