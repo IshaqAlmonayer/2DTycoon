@@ -36,7 +36,7 @@ public class CustomerSpawner : MonoBehaviour
             {
                 if (stand.GetComponent<Stand>().shopBought)
                 {
-                    _newStaticStandTypes[unlockedStandsNo] = stand.GetComponent<Stand>().StandName;
+                    _newStaticStandTypes[unlockedStandsNo] = stand.GetComponent<Stand>().StandNumber;
                     unlockedStandsNo++;
                 }
             }
@@ -57,7 +57,7 @@ public class CustomerSpawner : MonoBehaviour
                 {
                     foreach(GameObject stand in Stands)
                     {
-                        if(stand.GetComponent<Stand>().StandName == _standType)
+                        if(stand.GetComponent<Stand>().StandNumber == _standType)
                             Customer.GetComponent<CustomerMovement>().standWaitTime = stand.GetComponent<Stand>().StandWaitingTime;
                     }
                 }

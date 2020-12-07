@@ -18,16 +18,16 @@ TagManager:
   - UI
   - 
   - 
-  - BurgerStand
-  - DoughnutStand
-  - PizzaStand
+  - Stand1
+  - Stand2
+  - Stand3
   - Tilemap
-  - JuiceStand
+  - Stand4
   - Camera
-  - IceCreamStand
-  - RamenStand
-  - FishStand
-  - FrenchFriesStand
+  - Stand5
+  - Stand6
+  - Stand7
+  - Stand8
   - 
   - 
   - 

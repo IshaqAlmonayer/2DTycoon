@@ -12,7 +12,6 @@ public class CameraController : MonoBehaviour
     private float _moveDirection = 0;
     private Vector2 _movement;
 
-
     void Start()
     {
         _rigidbody = GetComponent<Rigidbody2D>();
@@ -61,7 +60,8 @@ public class CameraController : MonoBehaviour
 
     void FixedUpdate()
     {
-        float HorizontalVelocity = _movement.normalized.x * speed;
+        //test to remove flickering
+        float HorizontalVelocity = (int)((_movement.normalized.x * speed) / 0.1f) * 0.1f;
         _rigidbody.velocity = new Vector2(HorizontalVelocity, _rigidbody.velocity.y);
     }
 

@@ -15,7 +15,7 @@ public class Stand : MonoBehaviour
     public float MaximumTilemapUpgradeLevel;
     public float productPrice;
     public bool shopBought = false;
-    public string StandName;
+    public string StandNumber;
     public float StandWaitingTime;
     public float TotalStandRevenue;
     public AudioClip CoinSound;

@@ -36,35 +36,35 @@ public class CustomerMovement : MonoBehaviour
         ////set layer equal to stand type (to avoid collisions between diffirent stands)
         switch (_standType)
         {
-            case "BurgerStand":
+            case "1":
                 gameObject.layer = 8;
                 CustomerBack.layer = 8;
                 break;
-            case "DaughnutStand":
+            case "2":
                 gameObject.layer = 9;
                 CustomerBack.layer = 9;
                 break;
-            case "PizzaStand":
+            case "3":
                 gameObject.layer = 10;
                 CustomerBack.layer = 10;
                 break;
-            case "JuiceStand":
+            case "4":
                 gameObject.layer = 12;
                 CustomerBack.layer = 12;
                 break;
-            case "IceCreamStand":
+            case "5":
                 gameObject.layer = 14;
                 CustomerBack.layer = 14;
                 break; 
-            case "RamenStand":
+            case "6":
                 gameObject.layer = 15;
                 CustomerBack.layer = 15;
                 break;
-            case "FishStand":
+            case "7":
                 gameObject.layer = 16;
                 CustomerBack.layer = 16;
                 break;
-            case "FrenchFriesStand":
+            case "8":
                 gameObject.layer = 17;
                 CustomerBack.layer = 17;
                 break;

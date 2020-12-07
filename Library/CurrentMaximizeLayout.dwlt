@@ -22,10 +22,10 @@ MonoBehaviour:
     y: 30
     width: 1858
     height: 987
-  m_MinSize: {x: 747, y: 471}
+  m_MinSize: {x: 745, y: 471}
   m_MaxSize: {x: 18002, y: 14021}
   vertical: 0
-  controlID: 30108
+  controlID: 22904
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -142,7 +142,7 @@ MonoBehaviour:
   m_MinSize: {x: 230, y: 471}
   m_MaxSize: {x: 10000, y: 14021}
   vertical: 1
-  controlID: 30068
+  controlID: 22780
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -208,9 +208,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 5.0538235, y: -0.91515934, z: -0.1427356}
+    m_Target: {x: -0.0834548, y: -0.4585028, z: -0.39478326}
     speed: 2
-    m_Value: {x: 5.0538235, y: -0.91515934, z: -0.1427356}
+    m_Value: {x: -0.0834548, y: -0.4585028, z: -0.39478326}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -260,9 +260,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 1.0226523
+    m_Target: 0.48076215
     speed: 2
-    m_Value: 1.0226523
+    m_Value: 0.48076215
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -614,20 +614,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Sprites/Tiles/DownTown
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Sprites/Tiles/DownTown
   m_LastFoldersGridSize: 96
   m_LastProjectPath: C:\Users\Isaac\Desktop\2D Tycoon Game
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: c0540000
-    m_LastClickedID: 21696
-    m_ExpandedIDs: 000000009054000096540000c254000000ca9a3b
+    scrollPos: {x: 0, y: 88}
+    m_SelectedIDs: d0e60000
+    m_LastClickedID: 59088
+    m_ExpandedIDs: 0000000056550000585500005a5500008a5500008e550000fc65000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -655,7 +655,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000009054000096540000c254000000ca9a3b
+    m_ExpandedIDs: 0000000056550000585500005a5500008a5500008e550000fc65000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -680,8 +680,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 78430000
-    m_LastClickedInstanceID: 17272
+    m_SelectedInstanceIDs: 58bb0000
+    m_LastClickedInstanceID: 47960
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000ce3a0000d83a0000bc5900002c5a0000e4390000e039000088480000263a00001a4a0000943b00003e740000be870000aa4400004a5100004e4100009e3e0000f8780000144100006a5500001c7500009267000068590000745d0000fe8d040002620000304d00003e6f000000000000ae4e0000
     m_RenameOverlay:
@@ -699,7 +699,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 8}
+      m_ClientGUIView: {fileID: 4}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -707,7 +707,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 428.5}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 96
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 182
@@ -765,7 +765,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -32290
+  m_LastSelectedObjectID: 47960
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -787,10 +787,10 @@ MonoBehaviour:
     y: 0
     width: 388
     height: 987
-  m_MinSize: {x: 242, y: 421}
+  m_MinSize: {x: 240, y: 421}
   m_MaxSize: {x: 4002, y: 8021}
   vertical: 1
-  controlID: 30109
+  controlID: 22862
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -810,8 +810,8 @@ MonoBehaviour:
     y: 0
     width: 388
     height: 575
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -848,7 +848,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 5efbffff144100001e480000
+      m_ExpandedIDs: 9cf8ffffdef8ffff46f9ffff92f9ffffd4f9ffff1cfaffff5efbffff48a000006abe0000d8c00000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -927,7 +927,7 @@ MonoBehaviour:
     m_CachedPref: -100
     m_ControlHash: 1964396721
     m_PrefName: Preview_TilemapBrushInspector
-  m_Palette: {fileID: 8144688969023183624, guid: a295b8ae78f6a354e88f260f613db9af,
+  m_Palette: {fileID: 7893338231603966664, guid: 89102ab0bc407e1479b844ae248b7775,
     type: 3}
 --- !u!114 &17
 MonoBehaviour:
@@ -993,7 +993,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
-  m_LastInspectedObjectInstanceID: 17272
+  m_LastInspectedObjectInstanceID: 47960
   m_LastVerticalScrollValue: 0
 --- !u!114 &19
 MonoBehaviour:
