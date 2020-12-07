@@ -10,6 +10,7 @@ public class LoadSceneButton : MonoBehaviour
 {
 
     public UnityEngine.UI.Button Button;
+    public int sceneNo;
 
     void Start()
     {
@@ -18,17 +19,32 @@ public class LoadSceneButton : MonoBehaviour
 
     public void TaskOnClick()
     {
-        string path = Application.persistentDataPath + "/GameData.lol";
-        if (File.Exists(path))
+        switch (sceneNo)
         {
-            //Load Game
-            SceneManager.LoadScene(2);
+            case 1:
+                string path = Application.persistentDataPath + "/GameDataMap1.lol";
+                if (File.Exists(path))
+                {
+                    //Load first map
+                    SceneManager.LoadScene(2);
+                }
+                else
+                {
+                    //Load Tutorial
+                    SceneManager.LoadScene(1);
+                }
+                break;
+            case 2:
+                //Load first map
+                SceneManager.LoadScene(2);
+                break;
+            case 3:
+                //load second map
+                SceneManager.LoadScene(3);
+                break;
         }
-        else
-        {
-            //Load Tutorial
-            SceneManager.LoadScene(1);
-        }
+       
+            
 
     }
 }

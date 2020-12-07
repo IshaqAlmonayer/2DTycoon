@@ -9,6 +9,7 @@ TagManager:
   - Customer
   - BurgerStand
   - CustomerSpawner
+  - City
   layers:
   - Default
   - TransparentFX

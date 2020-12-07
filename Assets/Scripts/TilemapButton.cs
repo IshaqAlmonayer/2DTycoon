@@ -8,7 +8,6 @@ public class TilemapButton : MonoBehaviour
     public GameObject Panel;
     public MenuController MenuController;
 
-
     void OnMouseDown()
     {
         if (!MenuController.OpenPanel)

@@ -39,30 +39,50 @@ public static class SaveSystem{
         }
     }
 
+    public static CityData LoadCityData()
+    {
+        string path = Application.persistentDataPath + "/CityData.lol"; ;
+
+        BinaryFormatter formatter = new BinaryFormatter();
+        FileStream stream = new FileStream(path, FileMode.Open);
+
+        CityData data = formatter.Deserialize(stream) as CityData;
+
+        stream.Close();
+
+        return data;
+    }
+
     public static void DeleteSave(string Map)
     {
-        string path;
+        string path1;
+        string path2 = Application.persistentDataPath + "/CityData.lol"; ;
+        SetPathAndDelete(path2);
 
         switch (Map)
         {
             case "1":
-                path = Application.persistentDataPath + "/GameDataMap1.lol";
-                SetPathAndDelete(path);
+                path1 = Application.persistentDataPath + "/GameDataMap1.lol";
+                SetPathAndDelete(path1);
                 break;
             case "2":
-                path = Application.persistentDataPath + "/GameDataMap2.lol";
-                SetPathAndDelete(path);
+                path1 = Application.persistentDataPath + "/GameDataMap2.lol";
+                SetPathAndDelete(path1);
                 break;
         }
     }
 
     private static void setStreamAndSave(string path, Money money, AdvertiseController adController, BinaryFormatter formatter)
     {
-        FileStream stream = new FileStream(path, FileMode.Create);
+        FileStream stream1 = new FileStream(path, FileMode.Create);
         GameData data = new GameData(money, adController);
+        formatter.Serialize(stream1, data);
+        stream1.Close();
 
-        formatter.Serialize(stream, data);
-        stream.Close();
+        FileStream stream2 = new FileStream(Application.persistentDataPath + "/CityData.lol", FileMode.Create);
+        CityData CityData = new CityData();
+        formatter.Serialize(stream2, CityData);
+        stream2.Close();
     }
 
 
@@ -76,6 +96,7 @@ public static class SaveSystem{
             GameData data = formatter.Deserialize(stream) as GameData;
 
             stream.Close();
+
             return data;
         }
         else

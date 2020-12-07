@@ -351,8 +351,10 @@ MonoBehaviour:
   Button: {fileID: 68868635}
   Stand: {fileID: 400363314}
   Money: {fileID: 824634270}
-  SellingItemLevelText: {fileID: 1794370122}
+  SellingItemLevelText: {fileID: 0}
   UpgradeCostText: {fileID: 419897600}
+  Image: {fileID: 0}
+  ImageSprites: []
 --- !u!114 &68868635
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11330,7 +11332,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90d111b756745364da5ef151754a8805, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  totalShopExpenses: 0
+  totalAddExpenses: 0
   _totalMoney: 0
+  moneyPerMinute: 0
 --- !u!114 &824634272
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18861,10 +18866,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1341288896}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 264288a25e389594689068dd81692954, type: 3}
+  m_Script: {fileID: 11500000, guid: 676a4855f8d7e1948bc5e57d09654bdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Button: {fileID: 1341288898}
+  sceneNo: 2
 --- !u!1 &1360397626
 GameObject:
   m_ObjectHideFlags: 0
@@ -31903,7 +31909,7 @@ MonoBehaviour:
   Stand: {fileID: 317044480}
   Money: {fileID: 824634271}
   Button: {fileID: 1748209361}
-  ShopLevelText: {fileID: 1614362497}
+  ShopLevelText: {fileID: 0}
   ShopUpgradePriceText: {fileID: 860451234}
   Tilemap: {fileID: 1468203936}
 --- !u!114 &1748209361
@@ -39108,10 +39114,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 2005712350}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 264288a25e389594689068dd81692954, type: 3}
+  m_Script: {fileID: 11500000, guid: 676a4855f8d7e1948bc5e57d09654bdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Button: {fileID: 2005712352}
+  sceneNo: 2
 --- !u!1 &2094022670
 GameObject:
   m_ObjectHideFlags: 0

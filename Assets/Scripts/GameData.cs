@@ -68,7 +68,6 @@ public class GameData
         AddTimer = adController.AddTimer;
     }
 
-    //Test
     int CompareObNames(GameObject x, GameObject y)
     {
         return x.name.CompareTo(y.name);

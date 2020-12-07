@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Stand : MonoBehaviour
 {
-
     public int ShopSellingItemLevel;
     public int ShopTilemapLevel;
     public float SellingItemUpgradeCost;
@@ -21,12 +20,6 @@ public class Stand : MonoBehaviour
     public AudioClip CoinSound;
 
     private bool _trigger = false;
-    
-
-    private void Start()
-    {
-
-    }
  
     private void OnTriggerExit2D(Collider2D other)
     {

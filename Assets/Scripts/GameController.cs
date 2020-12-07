@@ -14,8 +14,23 @@ public class GameController : MonoBehaviour
 
     private void Awake()
     {
-        GameData data = SaveSystem.LoadGame(map);
 
+        //load CityData
+        CityData cityData = SaveSystem.LoadCityData();
+        GameObject[] Cities;
+
+        Cities = GameObject.FindGameObjectsWithTag("City");
+        Array.Sort(Cities, CompareObNames);
+
+        for (int i = 0; i < Cities.Length; i++)
+        {
+            Cities[i].GetComponent<City>().price = cityData.CitiesPrice[i];
+            Cities[i].GetComponent<City>().unlocked = cityData.UnlockedFlag[i];
+        }
+
+        //load GameData
+        GameData data = SaveSystem.LoadGame(map);
+        
         GameObject[] Stands;
         GameObject[] CustomerSpawners;
 
@@ -45,7 +60,7 @@ public class GameController : MonoBehaviour
         money.totalAddExpenses = data.totalAddExpenses;
 
         adController.AddTimer = data.AddTimer;
-    }
+}
 
     void Start()
     {
