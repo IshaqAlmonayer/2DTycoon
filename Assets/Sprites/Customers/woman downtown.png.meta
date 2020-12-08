@@ -1,0 +1,980 @@
+fileFormatVersion: 2
+guid: cbb846bc4a2d59a4a81d9e28e69ef287
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3658993559779830116
+    second: woman downtown_0
+  - first:
+      213: 1297752040474007620
+    second: woman downtown_1
+  - first:
+      213: 9093209731552603377
+    second: woman downtown_2
+  - first:
+      213: 2306360691710230242
+    second: woman downtown_3
+  - first:
+      213: 4220444641395596146
+    second: woman downtown_4
+  - first:
+      213: 8094112469217934541
+    second: woman downtown_5
+  - first:
+      213: 6413661625187282975
+    second: woman downtown_6
+  - first:
+      213: 8386392957404123625
+    second: woman downtown_7
+  - first:
+      213: 8250511012317970504
+    second: woman downtown_8
+  - first:
+      213: -8410547820216147709
+    second: woman downtown_9
+  - first:
+      213: -8473092504110452081
+    second: woman downtown_10
+  - first:
+      213: -1453101422980363005
+    second: woman downtown_11
+  - first:
+      213: 1663127339397022916
+    second: woman downtown_12
+  - first:
+      213: 918808481898207024
+    second: woman downtown_13
+  - first:
+      213: -5487486844974756799
+    second: woman downtown_14
+  - first:
+      213: -7128270268560658501
+    second: woman downtown_15
+  - first:
+      213: 4781287945888884250
+    second: woman downtown_16
+  - first:
+      213: 4863907775207513424
+    second: woman downtown_17
+  - first:
+      213: -4407361434027732222
+    second: woman downtown_18
+  - first:
+      213: -5838220781005990818
+    second: woman downtown_19
+  - first:
+      213: 7888079303726242153
+    second: woman downtown_20
+  - first:
+      213: -8694076529239704309
+    second: woman downtown_21
+  - first:
+      213: 5226357687020239736
+    second: woman downtown_22
+  - first:
+      213: -1143051225924399285
+    second: woman downtown_23
+  - first:
+      213: 2778947367747668951
+    second: woman downtown_24
+  - first:
+      213: -6735609548902324607
+    second: woman downtown_25
+  - first:
+      213: -8172949302398084615
+    second: woman downtown_26
+  - first:
+      213: -4761061588578580349
+    second: woman downtown_27
+  - first:
+      213: -3032408239920461577
+    second: woman downtown_28
+  - first:
+      213: 1502616461558383798
+    second: woman downtown_29
+  - first:
+      213: 8024896934338724
+    second: woman downtown_30
+  - first:
+      213: 4089838118858993958
+    second: woman downtown_31
+  - first:
+      213: 9191814913486213963
+    second: woman downtown_32
+  - first:
+      213: -6960316975456800063
+    second: woman downtown_33
+  - first:
+      213: 5009552685398370688
+    second: woman downtown_34
+  - first:
+      213: 2291061324065954935
+    second: woman downtown_35
+  - first:
+      213: 7685891071383574652
+    second: woman downtown_36
+  - first:
+      213: -7314394953283069157
+    second: woman downtown_37
+  - first:
+      213: -3689356759753354586
+    second: woman downtown_38
+  - first:
+      213: 2039901719228922124
+    second: woman downtown_39
+  - first:
+      213: 4352886507979949257
+    second: woman downtown_40
+  - first:
+      213: -2849357528797708186
+    second: woman downtown_41
+  - first:
+      213: 3347123221171190466
+    second: woman downtown_42
+  - first:
+      213: 6598937399834964053
+    second: woman downtown_43
+  - first:
+      213: -7967685624926791482
+    second: woman downtown_44
+  - first:
+      213: -5614622332328136352
+    second: woman downtown_45
+  - first:
+      213: 8377549613137475127
+    second: woman downtown_46
+  - first:
+      213: -932167272086378495
+    second: woman downtown_47
+  - first:
+      213: -4486913141819306760
+    second: woman downtown_48
+  - first:
+      213: -2137436865812048712
+    second: woman downtown_49
+  - first:
+      213: -5732454029202888533
+    second: woman downtown_50
+  - first:
+      213: -7827612298757655704
+    second: woman downtown_51
+  - first:
+      213: -6120432661035303053
+    second: woman downtown_52
+  - first:
+      213: 153089028591383666
+    second: woman downtown_53
+  - first:
+      213: -8692070842957872773
+    second: woman downtown_54
+  - first:
+      213: 2411946211104526441
+    second: woman downtown_55
+  - first:
+      213: 2509624110418754334
+    second: woman downtown_56
+  - first:
+      213: 9151841177631271185
+    second: woman downtown_57
+  - first:
+      213: 5466807282332570218
+    second: woman downtown_58
+  - first:
+      213: -8301411289161626275
+    second: woman downtown_59
+  - first:
+      213: 5338076044877350884
+    second: woman downtown_60
+  - first:
+      213: -4028338205524838164
+    second: woman downtown_61
+  - first:
+      213: -2259541399099595957
+    second: woman downtown_62
+  - first:
+      213: -3085432314036572878
+    second: woman downtown_63
+  - first:
+      213: -6928232840950334818
+    second: woman downtown_64
+  - first:
+      213: 5038200247837757459
+    second: woman downtown_65
+  - first:
+      213: 1769898574843739928
+    second: woman downtown_66
+  - first:
+      213: 8942142752533555798
+    second: woman downtown_67
+  - first:
+      213: -201783532764239950
+    second: woman downtown_68
+  - first:
+      213: -7871049765551135235
+    second: woman downtown_69
+  - first:
+      213: 7293223423413633386
+    second: woman downtown_70
+  - first:
+      213: -4639685634361735914
+    second: woman downtown_71
+  - first:
+      213: 4043123003830950483
+    second: woman downtown_72
+  - first:
+      213: 6023260921549566933
+    second: woman downtown_73
+  - first:
+      213: -8733896146803118917
+    second: woman downtown_74
+  - first:
+      213: 3703344272026131146
+    second: woman downtown_75
+  - first:
+      213: 1422141472245013293
+    second: woman downtown_76
+  - first:
+      213: -7645956982547576999
+    second: woman downtown_77
+  - first:
+      213: -4367734063261825547
+    second: woman downtown_78
+  - first:
+      213: -6315782182256702826
+    second: woman downtown_79
+  - first:
+      213: -1556183155085461328
+    second: woman downtown_80
+  - first:
+      213: 893864982068705365
+    second: woman downtown_81
+  - first:
+      213: -8237111447561839974
+    second: woman downtown_82
+  - first:
+      213: -2036471664872546585
+    second: woman downtown_83
+  - first:
+      213: 2600684087084143911
+    second: woman downtown_84
+  - first:
+      213: 3120607351645605795
+    second: woman downtown_85
+  - first:
+      213: 1569153781238129926
+    second: woman downtown_86
+  - first:
+      213: 8212339249221235739
+    second: woman downtown_87
+  - first:
+      213: -8699783360394797831
+    second: woman downtown_88
+  - first:
+      213: -2855401204866871872
+    second: woman downtown_89
+  - first:
+      213: 2275283888906792650
+    second: woman downtown_90
+  - first:
+      213: 710302839450295328
+    second: woman downtown_91
+  - first:
+      213: 3380536002128951695
+    second: woman downtown_92
+  - first:
+      213: 801374755374452563
+    second: woman downtown_93
+  - first:
+      213: 6513430923496175200
+    second: woman downtown_94
+  - first:
+      213: 2683435155919515864
+    second: woman downtown_95
+  - first:
+      213: -6685165216577158251
+    second: woman downtown_96
+  - first:
+      213: 2678735754778398083
+    second: woman downtown_97
+  - first:
+      213: -2111616975041217823
+    second: woman downtown_98
+  - first:
+      213: 8066952581389197949
+    second: woman downtown_99
+  - first:
+      213: -3628320894999586730
+    second: woman downtown_100
+  - first:
+      213: -1843557860265935973
+    second: woman downtown_101
+  - first:
+      213: -6162469204341893848
+    second: woman downtown_102
+  - first:
+      213: -2752269927064536508
+    second: woman downtown_103
+  - first:
+      213: -6662689981501695757
+    second: woman downtown_104
+  - first:
+      213: 6635740861176340475
+    second: woman downtown_105
+  - first:
+      213: 6521230590109790965
+    second: woman downtown_106
+  - first:
+      213: -6750725788532642335
+    second: woman downtown_107
+  - first:
+      213: -5756632460214637709
+    second: woman downtown_108
+  - first:
+      213: -8500279519685038959
+    second: woman downtown_109
+  - first:
+      213: 1413950694279385027
+    second: woman downtown_110
+  - first:
+      213: 7959526820208873602
+    second: woman downtown_111
+  - first:
+      213: -7687468774101940194
+    second: woman downtown_112
+  - first:
+      213: 6187131858558595654
+    second: woman downtown_113
+  - first:
+      213: 7841710993560145765
+    second: woman downtown_114
+  - first:
+      213: 4085349240781957896
+    second: woman downtown_115
+  - first:
+      213: 484741105634448657
+    second: woman downtown_116
+  - first:
+      213: -1300732004509732403
+    second: woman downtown_117
+  - first:
+      213: 8938428755397215926
+    second: woman downtown_118
+  - first:
+      213: -1672093387508248798
+    second: woman downtown_119
+  - first:
+      213: 81951932572993271
+    second: woman downtown_120
+  - first:
+      213: 434866804754908437
+    second: woman downtown_121
+  - first:
+      213: 3087959278581049860
+    second: woman downtown_122
+  - first:
+      213: -39026246306071521
+    second: woman downtown_123
+  - first:
+      213: 7124225572903508940
+    second: woman downtown_124
+  - first:
+      213: 4687148921391835909
+    second: woman downtown_125
+  - first:
+      213: -123003731172642545
+    second: woman downtown_126
+  - first:
+      213: 249395936884318751
+    second: woman downtown_127
+  - first:
+      213: 8634260968562621162
+    second: woman downtown_128
+  - first:
+      213: 6927056334519537971
+    second: woman downtown_129
+  - first:
+      213: 529640533090462056
+    second: woman downtown_130
+  - first:
+      213: 3309665935240163042
+    second: woman downtown_131
+  - first:
+      213: 4040492482733964502
+    second: woman downtown_132
+  - first:
+      213: 7383331814344146026
+    second: woman downtown_133
+  - first:
+      213: -9207721201191099357
+    second: woman downtown_134
+  - first:
+      213: -2772524722774883713
+    second: woman downtown_135
+  - first:
+      213: 1898355624903792711
+    second: woman downtown_136
+  - first:
+      213: -5224239582058368946
+    second: woman downtown_137
+  - first:
+      213: 6529716631709188084
+    second: woman downtown_138
+  - first:
+      213: 3732362840955134924
+    second: woman downtown_139
+  - first:
+      213: -5032248097878804835
+    second: woman downtown_140
+  - first:
+      213: -2881598408045015992
+    second: woman downtown_141
+  - first:
+      213: 1266771579417968663
+    second: woman downtown_142
+  - first:
+      213: 6773546391937103403
+    second: woman downtown_143
+  - first:
+      213: -5198318172289759149
+    second: woman downtown_144
+  - first:
+      213: -31127201565496614
+    second: woman downtown_145
+  - first:
+      213: -490841841263862392
+    second: woman downtown_146
+  - first:
+      213: -3035769503517012478
+    second: woman downtown_147
+  - first:
+      213: -7937225019085524172
+    second: woman downtown_148
+  - first:
+      213: -4576384499388913161
+    second: woman downtown_149
+  - first:
+      213: -7151747194977847237
+    second: woman downtown_150
+  - first:
+      213: 1096254577486593030
+    second: woman downtown_151
+  - first:
+      213: 5239456878134645803
+    second: woman downtown_152
+  - first:
+      213: 3873034008770762393
+    second: woman downtown_153
+  - first:
+      213: -1205904866603662123
+    second: woman downtown_154
+  - first:
+      213: -1035195973446201774
+    second: woman downtown_155
+  - first:
+      213: 1449133898486795974
+    second: woman downtown_156
+  - first:
+      213: -7369173189581573232
+    second: woman downtown_157
+  - first:
+      213: 1785180423602122235
+    second: woman downtown_158
+  - first:
+      213: 8626609348234007128
+    second: woman downtown_159
+  - first:
+      213: -7124299604006816677
+    second: woman downtown_160
+  - first:
+      213: -281196421380033317
+    second: woman downtown_161
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: woman downtown_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9691e95eb4a83dc0800000000000000
+      internalID: -3658993559779830116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman downtown_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 448ddf2ea9a820210800000000000000
+      internalID: 1297752040474007620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman downtown_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc615da212913e70800000000000000
+      internalID: 9093209731552603377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman downtown_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eeff4954d6d10020800000000000000
+      internalID: 2306360691710230242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman downtown_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27bd59c5a08029a30800000000000000
+      internalID: 4220444641395596146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman downtown_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcc7bc30860145070800000000000000
+      internalID: 8094112469217934541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman downtown_6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f10b7de5447e10950800000000000000
+      internalID: 6413661625187282975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman downtown_7
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e119e436f3726470800000000000000
+      internalID: 8386392957404123625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman downtown_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84049a87d04bf7270800000000000000
+      internalID: 8250511012317970504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman downtown_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 301a499815bb74b80800000000000000
+      internalID: -8410547820216147709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman downtown_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f82b8778247896a80800000000000000
+      internalID: -8473092504110452081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman downtown_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d04a464fb85dbe0800000000000000
+      internalID: -1453101422980363005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman downtown_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c40009e08d941710800000000000000
+      internalID: 1663127339397022916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman downtown_13
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 037982c327340cc00800000000000000
+      internalID: 918808481898207024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman downtown_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c86a7d9c788d3b0800000000000000
+      internalID: -5487486844974756799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman downtown_15
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbfa67b35fb431d90800000000000000
+      internalID: -7128270268560658501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman downtown_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a16609fed0c8a5240800000000000000
+      internalID: 4781287945888884250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman downtown_17
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d1189f952108340800000000000000
+      internalID: 4863907775207513424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

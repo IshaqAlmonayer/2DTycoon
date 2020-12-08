@@ -15,7 +15,7 @@ public class CustomerSpawner : MonoBehaviour
     private float _timer = 0f;
     private int _randomCustomer;
     private string _standType;
-    private string[] _newStaticStandTypes =  new string[8];
+    private string[] _newStaticStandTypes =  new string[4];
     public int unlockedStandsNo;
     private GameObject[] Stands;
     private int _randomNumber;

@@ -1,0 +1,557 @@
+fileFormatVersion: 2
+guid: bf6bd2ee96dc4cf43a7ba41a72e95ffd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3039632384630646216
+    second: book store (1)_0
+  - first:
+      213: -6487063099217324722
+    second: book store (1)_1
+  - first:
+      213: 8930054546061276548
+    second: book store (1)_2
+  - first:
+      213: -3593800371757328260
+    second: book store (1)_3
+  - first:
+      213: -8674992458540053805
+    second: book store (1)_4
+  - first:
+      213: -4257496684228273811
+    second: book store (1)_5
+  - first:
+      213: -2508594218650367605
+    second: book store (1)_6
+  - first:
+      213: -5809018923851454274
+    second: book store (1)_7
+  - first:
+      213: 1011299305618116282
+    second: book store (1)_8
+  - first:
+      213: 2692292998745899982
+    second: book store (1)_9
+  - first:
+      213: 916544794734641311
+    second: book store (1)_10
+  - first:
+      213: -4883831125985307387
+    second: book store (1)_11
+  - first:
+      213: 2591402334048335106
+    second: book store (1)_12
+  - first:
+      213: 8125443227293518085
+    second: book store (1)_13
+  - first:
+      213: -4663662396446039412
+    second: book store (1)_14
+  - first:
+      213: 481256903532304045
+    second: book store (1)_15
+  - first:
+      213: 6397521405268850698
+    second: book store (1)_16
+  - first:
+      213: -4077375914347286746
+    second: book store (1)_17
+  - first:
+      213: -8050390859449070605
+    second: book store (1)_18
+  - first:
+      213: -1920930057136389617
+    second: book store (1)_19
+  - first:
+      213: -5410430648571229605
+    second: book store (1)_20
+  - first:
+      213: -397847271594697487
+    second: book store (1)_21
+  - first:
+      213: 3636749776367581914
+    second: book store (1)_22
+  - first:
+      213: 4840801619409542294
+    second: book store (1)_23
+  - first:
+      213: -7516625671514396205
+    second: book store (1)_24
+  - first:
+      213: 8529002426193751411
+    second: book store (1)_25
+  - first:
+      213: -330811568723582636
+    second: book store (1)_26
+  - first:
+      213: 9125068209472301249
+    second: book store (1)_27
+  - first:
+      213: 2525955048691157615
+    second: book store (1)_28
+  - first:
+      213: -54757947655011243
+    second: book store (1)_29
+  - first:
+      213: 461544547880105811
+    second: book store (1)_30
+  - first:
+      213: 4544906092148840649
+    second: book store (1)_31
+  - first:
+      213: 2734953961910765973
+    second: book store (1)_32
+  - first:
+      213: 4114435604355902122
+    second: book store (1)_33
+  - first:
+      213: -2239302645397605542
+    second: book store (1)_34
+  - first:
+      213: -4693182711298421107
+    second: book store (1)_35
+  - first:
+      213: 9133554994180846725
+    second: book store (1)_36
+  - first:
+      213: -2037649545188438553
+    second: book store (1)_37
+  - first:
+      213: 851657899724185305
+    second: book store (1)_38
+  - first:
+      213: -6391399389711866471
+    second: book store (1)_39
+  - first:
+      213: 4981963163918092708
+    second: book store (1)_40
+  - first:
+      213: -749864291915621394
+    second: book store (1)_41
+  - first:
+      213: -1770897301439947953
+    second: book store (1)_42
+  - first:
+      213: -1209807887913208987
+    second: book store (1)_43
+  - first:
+      213: 408103191119806021
+    second: book store (1)_44
+  - first:
+      213: -58149835241763650
+    second: book store (1)_45
+  - first:
+      213: -8997302556090581438
+    second: book store (1)_46
+  - first:
+      213: 8228332448426153237
+    second: book store (1)_47
+  - first:
+      213: 4224815982651610473
+    second: book store (1)_48
+  - first:
+      213: -2431692351332888187
+    second: book store (1)_49
+  - first:
+      213: 6235792593367824293
+    second: book store (1)_50
+  - first:
+      213: -8348178058106995584
+    second: book store (1)_51
+  - first:
+      213: 3351716469588437486
+    second: book store (1)_52
+  - first:
+      213: 7366821727036430039
+    second: book store (1)_53
+  - first:
+      213: -8858926760060929976
+    second: book store (1)_54
+  - first:
+      213: -8758804817791536678
+    second: book store (1)_55
+  - first:
+      213: 5062381696496536043
+    second: book store (1)_56
+  - first:
+      213: -3249904743156070307
+    second: book store (1)_57
+  - first:
+      213: -7367423144021668098
+    second: book store (1)_58
+  - first:
+      213: -7579341287365816132
+    second: book store (1)_59
+  - first:
+      213: -5337482753091006882
+    second: book store (1)_60
+  - first:
+      213: -8218423686206440196
+    second: book store (1)_61
+  - first:
+      213: 4724139083823237365
+    second: book store (1)_62
+  - first:
+      213: -1449465882547051681
+    second: book store (1)_63
+  - first:
+      213: 140543513890731324
+    second: book store (1)_64
+  - first:
+      213: -6646543339584786452
+    second: book store (1)_65
+  - first:
+      213: -6777635548197330060
+    second: book store (1)_66
+  - first:
+      213: -5473352252471321947
+    second: book store (1)_67
+  - first:
+      213: 7534187717457901411
+    second: book store (1)_68
+  - first:
+      213: -1878682190225342183
+    second: book store (1)_69
+  - first:
+      213: -2529801784524935689
+    second: book store (1)_70
+  - first:
+      213: -6009371567686330099
+    second: book store (1)_71
+  - first:
+      213: 8796772390029049328
+    second: book store (1)_72
+  - first:
+      213: -6051979028263415607
+    second: book store (1)_73
+  - first:
+      213: -7701822333300807485
+    second: book store (1)_74
+  - first:
+      213: 6030916914159088868
+    second: book store (1)_75
+  - first:
+      213: -6731550933599860258
+    second: book store (1)_76
+  - first:
+      213: 8884920646572769467
+    second: book store (1)_77
+  - first:
+      213: -6778766239656784915
+    second: book store (1)_78
+  - first:
+      213: 8926375544954814303
+    second: book store (1)_79
+  - first:
+      213: 145387664526107705
+    second: book store (1)_80
+  - first:
+      213: 1587418572005775804
+    second: book store (1)_81
+  - first:
+      213: 7587859993634108856
+    second: book store (1)_82
+  - first:
+      213: 3946060142793416705
+    second: book store (1)_83
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: book store (1)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c5eea59c81fe2a20800000000000000
+      internalID: 3039632384630646216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: book store (1)_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e455b9f2b7259f5a0800000000000000
+      internalID: -6487063099217324722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: book store (1)_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48538d2db4dedeb70800000000000000
+      internalID: 8930054546061276548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: book store (1)_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c78dcb74a91402ec0800000000000000
+      internalID: -3593800371757328260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: book store (1)_4
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3da078f225c3c9780800000000000000
+      internalID: -8674992458540053805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: book store (1)_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d699b28a2555ae4c0800000000000000
+      internalID: -4257496684228273811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: book store (1)_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b890fb769deaf2dd0800000000000000
+      internalID: -2508594218650367605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: book store (1)_7
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb8ef46f018326fa0800000000000000
+      internalID: -5809018923851454274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: book store (1)_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe87f04c5bd80e00800000000000000
+      internalID: 1011299305618116282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

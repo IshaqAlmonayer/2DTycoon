@@ -1,0 +1,1034 @@
+fileFormatVersion: 2
+guid: f28856a17f80a1f4cb2eff541a547204
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1128630918663509185
+    second: walking downtown (3)_0
+  - first:
+      213: -8107637575436958656
+    second: walking downtown (3)_1
+  - first:
+      213: -5945912720581672720
+    second: walking downtown (3)_2
+  - first:
+      213: -8488706669484841694
+    second: walking downtown (3)_3
+  - first:
+      213: -4725712753554551361
+    second: walking downtown (3)_4
+  - first:
+      213: -3645451605379365516
+    second: walking downtown (3)_5
+  - first:
+      213: 3481243733860620857
+    second: walking downtown (3)_6
+  - first:
+      213: -7521096892758357727
+    second: walking downtown (3)_7
+  - first:
+      213: 6794861472104354513
+    second: walking downtown (3)_8
+  - first:
+      213: -4796324092694352220
+    second: walking downtown (3)_9
+  - first:
+      213: -4254365222002629116
+    second: walking downtown (3)_10
+  - first:
+      213: 5149606949027265394
+    second: walking downtown (3)_11
+  - first:
+      213: -677792932010379332
+    second: walking downtown (3)_12
+  - first:
+      213: -5744126858510796483
+    second: walking downtown (3)_13
+  - first:
+      213: 3109844976245426613
+    second: walking downtown (3)_14
+  - first:
+      213: 8372708300363051852
+    second: walking downtown (3)_15
+  - first:
+      213: 2117792015127515108
+    second: walking downtown (3)_16
+  - first:
+      213: -1824905141455061079
+    second: walking downtown (3)_17
+  - first:
+      213: 6552404393644403679
+    second: walking downtown (3)_18
+  - first:
+      213: 4992197259952254353
+    second: walking downtown (3)_19
+  - first:
+      213: 1340622054617935936
+    second: walking downtown (3)_20
+  - first:
+      213: -796561836988758507
+    second: walking downtown (3)_21
+  - first:
+      213: -1301251102551955907
+    second: walking downtown (3)_22
+  - first:
+      213: 5257608707758599524
+    second: walking downtown (3)_23
+  - first:
+      213: 1801991978776358780
+    second: walking downtown (3)_24
+  - first:
+      213: 1500889135350602251
+    second: walking downtown (3)_25
+  - first:
+      213: 792066806957502817
+    second: walking downtown (3)_26
+  - first:
+      213: 1900108629391178137
+    second: walking downtown (3)_27
+  - first:
+      213: -1256396879111077184
+    second: walking downtown (3)_28
+  - first:
+      213: 4875919098480499396
+    second: walking downtown (3)_29
+  - first:
+      213: -8169465087602450876
+    second: walking downtown (3)_30
+  - first:
+      213: 3641119786829223901
+    second: walking downtown (3)_31
+  - first:
+      213: 7911911381456528680
+    second: walking downtown (3)_32
+  - first:
+      213: 4938244305902708548
+    second: walking downtown (3)_33
+  - first:
+      213: 5588976421547975754
+    second: walking downtown (3)_34
+  - first:
+      213: -6790636437883307427
+    second: walking downtown (3)_35
+  - first:
+      213: 8920243553118233875
+    second: walking downtown (3)_36
+  - first:
+      213: 2458550728987290771
+    second: walking downtown (3)_37
+  - first:
+      213: -6820619150447399452
+    second: walking downtown (3)_38
+  - first:
+      213: 7537634246544314756
+    second: walking downtown (3)_39
+  - first:
+      213: 193593171369725951
+    second: walking downtown (3)_40
+  - first:
+      213: -8063848494775440196
+    second: walking downtown (3)_41
+  - first:
+      213: -4049926933194468366
+    second: walking downtown (3)_42
+  - first:
+      213: 1885068627625868801
+    second: walking downtown (3)_43
+  - first:
+      213: -470630826400457031
+    second: walking downtown (3)_44
+  - first:
+      213: -7012984730824926996
+    second: walking downtown (3)_45
+  - first:
+      213: 2783725532167579051
+    second: walking downtown (3)_46
+  - first:
+      213: -4229342347431717639
+    second: walking downtown (3)_47
+  - first:
+      213: 5684920265009061468
+    second: walking downtown (3)_48
+  - first:
+      213: 389135463691786135
+    second: walking downtown (3)_49
+  - first:
+      213: 9052055583090497686
+    second: walking downtown (3)_50
+  - first:
+      213: -5389095898157125805
+    second: walking downtown (3)_51
+  - first:
+      213: -4311485869651841346
+    second: walking downtown (3)_52
+  - first:
+      213: 4937007429983329830
+    second: walking downtown (3)_53
+  - first:
+      213: -6400970931333053123
+    second: walking downtown (3)_54
+  - first:
+      213: -8845673488036585925
+    second: walking downtown (3)_55
+  - first:
+      213: -6775724993279375034
+    second: walking downtown (3)_56
+  - first:
+      213: -269400230054510251
+    second: walking downtown (3)_57
+  - first:
+      213: -5423718184639802669
+    second: walking downtown (3)_58
+  - first:
+      213: 1961114022029627754
+    second: walking downtown (3)_59
+  - first:
+      213: 2423988090110285953
+    second: walking downtown (3)_60
+  - first:
+      213: -7818432006398535766
+    second: walking downtown (3)_61
+  - first:
+      213: 1879946370160616516
+    second: walking downtown (3)_62
+  - first:
+      213: 7901850953162902195
+    second: walking downtown (3)_63
+  - first:
+      213: 8422726580809692458
+    second: walking downtown (3)_64
+  - first:
+      213: 6531212013969121573
+    second: walking downtown (3)_65
+  - first:
+      213: 6919328098464524720
+    second: walking downtown (3)_66
+  - first:
+      213: -758466544818552582
+    second: walking downtown (3)_67
+  - first:
+      213: -8803885782766793566
+    second: walking downtown (3)_68
+  - first:
+      213: 8911863159056281267
+    second: walking downtown (3)_69
+  - first:
+      213: -6113148698283791423
+    second: walking downtown (3)_70
+  - first:
+      213: 483135083920752873
+    second: walking downtown (3)_71
+  - first:
+      213: -1915272208396764146
+    second: walking downtown (3)_72
+  - first:
+      213: -5541622908853373519
+    second: walking downtown (3)_73
+  - first:
+      213: 663574247819919849
+    second: walking downtown (3)_74
+  - first:
+      213: -1744187981672052089
+    second: walking downtown (3)_75
+  - first:
+      213: -7515263766596204138
+    second: walking downtown (3)_76
+  - first:
+      213: 1680746753583599782
+    second: walking downtown (3)_77
+  - first:
+      213: 1382362963128212598
+    second: walking downtown (3)_78
+  - first:
+      213: -1810310103763392096
+    second: walking downtown (3)_79
+  - first:
+      213: 8604810976760918783
+    second: walking downtown (3)_80
+  - first:
+      213: 127377615126445602
+    second: walking downtown (3)_81
+  - first:
+      213: 275777145158658244
+    second: walking downtown (3)_82
+  - first:
+      213: 2214546519255963288
+    second: walking downtown (3)_83
+  - first:
+      213: -3305087943714115924
+    second: walking downtown (3)_84
+  - first:
+      213: 659327755279277613
+    second: walking downtown (3)_85
+  - first:
+      213: -6443442125123459891
+    second: walking downtown (3)_86
+  - first:
+      213: -4055727656443077011
+    second: walking downtown (3)_87
+  - first:
+      213: -176225344078988144
+    second: walking downtown (3)_88
+  - first:
+      213: 7166458687600766217
+    second: walking downtown (3)_89
+  - first:
+      213: -6475431157971183883
+    second: walking downtown (3)_90
+  - first:
+      213: -5178636307438489260
+    second: walking downtown (3)_91
+  - first:
+      213: 142085196539771383
+    second: walking downtown (3)_92
+  - first:
+      213: 3737092919864746728
+    second: walking downtown (3)_93
+  - first:
+      213: -6148217846602927530
+    second: walking downtown (3)_94
+  - first:
+      213: -5342092676570118911
+    second: walking downtown (3)_95
+  - first:
+      213: 3874986531263353227
+    second: walking downtown (3)_96
+  - first:
+      213: -4222536843895250551
+    second: walking downtown (3)_97
+  - first:
+      213: -3906102103173860902
+    second: walking downtown (3)_98
+  - first:
+      213: 6055927826149702891
+    second: walking downtown (3)_99
+  - first:
+      213: -6769145280137405234
+    second: walking downtown (3)_100
+  - first:
+      213: 3447391568468481268
+    second: walking downtown (3)_101
+  - first:
+      213: -4583521984798781529
+    second: walking downtown (3)_102
+  - first:
+      213: -879000155204009996
+    second: walking downtown (3)_103
+  - first:
+      213: 6401355055603388959
+    second: walking downtown (3)_104
+  - first:
+      213: 2884805484935616990
+    second: walking downtown (3)_105
+  - first:
+      213: 7171787976853524865
+    second: walking downtown (3)_106
+  - first:
+      213: 5951494945848043206
+    second: walking downtown (3)_107
+  - first:
+      213: -7160143227013262988
+    second: walking downtown (3)_108
+  - first:
+      213: 7057979012118864888
+    second: walking downtown (3)_109
+  - first:
+      213: -8722991401059086186
+    second: walking downtown (3)_110
+  - first:
+      213: 1748987200082314230
+    second: walking downtown (3)_111
+  - first:
+      213: 1212477493367141004
+    second: walking downtown (3)_112
+  - first:
+      213: -6203713078570039556
+    second: walking downtown (3)_113
+  - first:
+      213: 502691254742350147
+    second: walking downtown (3)_114
+  - first:
+      213: -4898810657553746569
+    second: walking downtown (3)_115
+  - first:
+      213: 4695017443455697559
+    second: walking downtown (3)_116
+  - first:
+      213: 8591835478659384143
+    second: walking downtown (3)_117
+  - first:
+      213: 1589833855852899920
+    second: walking downtown (3)_118
+  - first:
+      213: 148939837691357884
+    second: walking downtown (3)_119
+  - first:
+      213: -6818413323513756470
+    second: walking downtown (3)_120
+  - first:
+      213: 533789939009319224
+    second: walking downtown (3)_121
+  - first:
+      213: 4269666532861921204
+    second: walking downtown (3)_122
+  - first:
+      213: -8633489271032693909
+    second: walking downtown (3)_123
+  - first:
+      213: -6735502187766329393
+    second: walking downtown (3)_124
+  - first:
+      213: -5456344444988815139
+    second: walking downtown (3)_125
+  - first:
+      213: -4813044204715040333
+    second: walking downtown (3)_126
+  - first:
+      213: 6761627678867695205
+    second: walking downtown (3)_127
+  - first:
+      213: 2218086495198065543
+    second: walking downtown (3)_128
+  - first:
+      213: -5364336712521781932
+    second: walking downtown (3)_129
+  - first:
+      213: 6613751369236181390
+    second: walking downtown (3)_130
+  - first:
+      213: -1263829969209160779
+    second: walking downtown (3)_131
+  - first:
+      213: -6890571949237826835
+    second: walking downtown (3)_132
+  - first:
+      213: -8004700879238238013
+    second: walking downtown (3)_133
+  - first:
+      213: -2422236099747729630
+    second: walking downtown (3)_134
+  - first:
+      213: -1046395160107056632
+    second: walking downtown (3)_135
+  - first:
+      213: -8825674585428435807
+    second: walking downtown (3)_136
+  - first:
+      213: 4869896129576836937
+    second: walking downtown (3)_137
+  - first:
+      213: 6904180175785951496
+    second: walking downtown (3)_138
+  - first:
+      213: -5609031256417833108
+    second: walking downtown (3)_139
+  - first:
+      213: -5855596269731140163
+    second: walking downtown (3)_140
+  - first:
+      213: -6126588594435128236
+    second: walking downtown (3)_141
+  - first:
+      213: 428373658678516906
+    second: walking downtown (3)_142
+  - first:
+      213: 385114083799079142
+    second: walking downtown (3)_143
+  - first:
+      213: -2205289476203551346
+    second: walking downtown (3)_144
+  - first:
+      213: 4545005752769984155
+    second: walking downtown (3)_145
+  - first:
+      213: 361064403859174670
+    second: walking downtown (3)_146
+  - first:
+      213: -8551174114530559185
+    second: walking downtown (3)_147
+  - first:
+      213: 6137115420325113023
+    second: walking downtown (3)_148
+  - first:
+      213: -6702846219687066385
+    second: walking downtown (3)_149
+  - first:
+      213: -5791849208401476266
+    second: walking downtown (3)_150
+  - first:
+      213: 6580161253540456151
+    second: walking downtown (3)_151
+  - first:
+      213: 8039142357982462520
+    second: walking downtown (3)_152
+  - first:
+      213: -3466313293866465454
+    second: walking downtown (3)_153
+  - first:
+      213: 3314073288428398449
+    second: walking downtown (3)_154
+  - first:
+      213: 8879693984943520669
+    second: walking downtown (3)_155
+  - first:
+      213: -8349929156914533910
+    second: walking downtown (3)_156
+  - first:
+      213: 2722236645999989947
+    second: walking downtown (3)_157
+  - first:
+      213: -3286327452879857861
+    second: walking downtown (3)_158
+  - first:
+      213: 2187430499047053773
+    second: walking downtown (3)_159
+  - first:
+      213: -7532921428450700503
+    second: walking downtown (3)_160
+  - first:
+      213: 8868950956060177706
+    second: walking downtown (3)_161
+  - first:
+      213: 8983400279485197200
+    second: walking downtown (3)_162
+  - first:
+      213: 2875165673423910501
+    second: walking downtown (3)_163
+  - first:
+      213: 8700928224171043899
+    second: walking downtown (3)_164
+  - first:
+      213: 694060634487685828
+    second: walking downtown (3)_165
+  - first:
+      213: 8144427813947731924
+    second: walking downtown (3)_166
+  - first:
+      213: 311147572758933345
+    second: walking downtown (3)_167
+  - first:
+      213: -8008444728192188787
+    second: walking downtown (3)_168
+  - first:
+      213: -4457752659400405195
+    second: walking downtown (3)_169
+  - first:
+      213: 708299542847547465
+    second: walking downtown (3)_170
+  - first:
+      213: 5006301848214021408
+    second: walking downtown (3)_171
+  - first:
+      213: 2832568446415917599
+    second: walking downtown (3)_172
+  - first:
+      213: 1638970779800704678
+    second: walking downtown (3)_173
+  - first:
+      213: 1768701535212916350
+    second: walking downtown (3)_174
+  - first:
+      213: -4136987831389407976
+    second: walking downtown (3)_175
+  - first:
+      213: 3054756398969368730
+    second: walking downtown (3)_176
+  - first:
+      213: -7093070557319575303
+    second: walking downtown (3)_177
+  - first:
+      213: 4379340633083887421
+    second: walking downtown (3)_178
+  - first:
+      213: 3310787600514390403
+    second: walking downtown (3)_179
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: walking downtown (3)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c4167d37d3b9af00800000000000000
+      internalID: 1128630918663509185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking downtown (3)_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 044887cc492eb7f80800000000000000
+      internalID: -8107637575436958656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking downtown (3)_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f0c04822efdb7da0800000000000000
+      internalID: -5945912720581672720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking downtown (3)_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 225edda524e023a80800000000000000
+      internalID: -8488706669484841694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking downtown (3)_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbd09ddd945ea6eb0800000000000000
+      internalID: -4725712753554551361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking downtown (3)_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4754c7f4411c86dc0800000000000000
+      internalID: -3645451605379365516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking downtown (3)_6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93a11554bbcdf4030800000000000000
+      internalID: 3481243733860620857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking downtown (3)_7
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12908d97932bf9790800000000000000
+      internalID: -7521096892758357727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking downtown (3)_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d294c612823c4e50800000000000000
+      internalID: 6794861472104354513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking downtown (3)_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae2e4356a8007db0800000000000000
+      internalID: -4796324092694352220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking downtown (3)_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 406e1c50f5575f4c0800000000000000
+      internalID: -4254365222002629116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking downtown (3)_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27b37a18c34177740800000000000000
+      internalID: 5149606949027265394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking downtown (3)_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb730406beef796f0800000000000000
+      internalID: -677792932010379332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking downtown (3)_13
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d39fead4e03c840b0800000000000000
+      internalID: -5744126858510796483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking downtown (3)_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b944ab7783682b20800000000000000
+      internalID: 3109844976245426613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking downtown (3)_15
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c43ba13b6d5d13470800000000000000
+      internalID: 8372708300363051852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking downtown (3)_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef85d10e98e36d10800000000000000
+      internalID: 2117792015127515108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking downtown (3)_17
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af79ce4172aca6e0800000000000000
+      internalID: -1824905141455061079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
