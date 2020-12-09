@@ -24,7 +24,7 @@ public class BuyShopButton : MonoBehaviour
         {
             Button.onClick.AddListener(TaskOnClick);
             _shopPrice = Stand.GetComponent<Stand>().ShopPrice;
-            shopPriceText.text = "Buy Shop (" + _shopPrice + "$)";
+            shopPriceText.text = "Buy Shop (" + NormaliseMoneyText(_shopPrice) + " $)";
             ShopLevelText.text = "Shop Level " + Stand.GetComponent<Stand>().ShopTilemapLevel + " / " + Stand.GetComponent<Stand>().MaximumTilemapUpgradeLevel;
         }
         else
@@ -55,5 +55,15 @@ public class BuyShopButton : MonoBehaviour
         Stand.GetComponent<Stand>().ShopSellingItemLevel++;
         SellingItemLevelText.text = Stand.GetComponent<Stand>().SellingItem + " Level " + Stand.GetComponent<Stand>().ShopSellingItemLevel + " / " + Stand.GetComponent<Stand>().MaximumSellingItemUpgradeLevel;
         ShopLevelText.text = "Shop Level " + Stand.GetComponent<Stand>().ShopTilemapLevel + " / " + Stand.GetComponent<Stand>().MaximumTilemapUpgradeLevel;
+    }
+
+    private string NormaliseMoneyText(float amount)
+    {
+        if (amount < 1000)
+            return amount.ToString();
+        else
+        {
+            return ((int)amount / 1000).ToString() + "." + ((int)(amount % 1000) / 100).ToString() + "K";
+        }
     }
 }

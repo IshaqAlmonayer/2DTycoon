@@ -60,7 +60,6 @@ public class UpgradeShopButton : MonoBehaviour
                 Stand.GetComponent<Stand>().StandWaitingTime -= 1;
             Stand.GetComponent<Stand>().productPrice += 1;
             ShopLevelText.text = "Shop Level: " + Stand.GetComponent<Stand>().ShopTilemapLevel + " / " + Stand.GetComponent<Stand>().MaximumTilemapUpgradeLevel;
-            ShopUpgradePriceText.text = "Upgrade Shop (" + Stand.GetComponent<Stand>().ShopUpgradeCost + "$)";
         }
     }
 
@@ -68,10 +67,20 @@ public class UpgradeShopButton : MonoBehaviour
     {
         if (Stand.GetComponent<Stand>().ShopTilemapLevel < Stand.GetComponent<Stand>().MaximumTilemapUpgradeLevel)
         {
-            ShopUpgradePriceText.text = "Upgrade Shop (" + Stand.GetComponent<Stand>().ShopUpgradeCost + "$)";
+            ShopUpgradePriceText.text = "Upgrade Shop (" + NormaliseMoneyText(Stand.GetComponent<Stand>().ShopUpgradeCost) + " $)";
         } else
             ShopUpgradePriceText.text = "Shop at Max Level";
 
         ShopLevelText.text = "Shop Level: " + Stand.GetComponent<Stand>().ShopTilemapLevel + " / " + Stand.GetComponent<Stand>().MaximumTilemapUpgradeLevel;
+    }
+
+    private string NormaliseMoneyText(float amount)
+    {
+        if (amount < 1000)
+            return amount.ToString();
+        else
+        {
+            return ((int)amount / 1000).ToString() + "." + ((int)(amount % 1000) / 100).ToString() + "K";
+        }
     }
 }

@@ -67,9 +67,19 @@ public class UpgradeButton : MonoBehaviour
     void UpdateUpgradeCostText()
     {
         if (Stand.GetComponent<Stand>().ShopSellingItemLevel < Stand.GetComponent<Stand>().MaximumSellingItemUpgradeLevel)
-            UpgradeCostText.text = "Upgrade " + Stand.GetComponent<Stand>().SellingItem + " (" + _SellingItemUpgradeCost + "$)";
+            UpgradeCostText.text = "Upgrade " + Stand.GetComponent<Stand>().SellingItem + " (" + NormaliseMoneyText(_SellingItemUpgradeCost) + " $)";
         else
             UpgradeCostText.text = Stand.GetComponent<Stand>().SellingItem +" is at Max Level";
+    }
+
+    private string NormaliseMoneyText(float amount)
+    {
+        if (amount < 1000)
+            return amount.ToString();
+        else
+        {
+            return ((int)amount / 1000).ToString() + "." + ((int)(amount % 1000) / 100).ToString() + "K";
+        }
     }
 
 }
