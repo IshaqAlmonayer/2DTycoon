@@ -68,6 +68,14 @@ public class CustomerMovement : MonoBehaviour
                 gameObject.layer = 17;
                 CustomerBack.layer = 17;
                 break;
+            case "9":
+                gameObject.layer = 18;
+                CustomerBack.layer = 18;
+                break;
+            case "10":
+                gameObject.layer = 19;
+                CustomerBack.layer = 19;
+                break;
         }
     }
 
