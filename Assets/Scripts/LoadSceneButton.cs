@@ -24,7 +24,6 @@ public class LoadSceneButton : MonoBehaviour
         switch (sceneNo)
         {
             case 1:
-                Debug.Log("Case 1");
                 string path = Application.persistentDataPath + "/GameDataMap1.lol";
                 if (File.Exists(path))
                 {
@@ -38,21 +37,22 @@ public class LoadSceneButton : MonoBehaviour
                 }
                 break;
             case 2:
-                Debug.Log("Case 2");
                 //Load first map
                 StartCoroutine(LoadLevel(2));
                 break;
             case 3:
-                Debug.Log("Case 3");
                 //load second map
                 StartCoroutine(LoadLevel(3));
+                break;
+            case 4:
+                //load second map
+                StartCoroutine(LoadLevel(4));
                 break;
         }
     }
 
     IEnumerator LoadLevel(int SceneNumber)
     {
-        Debug.Log("inside Ienumerator");
         transition.SetTrigger("Start");
 
         yield return new WaitForSeconds(waitTime);
