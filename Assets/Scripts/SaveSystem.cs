@@ -20,6 +20,10 @@ public static class SaveSystem{
                 path = Application.persistentDataPath + "/GameDataMap2.lol";
                 setStreamAndSave(path, money, adController, formatter);
                 break;
+            case "3":
+                path = Application.persistentDataPath + "/GameDataMap3.lol";
+                setStreamAndSave(path, money, adController, formatter);
+                break;
         }
     }
 
@@ -34,6 +38,9 @@ public static class SaveSystem{
                 return setStreamAndLoad(path);
             case "2":
                 path = Application.persistentDataPath + "/GameDataMap2.lol";
+                return setStreamAndLoad(path);
+            case "3":
+                path = Application.persistentDataPath + "/GameDataMap3.lol";
                 return setStreamAndLoad(path);
             default: return null;
         }
@@ -67,6 +74,10 @@ public static class SaveSystem{
                 break;
             case "2":
                 path1 = Application.persistentDataPath + "/GameDataMap2.lol";
+                SetPathAndDelete(path1);
+                break;
+            case "3":
+                path1 = Application.persistentDataPath + "/GameDataMap3.lol";
                 SetPathAndDelete(path1);
                 break;
         }

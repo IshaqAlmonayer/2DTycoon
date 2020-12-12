@@ -15,7 +15,7 @@ public class CustomerSpawner : MonoBehaviour
     private float _timer = 0f;
     private int _randomCustomer;
     private string _standType;
-    private string[] _newStaticStandTypes =  new string[10];
+    private string[] _newStaticStandTypes;
     public int unlockedStandsNo;
     private GameObject[] Stands;
     private int _randomNumber;
@@ -31,6 +31,8 @@ public class CustomerSpawner : MonoBehaviour
         {
             Stands = GameObject.FindGameObjectsWithTag("Stand");
             Array.Sort(Stands, CompareObNames);
+
+            _newStaticStandTypes = new string[Stands.Length];
 
             foreach (GameObject stand in Stands)
             {
