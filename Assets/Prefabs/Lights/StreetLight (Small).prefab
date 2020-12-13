@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2247575073778629703}
   - component: {fileID: 2247575073778629700}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Point Light 2D (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47,9 +47,9 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0.5
   m_LightVolumeOpacity: 0
-  m_ApplyToSortingLayers: 47bf5c8d000000005780bf1b
+  m_ApplyToSortingLayers: 956eb54d
   m_LightCookieSprite: {fileID: 0}
   m_UseNormalMap: 0
   m_LightOrder: 0
@@ -82,7 +82,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2247575073911003899}
   - component: {fileID: 2247575073911003896}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: mp_cs_props_15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -164,7 +164,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2247575074409341790}
   - component: {fileID: 2247575074409341791}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: StreetLight (Small)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -224,8 +224,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1923301561
-  m_SortingLayer: -1
+  m_SortingLayerID: 1303735957
+  m_SortingLayer: -3
   m_SortingOrder: 1
   m_Sprite: {fileID: 2119746023308073910, guid: 03a0314769f2d5a4b85412373562a72a,
     type: 3}
@@ -249,7 +249,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2247575075389024431}
   - component: {fileID: 2247575075389024428}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: mp_cs_props_15 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
