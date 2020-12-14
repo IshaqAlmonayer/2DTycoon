@@ -1,77 +1,35 @@
 Base path: 'C:/Unity/2019.4.11f1/Editor/Data', plugins path 'C:/Unity/2019.4.11f1/Editor/Data/PlaybackEngines'
 Cmd: initializeCompiler
-Cmd: compileSnippet
-  api=4 type=0 insize=5648 outsize=3098 kw=OUTLINE_ON pd=UNITY_NO_DXT5nm UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_DLDR_ENCODING ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=5648 outsize=578 kw=OUTLINE_ON pd=UNITY_NO_DXT5nm UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_DLDR_ENCODING ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=1290 outsize=734 kw= pd=UNITY_NO_DXT5nm UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_DLDR_ENCODING ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=1290 outsize=190 kw= pd=UNITY_NO_DXT5nm UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_DLDR_ENCODING ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=1333 outsize=734 kw= pd=UNITY_NO_DXT5nm UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_DLDR_ENCODING ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=1333 outsize=222 kw= pd=UNITY_NO_DXT5nm UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_DLDR_ENCODING ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=1847 outsize=650 kw= pd=UNITY_NO_DXT5nm UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_DLDR_ENCODING ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=1847 outsize=422 kw= pd=UNITY_NO_DXT5nm UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_DLDR_ENCODING ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=11686 outsize=983 ok=1
+Cmd: preprocess
+  insize=3883 outsize=492 ok=1
+Cmd: preprocess
+  insize=3881 outsize=491 ok=1
+Cmd: preprocess
+  insize=4969 outsize=479 ok=1
+Cmd: preprocess
+  insize=4185 outsize=485 ok=1
 Cmd: preprocess
   insize=11382 outsize=977 ok=1
 Cmd: preprocess
-  insize=11380 outsize=975 ok=1
-Cmd: preprocess
-  insize=811 outsize=209 ok=1
-Cmd: preprocess
-  insize=811 outsize=209 ok=1
-Cmd: preprocess
-  insize=811 outsize=209 ok=1
-Cmd: preprocess
-  insize=811 outsize=209 ok=1
-Cmd: preprocess
-  insize=811 outsize=209 ok=1
-Cmd: preprocess
-  insize=811 outsize=209 ok=1
-Cmd: preprocess
-  insize=811 outsize=209 ok=1
-Cmd: preprocess
-  insize=811 outsize=209 ok=1
-Cmd: preprocess
-  insize=4434 outsize=621 ok=1
-Cmd: preprocess
-  insize=4130 outsize=628 ok=1
-Cmd: preprocess
-  insize=4132 outsize=628 ok=1
-Cmd: preprocess
-  insize=11951 outsize=1119 ok=1
-Cmd: preprocess
-  insize=5218 outsize=616 ok=1
-Cmd: preprocess
-  insize=811 outsize=209 ok=1
-Cmd: preprocess
-  insize=811 outsize=209 ok=1
-Cmd: preprocess
-  insize=811 outsize=209 ok=1
-Cmd: preprocess
-  insize=811 outsize=209 ok=1
-Cmd: preprocess
-  insize=811 outsize=209 ok=1
-Cmd: preprocess
-  insize=811 outsize=209 ok=1
-Cmd: preprocess
-  insize=811 outsize=209 ok=1
-Cmd: preprocess
-  insize=811 outsize=209 ok=1
-Cmd: preprocess
-  insize=11679 outsize=976 ok=1
-Cmd: preprocess
-  insize=3876 outsize=485 ok=1
-Cmd: preprocess
-  insize=3874 outsize=484 ok=1
-Cmd: preprocess
-  insize=4962 outsize=472 ok=1
-Cmd: preprocess
-  insize=4178 outsize=478 ok=1
+  insize=11382 outsize=977 ok=1
 Cmd: preprocess
   insize=811 outsize=209 ok=1
 Cmd: preprocess
@@ -100,87 +58,3 @@ Cmd: preprocess
   insize=4178 outsize=478 ok=1
 Cmd: preprocess
   insize=11380 outsize=975 ok=1
-Cmd: preprocess
-  insize=11382 outsize=977 ok=1
-Cmd: preprocess
-  insize=11381 outsize=976 ok=1
-Cmd: preprocess
-  insize=811 outsize=209 ok=1
-Cmd: preprocess
-  insize=811 outsize=209 ok=1
-Cmd: preprocess
-  insize=811 outsize=209 ok=1
-Cmd: preprocess
-  insize=811 outsize=209 ok=1
-Cmd: preprocess
-  insize=811 outsize=209 ok=1
-Cmd: preprocess
-  insize=811 outsize=209 ok=1
-Cmd: preprocess
-  insize=811 outsize=209 ok=1
-Cmd: preprocess
-  insize=811 outsize=209 ok=1
-Cmd: preprocess
-  insize=11679 outsize=976 ok=1
-Cmd: preprocess
-  insize=3876 outsize=485 ok=1
-Cmd: preprocess
-  insize=3874 outsize=484 ok=1
-Cmd: preprocess
-  insize=4962 outsize=472 ok=1
-Cmd: preprocess
-  insize=4178 outsize=478 ok=1
-Cmd: preprocess
-  insize=811 outsize=209 ok=1
-Cmd: preprocess
-  insize=811 outsize=209 ok=1
-Cmd: preprocess
-  insize=811 outsize=209 ok=1
-Cmd: preprocess
-  insize=811 outsize=209 ok=1
-Cmd: preprocess
-  insize=811 outsize=209 ok=1
-Cmd: preprocess
-  insize=811 outsize=209 ok=1
-Cmd: preprocess
-  insize=811 outsize=209 ok=1
-Cmd: preprocess
-  insize=811 outsize=209 ok=1
-Cmd: preprocess
-  insize=11679 outsize=976 ok=1
-Cmd: preprocess
-  insize=3876 outsize=485 ok=1
-Cmd: preprocess
-  insize=3874 outsize=484 ok=1
-Cmd: preprocess
-  insize=4962 outsize=472 ok=1
-Cmd: preprocess
-  insize=4178 outsize=478 ok=1
-Cmd: preprocess
-  insize=811 outsize=209 ok=1
-Cmd: preprocess
-  insize=811 outsize=209 ok=1
-Cmd: preprocess
-  insize=811 outsize=209 ok=1
-Cmd: preprocess
-  insize=811 outsize=209 ok=1
-Cmd: preprocess
-  insize=811 outsize=209 ok=1
-Cmd: preprocess
-  insize=811 outsize=209 ok=1
-Cmd: preprocess
-  insize=811 outsize=209 ok=1
-Cmd: preprocess
-  insize=811 outsize=209 ok=1
-Cmd: preprocess
-  insize=11679 outsize=976 ok=1
-Cmd: preprocess
-  insize=3876 outsize=485 ok=1
-Cmd: preprocess
-  insize=3874 outsize=484 ok=1
-Cmd: preprocess
-  insize=4962 outsize=472 ok=1
-Cmd: preprocess
-  insize=4178 outsize=478 ok=1
-Cmd: preprocess
-  insize=11388 outsize=983 ok=1

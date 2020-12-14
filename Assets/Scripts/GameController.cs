@@ -14,53 +14,12 @@ public class GameController : MonoBehaviour
 
     private void Awake()
     {
-
         //load CityData
-        CityData cityData = SaveSystem.LoadCityData();
-        GameObject[] Cities;
-
-        Cities = GameObject.FindGameObjectsWithTag("City");
-        Array.Sort(Cities, CompareObNames);
-
-        for (int i = 0; i < Cities.Length; i++)
-        {
-            Cities[i].GetComponent<City>().price = cityData.CitiesPrice[i];
-            Cities[i].GetComponent<City>().unlocked = cityData.UnlockedFlag[i];
-        }
+        LoadCityData();
 
         //load GameData
-        GameData data = SaveSystem.LoadGame(map);
-        
-        GameObject[] Stands;
-        GameObject[] CustomerSpawners;
-
-        Stands = GameObject.FindGameObjectsWithTag("Stand");
-        Array.Sort(Stands, CompareObNames);
-        CustomerSpawners = GameObject.FindGameObjectsWithTag("CustomerSpawner");
-
-        for (int i = 0; i < Stands.Length; i++)
-        {
-            Stands[i].GetComponent<Stand>().ShopSellingItemLevel = data.shopSellingItemLevel[i];
-            Stands[i].GetComponent<Stand>().ShopTilemapLevel = data.shopTilemapLevel[i];
-            Stands[i].GetComponent<Stand>().shopBought = data.shopBought[i];
-            Stands[i].GetComponent<Stand>().SellingItemUpgradeCost = data.sellingItmeUpgradeCost[i];
-            Stands[i].GetComponent<Stand>().ShopUpgradeCost = data.ShopUpgradeCost[i];
-            Stands[i].GetComponent<Stand>().StandWaitingTime = data.StandWaitingTime[i];
-            Stands[i].GetComponent<Stand>().productPrice = data.productPrice[i];
-            Stands[i].GetComponent<Stand>().TotalStandRevenue = data.TotalStandRevenue[i];
-        }
-
-        for (int i = 0; i < CustomerSpawners.Length; i++)
-        {
-            CustomerSpawners[i].GetComponent<CustomerSpawner>().isActive = data.SpawnerActive[i];
-        }
-
-        money._totalMoney = data.totalMoney;
-        money.totalShopExpenses = data.totalShopExpenses;
-        money.totalAddExpenses = data.totalAddExpenses;
-
-        adController.AddTimer = data.AddTimer;
-}
+        LoadGameData();
+    }
 
     void Start()
     {
@@ -99,6 +58,56 @@ public class GameController : MonoBehaviour
     {
         SaveSystem.SaveGame(map, money, adController);
         //Debug.Log("Game Saved :)");
+    }
+
+    public void LoadCityData()
+    {
+        CityData cityData = SaveSystem.LoadCityData();
+        GameObject[] Cities;
+
+        Cities = GameObject.FindGameObjectsWithTag("City");
+        Array.Sort(Cities, CompareObNames);
+
+        for (int i = 0; i < Cities.Length; i++)
+        {
+            Cities[i].GetComponent<City>().price = cityData.CitiesPrice[i];
+            Cities[i].GetComponent<City>().unlocked = cityData.UnlockedFlag[i];
+        }
+    }
+
+    public void LoadGameData()
+    {
+        GameData data = SaveSystem.LoadGame(map);
+
+        GameObject[] Stands;
+        GameObject[] CustomerSpawners;
+
+        Stands = GameObject.FindGameObjectsWithTag("Stand");
+        Array.Sort(Stands, CompareObNames);
+        CustomerSpawners = GameObject.FindGameObjectsWithTag("CustomerSpawner");
+
+        for (int i = 0; i < Stands.Length; i++)
+        {
+            Stands[i].GetComponent<Stand>().ShopSellingItemLevel = data.shopSellingItemLevel[i];
+            Stands[i].GetComponent<Stand>().ShopTilemapLevel = data.shopTilemapLevel[i];
+            Stands[i].GetComponent<Stand>().shopBought = data.shopBought[i];
+            Stands[i].GetComponent<Stand>().SellingItemUpgradeCost = data.sellingItmeUpgradeCost[i];
+            Stands[i].GetComponent<Stand>().ShopUpgradeCost = data.ShopUpgradeCost[i];
+            Stands[i].GetComponent<Stand>().StandWaitingTime = data.StandWaitingTime[i];
+            Stands[i].GetComponent<Stand>().productPrice = data.productPrice[i];
+            Stands[i].GetComponent<Stand>().TotalStandRevenue = data.TotalStandRevenue[i];
+        }
+
+        for (int i = 0; i < CustomerSpawners.Length; i++)
+        {
+            CustomerSpawners[i].GetComponent<CustomerSpawner>().isActive = data.SpawnerActive[i];
+        }
+
+        money._totalMoney = data.totalMoney;
+        money.totalShopExpenses = data.totalShopExpenses;
+        money.totalAddExpenses = data.totalAddExpenses;
+
+        adController.AddTimer = data.AddTimer;
     }
 
     //Test

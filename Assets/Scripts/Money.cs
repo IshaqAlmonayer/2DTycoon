@@ -18,7 +18,7 @@ public class Money : MonoBehaviour
 
     private void Start()
     {
-        _totalMoney = 100000;
+        //_totalMoney = 100000;
     }
 
     void Update()

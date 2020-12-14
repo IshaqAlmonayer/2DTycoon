@@ -45,9 +45,14 @@ public class CustomerSpawner : MonoBehaviour
 
             _timer -= Time.deltaTime;
 
+            Debug.Log("unlockedStandsNo: " + unlockedStandsNo);
+
             if (_timer <= 0f)
             {
                 _randomNumber = UnityEngine.Random.Range(0, unlockedStandsNo);
+
+                Debug.Log("_randomNumber: " + _randomNumber);
+
                 _standType = _newStaticStandTypes[_randomNumber];
 
                 //select random number between 0 and the array size

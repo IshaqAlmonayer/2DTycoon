@@ -72,6 +72,7 @@
     <Compile Include="Assets\Scripts\City.cs" />
     <Compile Include="Assets\Scripts\CityButton.cs" />
     <Compile Include="Assets\Scripts\CityData.cs" />
+    <Compile Include="Assets\Scripts\CityUnlockedButton.cs" />
     <Compile Include="Assets\Scripts\ClosePanel.cs" />
     <Compile Include="Assets\Scripts\CloudMovement.cs" />
     <Compile Include="Assets\Scripts\CloudSpawner.cs" />
@@ -81,8 +82,10 @@
     <Compile Include="Assets\Scripts\GameController.cs" />
     <Compile Include="Assets\Scripts\GameData.cs" />
     <Compile Include="Assets\Scripts\LoadSceneButton.cs" />
+    <Compile Include="Assets\Scripts\MainMenuController.cs" />
     <Compile Include="Assets\Scripts\MenuController.cs" />
     <Compile Include="Assets\Scripts\Money.cs" />
+    <Compile Include="Assets\Scripts\NextMainMenu.cs" />
     <Compile Include="Assets\Scripts\OnMouseHoldButton.cs" />
     <Compile Include="Assets\Scripts\PanelOpenCheckButton.cs" />
     <Compile Include="Assets\Scripts\Reports.cs" />
