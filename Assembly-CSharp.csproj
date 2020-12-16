@@ -63,6 +63,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\RewardEagle.cs" />
+    <Compile Include="Assets\RewardEagleController.cs" />
+    <Compile Include="Assets\RewardEeagleSpawner.cs" />
     <Compile Include="Assets\Scripts\AdvertiseButton.cs" />
     <Compile Include="Assets\Scripts\AdvertiseController.cs" />
     <Compile Include="Assets\Scripts\ArrowUp.cs" />

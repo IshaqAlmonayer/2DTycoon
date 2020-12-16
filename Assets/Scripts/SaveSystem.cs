@@ -49,38 +49,35 @@ public static class SaveSystem{
     public static CityData LoadCityData()
     {
         string path = Application.persistentDataPath + "/CityData.lol"; ;
+        if (File.Exists(path))
+        {
+            BinaryFormatter formatter = new BinaryFormatter();
+            FileStream stream = new FileStream(path, FileMode.Open);
 
-        BinaryFormatter formatter = new BinaryFormatter();
-        FileStream stream = new FileStream(path, FileMode.Open);
+            CityData data = formatter.Deserialize(stream) as CityData;
 
-        CityData data = formatter.Deserialize(stream) as CityData;
+            stream.Close();
 
-        stream.Close();
-
-        return data;
+            return data;
+        }
+        else
+        {
+            Debug.LogError("Load File not found in path: " + path);
+            return null;
+        }
     }
 
-    public static void DeleteSave(string Map)
+    public static void DeleteSave()
     {
         string path1;
         string path2 = Application.persistentDataPath + "/CityData.lol"; ;
         SetPathAndDelete(path2);
-
-        switch (Map)
-        {
-            case "1":
-                path1 = Application.persistentDataPath + "/GameDataMap1.lol";
-                SetPathAndDelete(path1);
-                break;
-            case "2":
-                path1 = Application.persistentDataPath + "/GameDataMap2.lol";
-                SetPathAndDelete(path1);
-                break;
-            case "3":
-                path1 = Application.persistentDataPath + "/GameDataMap3.lol";
-                SetPathAndDelete(path1);
-                break;
-        }
+        path1 = Application.persistentDataPath + "/GameDataMap1.lol";
+        SetPathAndDelete(path1);
+        path1 = Application.persistentDataPath + "/GameDataMap2.lol";
+        SetPathAndDelete(path1);
+        path1 = Application.persistentDataPath + "/GameDataMap3.lol";
+        SetPathAndDelete(path1);
     }
 
     private static void setStreamAndSave(string path, Money money, AdvertiseController adController, BinaryFormatter formatter)

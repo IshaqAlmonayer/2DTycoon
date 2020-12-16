@@ -96,6 +96,7 @@ public class CustomerMovement : MonoBehaviour
         else
             _isAtStand = false;
 
+       
     }
 
     void FixedUpdate()
@@ -136,5 +137,6 @@ public class CustomerMovement : MonoBehaviour
         else
             _animator.SetBool("isIdle", false);
     }
+
 
 }

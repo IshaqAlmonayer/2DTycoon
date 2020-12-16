@@ -50,7 +50,7 @@ public class GameController : MonoBehaviour
 
     public void DeleteSave()
     {
-        SaveSystem.DeleteSave(map);
+        SaveSystem.DeleteSave();
         //Debug.Log("Saved Game Deleted :(");
     }
 
@@ -106,6 +106,7 @@ public class GameController : MonoBehaviour
         money._totalMoney = data.totalMoney;
         money.totalShopExpenses = data.totalShopExpenses;
         money.totalAddExpenses = data.totalAddExpenses;
+        money.totalRevenuePerMinute = data.totalRevenuePerMinute;
 
         adController.AddTimer = data.AddTimer;
     }

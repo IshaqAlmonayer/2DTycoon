@@ -38,10 +38,8 @@ public class Reports : MonoBehaviour
 
         ShopExpenses.text = money.GetComponent<Money>().totalShopExpenses.ToString() + "$";
         AddExpenses.text = money.GetComponent<Money>().totalAddExpenses.ToString() + "$";
-
     }
 
-    //Test
     int CompareObNames(GameObject x, GameObject y)
     {
         return x.name.CompareTo(y.name);

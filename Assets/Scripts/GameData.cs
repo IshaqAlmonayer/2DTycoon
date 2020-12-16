@@ -9,6 +9,7 @@ public class GameData
     public float totalMoney;
     public float totalShopExpenses;
     public float totalAddExpenses;
+    public float totalRevenuePerMinute;
 
     public int[] shopSellingItemLevel;
     public int[] shopTilemapLevel;
@@ -64,6 +65,7 @@ public class GameData
         totalMoney = money._totalMoney;
         totalShopExpenses = money.totalShopExpenses;
         totalAddExpenses = money.totalAddExpenses;
+        totalRevenuePerMinute = money.totalRevenuePerMinute;
 
         AddTimer = adController.AddTimer;
     }

@@ -11,7 +11,13 @@ public class Money : MonoBehaviour
     private GameObject[] Stands;
     public float totalShopExpenses;
     public float totalAddExpenses;
+    public float TotalRevenuePastMinute;
+    public float currentTotalRevenue;
+    public float totalRevenuePerMinute;
     public float _totalMoney;
+
+    private float _timer = 60;
+    
 
     private float perMinuteTemp;
     public float moneyPerMinute;
@@ -19,6 +25,7 @@ public class Money : MonoBehaviour
     private void Start()
     {
         //_totalMoney = 100000;
+        Debug.Log("totalRevenuePerMinute: " + totalRevenuePerMinute);
     }
 
     void Update()
@@ -30,9 +37,29 @@ public class Money : MonoBehaviour
             _totalMoney += Stand.GetComponent<Stand>().GetMoney();
         }
 
+        foreach (GameObject Stand in Stands)
+        {
+            currentTotalRevenue += Stand.GetComponent<Stand>().TotalStandRevenue;
+        }
+
+        if(_timer > 0)
+        {
+            _timer -= Time.deltaTime;
+        }
+        else
+        {
+            totalRevenuePerMinute = currentTotalRevenue - TotalRevenuePastMinute;
+            Debug.Log("totalRevenuePerMinute: " + totalRevenuePerMinute);
+            TotalRevenuePastMinute = currentTotalRevenue;
+            _timer = 60f;
+        }
+
+        currentTotalRevenue = 0;
+
         TextPro = gameObject.GetComponent<TextMeshProUGUI>();
 
         UpdateMoneyText();
+
     }
 
     private void UpdateMoneyText()
@@ -42,6 +69,5 @@ public class Money : MonoBehaviour
         else if (_totalMoney >= 1000)
             TextPro.text = ((int)_totalMoney / 1000).ToString() + "." + ((int)(_totalMoney % 1000) / 100).ToString() + "K $";
     }
-
 
 }

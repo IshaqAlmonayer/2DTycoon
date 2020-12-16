@@ -5,6 +5,7 @@ using UnityEngine;
 public class AdvertiseController : MonoBehaviour
 {
     public float AddTimer;
+    public Animator Animator;
     public CustomerSpawner[] Spawners;
 
     void Update()
@@ -12,6 +13,7 @@ public class AdvertiseController : MonoBehaviour
         if (AddTimer > 0)
         {
             AddTimer -= Time.deltaTime;
+            Animator.SetBool("AddRunning",true);
         }
         else
         {
@@ -19,6 +21,7 @@ public class AdvertiseController : MonoBehaviour
             {
                 spawner.GetComponent<CustomerSpawner>().isActive = false;
             }
+            Animator.SetBool("AddRunning", false);
         }
     }
 
