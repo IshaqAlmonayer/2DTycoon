@@ -63,6 +63,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\NitificationSwitch.cs" />
     <Compile Include="Assets\Scripts\AdvertiseButton.cs" />
     <Compile Include="Assets\Scripts\AdvertiseController.cs" />
     <Compile Include="Assets\Scripts\ArrowUp.cs" />
@@ -90,7 +91,6 @@
     <Compile Include="Assets\Scripts\PanelOpenCheckButton.cs" />
     <Compile Include="Assets\Scripts\Reports.cs" />
     <Compile Include="Assets\Scripts\RewardEagle.cs" />
-    <Compile Include="Assets\Scripts\RewardEagleController.cs" />
     <Compile Include="Assets\Scripts\RewardEeagleSpawner.cs" />
     <Compile Include="Assets\Scripts\SaveSystem.cs" />
     <Compile Include="Assets\Scripts\ShopOnHoldInfoButton.cs" />

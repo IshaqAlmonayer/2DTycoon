@@ -11,7 +11,6 @@ public class RewardEagle : MonoBehaviour
 {
     //Google Adds
     private RewardBasedVideoAd rewardBasedVideoAd;
-    
 
     public float speed = 0.5f;
 
@@ -20,6 +19,9 @@ public class RewardEagle : MonoBehaviour
     private Button yesButton;
     private Button noButton;
     private Text RewardText;
+
+    private NitificationSwitch NitificationSwitch;
+
 
     private Rigidbody2D _rigidbody;
     private Vector2 _movement;
@@ -53,6 +55,8 @@ public class RewardEagle : MonoBehaviour
                 noButton = gObject.GetComponent<Button>();
             if (gObject.name == "RewardDuckText")
                 RewardText = gObject.GetComponent<Text>();
+            if (gObject.name == "NotificationPanel")
+                NitificationSwitch = gObject.GetComponent<NitificationSwitch>();
         }
 
         MenuController = GameObject.Find("MenuController").GetComponent<MenuController>();
@@ -62,8 +66,8 @@ public class RewardEagle : MonoBehaviour
         yesButton.onClick.AddListener(TaskOnClickYes);
 
         noButton.onClick.AddListener(TaskOnClickNo);
-
-        RewardText.text = NormaliseMoneyText(money.GetComponent<Money>().totalRevenuePerMinute * 2) + "$ Instantly";
+        RewardText.text = "You just catched a lucky duck! would yyou like to watch a short add and make " + 
+            NormaliseMoneyText(money.GetComponent<Money>().totalRevenuePerMinute * 2) + "$ Instantly";
 
         LoadRewardBasedAdd();
     }
@@ -74,9 +78,9 @@ public class RewardEagle : MonoBehaviour
 
         if (Rewarded) {
             Rewarded = false;
-            //Debug.Log("Rewarded: " + Rewarded);
             money.GetComponent<Money>()._totalMoney += money.GetComponent<Money>().totalRevenuePerMinute * 2;
             ResumeGame();
+            NitificationSwitch.TriggerNotification("You Just Been Rewarded");
         }
     }
 
@@ -165,6 +169,7 @@ public class RewardEagle : MonoBehaviour
         }
         else {
             Debug.Log("Add Not Loaded Yet");
+            NitificationSwitch.TriggerNotification("we couldnt load an add for you at this moment");
         }
     }
 

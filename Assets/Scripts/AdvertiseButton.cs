@@ -32,15 +32,15 @@ public class AdvertiseButton : MonoBehaviour
         switch (_activeSpawnersCount)
         {
             case 1:
-                currentRunningAdText.text = "Current Runnning Add: Daily Newspaper";
+                currentRunningAdText.text = "Current Running Ad: Daily Newspaper";
                 customerMultiplierText.text = "Customer Multiplier: x2";
                 break;
             case 2:
-                currentRunningAdText.text = "Current Runnning Add: Pixel Radio";
+                currentRunningAdText.text = "Current Running Ad: Pixel Radio";
                 customerMultiplierText.text = "Customer Multiplier: x3";
                 break;
             case 3:
-                currentRunningAdText.text = "Current Runnning Add: National TV";
+                currentRunningAdText.text = "Current Running Ad: National TV";
                 customerMultiplierText.text = "Customer Multiplier: x4";
                 break;
         }
@@ -58,9 +58,9 @@ public class AdvertiseButton : MonoBehaviour
 
         if (addController.GetComponent<AdvertiseController>().AddTimer <= 0)
         {
-            currentRunningAdText.text = "Current Runnning Add: None";
+            currentRunningAdText.text = "Current Running Ad: None";
             customerMultiplierText.text = "Customer Multiplier: x1";
-            timerText.text = "Time Left for add: " + 0;
+            timerText.text = "Time Left for ad: " + 0;
             foreach (GameObject button in AllAdButtons)
             if (money._totalMoney >= button.GetComponent<AdvertiseButton>().adPrice)
             {
@@ -97,7 +97,7 @@ public class AdvertiseButton : MonoBehaviour
                 Spawners[0].GetComponent<CustomerSpawner>().isActive = true;
                 foreach(GameObject button in AllAdButtons)
                     button.GetComponent<Button>().interactable = false;
-                currentRunningAdText.text = "Current Runnning Add: Daily Newspaper";
+                currentRunningAdText.text = "Current Running Ad: Daily Newspaper";
                 customerMultiplierText.text = "Customer Multiplier: x2";
                 break;
             case "Better":
@@ -108,7 +108,7 @@ public class AdvertiseButton : MonoBehaviour
                 Spawners[1].GetComponent<CustomerSpawner>().isActive = true;
                 foreach (GameObject button in AllAdButtons)
                     button.GetComponent<Button>().interactable = false;
-                currentRunningAdText.text = "Current Runnning Add: Pixel Radio";
+                currentRunningAdText.text = "Current Running Ad: Pixel Radio";
                 customerMultiplierText.text = "Customer Multiplier: x3";
                 break;
             case "Best":
@@ -120,7 +120,7 @@ public class AdvertiseButton : MonoBehaviour
                 Spawners[2].GetComponent<CustomerSpawner>().isActive = true;
                 foreach (GameObject button in AllAdButtons)
                     button.GetComponent<Button>().interactable = false;
-                currentRunningAdText.text = "Current Runnning Add: National TV";
+                currentRunningAdText.text = "Current Running Ad: National TV";
                 customerMultiplierText.text = "Customer Multiplier: x4";
                 break;
         }
