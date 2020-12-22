@@ -27,7 +27,7 @@ public class BuyCityButton : MonoBehaviour
 
     void Update()
     {
-        if (money.GetComponent<Money>()._totalMoney > _cityPrice)
+        if (money.GetComponent<Money>()._totalMoney >= _cityPrice)
         {
             gameObject.GetComponent<Button>().interactable = true;
         }

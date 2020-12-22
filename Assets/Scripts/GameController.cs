@@ -109,6 +109,10 @@ public class GameController : MonoBehaviour
         money.totalRevenuePerMinute = data.totalRevenuePerMinute;
 
         adController.AddTimer = data.AddTimer;
+
+        //Audio
+        GameObject AudioController = GameObject.Find("AudioController");
+        AudioController.GetComponent<AudioOnOff>().musicStatus = data.MusicStatus;
     }
 
     //Test

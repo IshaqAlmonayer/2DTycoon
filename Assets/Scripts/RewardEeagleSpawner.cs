@@ -12,11 +12,10 @@ public class RewardEeagleSpawner : MonoBehaviour
 
     private void Start()
     {
-        _timer = 0;
-        //_timer += Random.Range(_minSpawnTime, _maxSpawnTime);
+        //_timer = 0;
+        _timer += Random.Range(_minSpawnTime, _maxSpawnTime);
     }
 
-    // Update is called once per frame
     void Update()
     {
         

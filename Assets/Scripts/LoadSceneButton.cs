@@ -45,8 +45,12 @@ public class LoadSceneButton : MonoBehaviour
                 StartCoroutine(LoadLevel(3));
                 break;
             case 4:
-                //load second map
+                //load third map
                 StartCoroutine(LoadLevel(4));
+                break;
+            case 5:
+                //load tutorial from settings
+                StartCoroutine(LoadLevel(1));
                 break;
         }
     }

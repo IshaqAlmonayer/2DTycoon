@@ -47,6 +47,7 @@
   <PropertyGroup>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <UnityProjectGenerator>Unity/VSTU</UnityProjectGenerator>
+    <UnityProjectGeneratorVersion>4.8.2.0</UnityProjectGeneratorVersion>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>Android:13</UnityBuildTarget>
     <UnityVersion>2019.4.11f1</UnityVersion>
@@ -63,7 +64,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\AchievementController.cs" />
+    <Compile Include="Assets\Achivement.cs" />
+    <Compile Include="Assets\AudioOnOff.cs" />
     <Compile Include="Assets\NitificationSwitch.cs" />
+    <Compile Include="Assets\OpenLinkScript.cs" />
     <Compile Include="Assets\Scripts\AdvertiseButton.cs" />
     <Compile Include="Assets\Scripts\AdvertiseController.cs" />
     <Compile Include="Assets\Scripts\ArrowUp.cs" />
@@ -103,6 +108,7 @@
     <Compile Include="Assets\Scripts\UpgradeButton.cs" />
     <Compile Include="Assets\Scripts\UpgradeShopButton.cs" />
     <Compile Include="Assets\Scripts\UpgradeShopTilemap.cs" />
+    <Compile Include="Assets\ShopDescription.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

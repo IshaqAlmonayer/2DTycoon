@@ -11,13 +11,11 @@ public class OnMouseHoldButton : MonoBehaviour, IPointerDownHandler, IPointerUpH
 
     public void OnPointerDown(PointerEventData eventData)
     {
-        Debug.Log(this.gameObject.name + " Was Clicked.");
         Panel.SetActive(true);
     }
 
     public void OnPointerUp(PointerEventData eventData)
     {
-        Debug.Log(this.gameObject.name + " Was Released.");
         Panel.SetActive(false);
     }
 }

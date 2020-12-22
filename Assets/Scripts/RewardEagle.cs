@@ -92,14 +92,17 @@ public class RewardEagle : MonoBehaviour
 
     void OnMouseDown()
     {
-        if (!CLicked)
+        if (!MenuController.OpenPanel)
         {
-            LuckyDuckyPanel.SetActive(true);
-            CLicked = true;
-            paused = true;
-            if(paused)
-                PauseGame();
-            MenuController.ChangePanelStatus();
+            if (!CLicked)
+            {
+                LuckyDuckyPanel.SetActive(true);
+                CLicked = true;
+                paused = true;
+                if (paused)
+                    PauseGame();
+                MenuController.ChangePanelStatus();
+            }
         }
     }
 

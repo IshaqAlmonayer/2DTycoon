@@ -18,14 +18,12 @@ public class Money : MonoBehaviour
 
     private float _timer = 60;
     
-
-    private float perMinuteTemp;
     public float moneyPerMinute;
 
     private void Start()
     {
-        //_totalMoney = 100000;
-        Debug.Log("totalRevenuePerMinute: " + totalRevenuePerMinute);
+        _totalMoney = 100000;
+        //Debug.Log("totalRevenuePerMinute: " + totalRevenuePerMinute);
     }
 
     void Update()
