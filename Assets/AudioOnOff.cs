@@ -24,7 +24,6 @@ public class AudioOnOff : MonoBehaviour
 
     private void Update()
     {
-        Debug.Log("musicStatus: " + musicStatus);
         if (musicStatus)
         {
             OnButton.SetActive(false);
@@ -51,14 +50,6 @@ public class AudioOnOff : MonoBehaviour
         musicStatus = false;
     }
 
-    //public bool getMusicStatus() {
-    //    return musicStatus;
-    //}
-
-    //public void setMusicStatus(bool musicStatus)
-    //{
-    //    this.musicStatus = musicStatus;
-    //}
 }
 
 

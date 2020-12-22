@@ -10,6 +10,7 @@ TagManager:
   - BurgerStand
   - CustomerSpawner
   - City
+  - RewardEagle
   layers:
   - Default
   - TransparentFX

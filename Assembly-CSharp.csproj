@@ -67,6 +67,7 @@
     <Compile Include="Assets\AchievementController.cs" />
     <Compile Include="Assets\Achivement.cs" />
     <Compile Include="Assets\AudioOnOff.cs" />
+    <Compile Include="Assets\DuckSound.cs" />
     <Compile Include="Assets\NitificationSwitch.cs" />
     <Compile Include="Assets\OpenLinkScript.cs" />
     <Compile Include="Assets\Scripts\AdvertiseButton.cs" />

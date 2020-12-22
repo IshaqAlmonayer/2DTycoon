@@ -14,11 +14,19 @@ public class GameController : MonoBehaviour
 
     private void Awake()
     {
-        //load CityData
-        LoadCityData();
+        try
+        {
+            //load CityData
+            LoadCityData();
 
-        //load GameData
-        LoadGameData();
+            //load GameData
+            LoadGameData();
+        }
+        catch (Exception e) {
+            Debug.Log(e);
+        }
+        
+        
     }
 
     void Start()
@@ -57,7 +65,7 @@ public class GameController : MonoBehaviour
     public void SaveGame()
     {
         SaveSystem.SaveGame(map, money, adController);
-        //Debug.Log("Game Saved :)");
+        Debug.Log("Game Saved :)");
     }
 
     public void LoadCityData()

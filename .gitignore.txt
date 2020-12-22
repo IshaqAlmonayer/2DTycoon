@@ -13,7 +13,6 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
-/Library/il2cpp_android_armeabi-v7a/il2cpp_cache
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
