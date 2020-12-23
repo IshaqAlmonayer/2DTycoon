@@ -3,7 +3,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using GoogleMobileAds;
 using GoogleMobileAds.Api;
 
 
@@ -33,7 +32,6 @@ public class RewardEagle : MonoBehaviour
 
     void Start()
     {
-        //Debug.Log("Start Rewarded: " + Rewarded);
         //Google Adds
         rewardBasedVideoAd = RewardBasedVideoAd.Instance;
 
@@ -152,8 +150,7 @@ public class RewardEagle : MonoBehaviour
     private void LoadRewardBasedAdd()
     {
 #if UNITY_ANDROID
-        //string adUnitId = "ca-app-pub-5800456106473201/3209336280";
-        string adUnitId = "ca-app-pub-3940256099942544/5224354917";
+        string adUnitId = "ca-app-pub-5800456106473201/3209336280";
         #elif UNITY_IPHONE
                 string adUnitId = "ca-app-pub-5800456106473201/3209336280";
 #else

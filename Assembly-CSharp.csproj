@@ -64,15 +64,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\AchievementController.cs" />
-    <Compile Include="Assets\Achivement.cs" />
-    <Compile Include="Assets\AudioOnOff.cs" />
-    <Compile Include="Assets\DuckSound.cs" />
-    <Compile Include="Assets\NitificationSwitch.cs" />
-    <Compile Include="Assets\OpenLinkScript.cs" />
+    <Compile Include="Assets\Scripts\AchievementController.cs" />
+    <Compile Include="Assets\Scripts\Achivement.cs" />
     <Compile Include="Assets\Scripts\AdvertiseButton.cs" />
     <Compile Include="Assets\Scripts\AdvertiseController.cs" />
     <Compile Include="Assets\Scripts\ArrowUp.cs" />
+    <Compile Include="Assets\Scripts\AudioOnOff.cs" />
     <Compile Include="Assets\Scripts\BuyCityButton.cs" />
     <Compile Include="Assets\Scripts\BuyShopButton.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
@@ -86,6 +83,7 @@
     <Compile Include="Assets\Scripts\CustomerMovement.cs" />
     <Compile Include="Assets\Scripts\CustomerSpawner.cs" />
     <Compile Include="Assets\Scripts\DestroyOther.cs" />
+    <Compile Include="Assets\Scripts\DuckSound.cs" />
     <Compile Include="Assets\Scripts\GameController.cs" />
     <Compile Include="Assets\Scripts\GameData.cs" />
     <Compile Include="Assets\Scripts\LoadSceneButton.cs" />
@@ -93,12 +91,15 @@
     <Compile Include="Assets\Scripts\MenuController.cs" />
     <Compile Include="Assets\Scripts\Money.cs" />
     <Compile Include="Assets\Scripts\NextMainMenu.cs" />
+    <Compile Include="Assets\Scripts\NitificationSwitch.cs" />
     <Compile Include="Assets\Scripts\OnMouseHoldButton.cs" />
+    <Compile Include="Assets\Scripts\OpenLinkScript.cs" />
     <Compile Include="Assets\Scripts\PanelOpenCheckButton.cs" />
     <Compile Include="Assets\Scripts\Reports.cs" />
     <Compile Include="Assets\Scripts\RewardEagle.cs" />
     <Compile Include="Assets\Scripts\RewardEeagleSpawner.cs" />
     <Compile Include="Assets\Scripts\SaveSystem.cs" />
+    <Compile Include="Assets\Scripts\ShopDescription.cs" />
     <Compile Include="Assets\Scripts\ShopOnHoldInfoButton.cs" />
     <Compile Include="Assets\Scripts\Stand.cs" />
     <Compile Include="Assets\Scripts\StandTrigger.cs" />
@@ -109,7 +110,6 @@
     <Compile Include="Assets\Scripts\UpgradeButton.cs" />
     <Compile Include="Assets\Scripts\UpgradeShopButton.cs" />
     <Compile Include="Assets\Scripts\UpgradeShopTilemap.cs" />
-    <Compile Include="Assets\ShopDescription.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
@@ -702,6 +702,9 @@
     <Reference Include="Unity.2D.Path.Editor">
       <HintPath>C:/Users/Isaac/Desktop/2D Tycoon Game/Library/ScriptAssemblies/Unity.2D.Path.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.DeviceSimulator.Tests.Common">
+      <HintPath>C:/Users/Isaac/Desktop/2D Tycoon Game/Library/ScriptAssemblies/Unity.DeviceSimulator.Tests.Common.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Runtime">
       <HintPath>C:/Users/Isaac/Desktop/2D Tycoon Game/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
     </Reference>
@@ -731,6 +734,9 @@
     </Reference>
     <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
       <HintPath>C:/Users/Isaac/Desktop/2D Tycoon Game/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.DeviceSimulator.Editor">
+      <HintPath>C:/Users/Isaac/Desktop/2D Tycoon Game/Library/ScriptAssemblies/Unity.DeviceSimulator.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics">
       <HintPath>C:/Users/Isaac/Desktop/2D Tycoon Game/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
@@ -788,12 +794,6 @@
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>C:/Users/Isaac/Desktop/2D Tycoon Game/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.DeviceSimulator.Tests.Common">
-      <HintPath>C:/Users/Isaac/Desktop/2D Tycoon Game/Library/ScriptAssemblies/Unity.DeviceSimulator.Tests.Common.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.DeviceSimulator.Editor">
-      <HintPath>C:/Users/Isaac/Desktop/2D Tycoon Game/Library/ScriptAssemblies/Unity.DeviceSimulator.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

@@ -19,7 +19,6 @@ public class NextMainMenu : MonoBehaviour
 
     void TaskOnClick()
     {
-        Debug.Log("position: " + MainMenuController.GetComponent<MainMenuController>().position);
         if (direction)
         {
             if (MainMenuController.GetComponent<MainMenuController>().position < 2)

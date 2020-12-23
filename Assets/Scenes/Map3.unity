@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -31256,6 +31256,7 @@ GameObject:
   - component: {fileID: 883593008}
   - component: {fileID: 883593007}
   - component: {fileID: 883593006}
+  - component: {fileID: 883593009}
   m_Layer: 5
   m_Name: TravelButton
   m_TagString: Untagged
@@ -31324,29 +31325,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 883593007}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1988881558}
-        m_MethodName: ChangePanelStatus
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 2140951254}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &883593007
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31384,6 +31363,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 883593004}
   m_CullTransparentMesh: 0
+--- !u!114 &883593009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 883593004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba93e136c2c1a764f81ab85d692ef89c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Panel: {fileID: 2140951254}
+  MenuController: {fileID: 1988881558}
 --- !u!1 &885509717
 GameObject:
   m_ObjectHideFlags: 0
@@ -39316,6 +39309,7 @@ GameObject:
   - component: {fileID: 1112502661}
   - component: {fileID: 1112502660}
   - component: {fileID: 1112502659}
+  - component: {fileID: 1112502662}
   m_Layer: 5
   m_Name: SettingsButton
   m_TagString: Untagged
@@ -39384,29 +39378,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1112502660}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 585124516}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 1988881558}
-        m_MethodName: ChangePanelStatus
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1112502660
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39445,6 +39417,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1112502657}
   m_CullTransparentMesh: 0
+--- !u!114 &1112502662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1112502657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba93e136c2c1a764f81ab85d692ef89c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Panel: {fileID: 585124516}
+  MenuController: {fileID: 1988881558}
 --- !u!1 &1114325672
 GameObject:
   m_ObjectHideFlags: 0
@@ -69124,6 +69110,7 @@ GameObject:
   - component: {fileID: 1552455240}
   - component: {fileID: 1552455239}
   - component: {fileID: 1552455238}
+  - component: {fileID: 1552455241}
   m_Layer: 5
   m_Name: ReportsButton
   m_TagString: Untagged
@@ -69192,29 +69179,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1552455239}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1988881558}
-        m_MethodName: ChangePanelStatus
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 1874534727}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1552455239
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69253,6 +69218,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1552455236}
   m_CullTransparentMesh: 0
+--- !u!114 &1552455241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1552455236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba93e136c2c1a764f81ab85d692ef89c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Panel: {fileID: 1874534727}
+  MenuController: {fileID: 1988881558}
 --- !u!1 &1553111853
 GameObject:
   m_ObjectHideFlags: 0
@@ -70406,7 +70385,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Button: {fileID: 1575703670}
-  MenuController: {fileID: 0}
+  MenuController: {fileID: 1988881558}
 --- !u!114 &1575703670
 MonoBehaviour:
   m_ObjectHideFlags: 0

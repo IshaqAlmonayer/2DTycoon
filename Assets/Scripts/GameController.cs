@@ -65,7 +65,6 @@ public class GameController : MonoBehaviour
     public void SaveGame()
     {
         SaveSystem.SaveGame(map, money, adController);
-        Debug.Log("Game Saved :)");
     }
 
     public void LoadCityData()
