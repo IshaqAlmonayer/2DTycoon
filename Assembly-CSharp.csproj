@@ -789,6 +789,12 @@
     <Reference Include="UnityEditor.UI">
       <HintPath>C:/Users/Isaac/Desktop/2D Tycoon Game/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.DeviceSimulator.Tests.Common">
+      <HintPath>C:/Users/Isaac/Desktop/2D Tycoon Game/Library/ScriptAssemblies/Unity.DeviceSimulator.Tests.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.DeviceSimulator.Editor">
+      <HintPath>C:/Users/Isaac/Desktop/2D Tycoon Game/Library/ScriptAssemblies/Unity.DeviceSimulator.Editor.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="GoogleMobileAds.csproj">

@@ -8,7 +8,7 @@ public class DuckSound : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (other.gameObject.tag.Equals("RewardEagle"))
+        if (other.gameObject.tag.Equals("RewardEagle") && !other.gameObject.GetComponent<RewardEagle>().getClickedStatus())
             duckSound.Play();
     }
 }

@@ -10,7 +10,8 @@ public class instantiateCustomer : MonoBehaviour
     public void SpawnCustomer()
     {
         Customer = Instantiate(CustomerSprite, transform.position, Quaternion.identity);
-        Customer.GetComponent<CustomerMovement>()._standType = "BurgerStand";
+        Customer.GetComponent<CustomerMovement>()._standType = "1";
+        Customer.GetComponent<CustomerMovement>().standWaitTime = 3f;
     }
 
 }

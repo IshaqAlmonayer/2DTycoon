@@ -246,7 +246,7 @@ PlayerSettings:
   AndroidTargetArchitectures: 3
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: C:/Users/Isaac/Desktop/KeyStore/user.keystore
+  AndroidKeystoreName: C:/Users/Isaac/Desktop/2DTycoonKeyStore/user.keystore
   AndroidKeyaliasName: pixeltycoon
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 0

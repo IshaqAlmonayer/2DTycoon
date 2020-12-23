@@ -66,7 +66,7 @@ public class RewardEagle : MonoBehaviour
         yesButton.onClick.AddListener(TaskOnClickYes);
 
         noButton.onClick.AddListener(TaskOnClickNo);
-        RewardText.text = "You just catched a lucky duck! would yyou like to watch a short add and make " + 
+        RewardText.text = "You just catched a lucky duck! would you like to watch a short ad and make " + 
             NormaliseMoneyText(money.GetComponent<Money>().totalRevenuePerMinute * 2) + "$ Instantly";
 
         LoadRewardBasedAdd();
@@ -151,13 +151,14 @@ public class RewardEagle : MonoBehaviour
 
     private void LoadRewardBasedAdd()
     {
-        #if UNITY_ANDROID
-                string adUnitId = "ca-app-pub-5800456106473201/3209336280";
+#if UNITY_ANDROID
+        //string adUnitId = "ca-app-pub-5800456106473201/3209336280";
+        string adUnitId = "ca-app-pub-3940256099942544/5224354917";
         #elif UNITY_IPHONE
                 string adUnitId = "ca-app-pub-5800456106473201/3209336280";
-        #else
+#else
                 string adUnitId = "unexpected_platform";
-        #endif
+#endif
 
         AdRequest request = new AdRequest.Builder().Build();
 
@@ -172,7 +173,7 @@ public class RewardEagle : MonoBehaviour
         }
         else {
             Debug.Log("Add Not Loaded Yet");
-            NitificationSwitch.TriggerNotification("we couldnt load an add for you at this moment");
+            NitificationSwitch.TriggerNotification("we couldnt load an ad for you at this moment");
         }
     }
 
@@ -211,5 +212,9 @@ public class RewardEagle : MonoBehaviour
     public void HandleOnAdRewarded(object Sender, Reward args) {
         Debug.Log("Add Rewarded");
         Rewarded = true;
+    }
+
+    public bool getClickedStatus() {
+        return CLicked;
     }
 }
