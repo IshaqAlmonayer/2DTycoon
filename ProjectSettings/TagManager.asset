@@ -11,6 +11,7 @@ TagManager:
   - CustomerSpawner
   - City
   - RewardEagle
+  - DuckSoundTrigger
   layers:
   - Default
   - TransparentFX

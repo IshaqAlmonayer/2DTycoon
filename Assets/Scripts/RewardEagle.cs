@@ -64,7 +64,7 @@ public class RewardEagle : MonoBehaviour
         yesButton.onClick.AddListener(TaskOnClickYes);
 
         noButton.onClick.AddListener(TaskOnClickNo);
-        RewardText.text = "You just catched a lucky duck! would you like to watch a short ad and make " + 
+        RewardText.text = "A lucky duck just visited your city! would you like to watch a short ad and make " + 
             NormaliseMoneyText(money.GetComponent<Money>().totalRevenuePerMinute * 2) + "$ Instantly";
 
         LoadRewardBasedAdd();
@@ -88,21 +88,38 @@ public class RewardEagle : MonoBehaviour
         _rigidbody.velocity = new Vector2(HorizontalVelocity, _rigidbody.velocity.y);
     }
 
-    void OnMouseDown()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (!MenuController.OpenPanel)
-        {
-            if (!CLicked)
+        if(collision.tag == "DuckSoundTrigger")
+            if (!MenuController.OpenPanel)
             {
-                LuckyDuckyPanel.SetActive(true);
-                CLicked = true;
-                paused = true;
-                if (paused)
-                    PauseGame();
-                MenuController.ChangePanelStatus();
+                if (!CLicked)
+                {
+                    LuckyDuckyPanel.SetActive(true);
+                    CLicked = true;
+                    paused = true;
+                    if (paused)
+                        PauseGame();
+                    MenuController.ChangePanelStatus();
+                }
             }
-        }
     }
+
+    //void OnMouseDown()
+    //{
+    //    if (!MenuController.OpenPanel)
+    //    {
+    //        if (!CLicked)
+    //        {
+    //            LuckyDuckyPanel.SetActive(true);
+    //            CLicked = true;
+    //            paused = true;
+    //            if (paused)
+    //                PauseGame();
+    //            MenuController.ChangePanelStatus();
+    //        }
+    //    }
+    //}
 
     public void Proceed(bool agreed) {
         if (agreed)
